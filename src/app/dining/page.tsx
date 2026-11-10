@@ -425,107 +425,146 @@ export default function DiningPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
               {/* Showstopper 1 */}
-              <div className="rounded-3xl bg-white p-7 shadow-sm border border-[#E8DEC9] hover:border-[#C5A46D] transition-all hover:shadow-md flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C5A46D]/20 px-3 py-1 text-xs font-bold text-[#234B3C]">
+              <div className="group rounded-3xl bg-white shadow-sm hover:shadow-xl border border-[#E8DEC9] hover:border-[#C5A46D] transition-all duration-300 flex flex-col justify-between overflow-hidden">
+                <div className="relative h-56 w-full overflow-hidden bg-[#E8DEC9]/20">
+                  <Image
+                    src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=800&auto=format&fit=crop&q=80"
+                    alt="Dhuri Signature Tandoori Chicken"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#234B3C] shadow-sm">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Signature Roast
                     </span>
-                    <span className="flex h-5 w-5 items-center justify-center rounded border border-red-600 p-0.5">
-                      <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
+                    <span className="flex h-6 w-6 items-center justify-center rounded-md border border-red-600 bg-white p-0.5 shadow-sm" title="Non-Vegetarian">
+                      <span className="h-3 w-3 rounded-full bg-red-600" />
                     </span>
                   </div>
-                  <h3 className="font-serif text-2xl font-bold text-[#234B3C]">
-                    Dhuri Signature Tandoori Chicken
-                  </h3>
-                  <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
-                    Tender whole spring chicken marinated for 12 hours with mustard oil, hung curd, and roasted stone-ground garam masala. Char-grilled on glowing clay embers.
-                  </p>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
+                <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
-                    <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Full Portion</span>
-                    <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹360</strong>
+                    <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
+                      Dhuri Signature Tandoori Chicken
+                    </h3>
+                    <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
+                      Tender whole spring chicken marinated for 12 hours with mustard oil, hung curd, and roasted stone-ground garam masala. Char-grilled on glowing clay embers.
+                    </p>
                   </div>
-                  <a
-                    href="#table-reservation"
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
-                  >
-                    <span>Reserve a Table</span>
-                    <ChevronRight className="h-3.5 w-3.5" />
-                  </a>
+
+                  <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
+                    <div>
+                      <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Full Portion</span>
+                      <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹360</strong>
+                    </div>
+                    <a
+                      href="#table-reservation"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                    >
+                      <span>Reserve a Table</span>
+                      <ChevronRight className="h-3.5 w-3.5" />
+                    </a>
+                  </div>
                 </div>
               </div>
 
               {/* Showstopper 2 */}
-              <div className="rounded-3xl bg-white p-7 shadow-sm border border-[#E8DEC9] hover:border-[#C5A46D] transition-all hover:shadow-md flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C5A46D]/20 px-3 py-1 text-xs font-bold text-[#234B3C]">
+              <div className="group rounded-3xl bg-white shadow-sm hover:shadow-xl border border-[#E8DEC9] hover:border-[#C5A46D] transition-all duration-300 flex flex-col justify-between overflow-hidden">
+                <div className="relative h-56 w-full overflow-hidden bg-[#E8DEC9]/20">
+                  <Image
+                    src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop&q=80"
+                    alt="Dal Makhani Royal"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#234B3C] shadow-sm">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Slow-Cooked Classic
                     </span>
-                    <span className="flex h-5 w-5 items-center justify-center rounded border border-green-600 p-0.5">
-                      <span className="h-2.5 w-2.5 rounded-full bg-green-600" />
+                    <span className="flex h-6 w-6 items-center justify-center rounded-md border border-green-600 bg-white p-0.5 shadow-sm" title="Pure Vegetarian">
+                      <span className="h-3 w-3 rounded-full bg-green-600" />
                     </span>
                   </div>
-                  <h3 className="font-serif text-2xl font-bold text-[#234B3C]">
-                    Dal Makhani Royal
-                  </h3>
-                  <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
-                    Premium black lentils and kidney beans slow-simmered overnight over low tandoori embers, finished with farm butter, heavy cream, and aromatic kasuri methi.
-                  </p>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
+                <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
-                    <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Serves 2-3 Guests</span>
-                    <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹260</strong>
+                    <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
+                      Dal Makhani Royal
+                    </h3>
+                    <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
+                      Premium black lentils and kidney beans slow-simmered overnight over low tandoori embers, finished with farm butter, heavy cream, and aromatic kasuri methi.
+                    </p>
                   </div>
-                  <a
-                    href="#table-reservation"
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
-                  >
-                    <span>Reserve a Table</span>
-                    <ChevronRight className="h-3.5 w-3.5" />
-                  </a>
+
+                  <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
+                    <div>
+                      <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Serves 2-3 Guests</span>
+                      <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹260</strong>
+                    </div>
+                    <a
+                      href="#table-reservation"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                    >
+                      <span>Reserve a Table</span>
+                      <ChevronRight className="h-3.5 w-3.5" />
+                    </a>
+                  </div>
                 </div>
               </div>
 
               {/* Showstopper 3 */}
-              <div className="rounded-3xl bg-white p-7 shadow-sm border border-[#E8DEC9] hover:border-[#C5A46D] transition-all hover:shadow-md flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C5A46D]/20 px-3 py-1 text-xs font-bold text-[#234B3C]">
+              <div className="group rounded-3xl bg-white shadow-sm hover:shadow-xl border border-[#E8DEC9] hover:border-[#C5A46D] transition-all duration-300 flex flex-col justify-between overflow-hidden">
+                <div className="relative h-56 w-full overflow-hidden bg-[#E8DEC9]/20">
+                  <Image
+                    src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=800&auto=format&fit=crop&q=80"
+                    alt="Hyderabadi Chicken Dum Biryani"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#234B3C] shadow-sm">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Clay Pot Special
                     </span>
-                    <span className="flex h-5 w-5 items-center justify-center rounded border border-red-600 p-0.5">
-                      <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
+                    <span className="flex h-6 w-6 items-center justify-center rounded-md border border-red-600 bg-white p-0.5 shadow-sm" title="Non-Vegetarian">
+                      <span className="h-3 w-3 rounded-full bg-red-600" />
                     </span>
                   </div>
-                  <h3 className="font-serif text-2xl font-bold text-[#234B3C]">
-                    Hyderabadi Chicken Dum Biryani
-                  </h3>
-                  <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
-                    Aged long-grain basmati rice layered with succulent marinated chicken, saffron milk, brown shallots, and fresh mint, sealed in a traditional handi pot.
-                  </p>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
+                <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
-                    <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Includes Raita</span>
-                    <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹360</strong>
+                    <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
+                      Hyderabadi Chicken Dum Biryani
+                    </h3>
+                    <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
+                      Aged long-grain basmati rice layered with succulent marinated chicken, saffron milk, brown shallots, and fresh mint, sealed in a traditional handi pot.
+                    </p>
                   </div>
-                  <a
-                    href="#table-reservation"
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
-                  >
-                    <span>Reserve a Table</span>
-                    <ChevronRight className="h-3.5 w-3.5" />
-                  </a>
+
+                  <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
+                    <div>
+                      <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Includes Raita</span>
+                      <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹360</strong>
+                    </div>
+                    <a
+                      href="#table-reservation"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                    >
+                      <span>Reserve a Table</span>
+                      <ChevronRight className="h-3.5 w-3.5" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
