@@ -33,7 +33,7 @@ const prisma = new PrismaClient({
 
 async function runAuditTests() {
   console.log('================================================================');
-  console.log(' DHURI RESORT - PHASE 1 DATABASE & PRISMA TECHNICAL AUDIT');
+  console.log(' APEXIFY RESORT - PHASE 1 DATABASE & PRISMA TECHNICAL AUDIT');
   console.log('================================================================\n');
 
   // 1. Connection & Server Handshake

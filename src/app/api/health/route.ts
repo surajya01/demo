@@ -20,7 +20,7 @@ export async function GET() {
   return NextResponse.json({
     status: "OK",
     phase: "PHASE_1_FOUNDATION",
-    project: "Dhuri Resort Digital Hospitality Platform",
+    project: "Apexify Resort Digital Hospitality Platform",
     technologyPartner: "Apexify",
     timestamp,
     database: {

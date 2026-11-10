@@ -139,7 +139,7 @@ export function QuickEnquiryModal({
             <div className="bg-[#234B3C] px-6 py-5 text-white flex items-center justify-between">
               <div>
                 <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold">
-                  Dhuri Resort · Direct Booking
+                  Apexify Resort · Direct Booking
                 </span>
                 <h3 id="enquiry-modal-title" className="font-serif text-2xl font-bold tracking-tight mt-0.5">
                   Reservation Enquiry
@@ -186,7 +186,7 @@ export function QuickEnquiryModal({
 
                   <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6">
                     <a
-                      href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20room%20reservation."
+                      href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20room%20reservation."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#20ba5a] transition"

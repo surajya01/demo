@@ -1,5 +1,5 @@
 /**
- * Dhuri Resort Verified Property Catalogue
+ * Apexify Resort Verified Property Catalogue
  * Extracted from official property documents & Booking.com property listing.
  * Serves as the verified source of truth and fallback data for the public website.
  */

@@ -20,7 +20,7 @@ export default function OffersPage() {
           <div className="absolute inset-0 z-0 opacity-25">
             <Image
               src="/images/resort/swimming_pool_night.jpg"
-              alt="Dhuri Resort Offers Header"
+              alt="Apexify Resort Offers Header"
               fill
               className="object-cover"
               priority
@@ -131,7 +131,7 @@ export default function OffersPage() {
                             <span>Enquire for Dates</span>
                           </button>
                           <a
-                            href={`https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20the%20${encodeURIComponent(offer.title)}.`}
+                            href={`https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20the%20${encodeURIComponent(offer.title)}.`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-xl bg-[#25D366] px-5 py-3 text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#20ba5a] transition flex items-center gap-2"

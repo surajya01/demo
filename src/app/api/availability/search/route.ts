@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { AvailabilitySearchSchema } from "@dhuri/validation";
+import { AvailabilitySearchSchema } from "@apexify/validation";
 import { bookingEngineService } from "@/services/booking-engine.service";
 import { VERIFIED_ROOMS, type VerifiedRoom } from "@/config/catalog";
 import { logger } from "@/lib/logger";

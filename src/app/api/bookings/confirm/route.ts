@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { CreateBookingSchema } from "@dhuri/validation";
+import { CreateBookingSchema } from "@apexify/validation";
 import { bookingEngineService } from "@/services/booking-engine.service";
 import { AppError } from "@/lib/errors";
 import { logger } from "@/lib/logger";

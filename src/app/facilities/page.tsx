@@ -29,7 +29,7 @@ export default function FacilitiesPage() {
           <div className="absolute inset-0 z-0 opacity-25">
             <Image
               src="/images/resort/swimming_pool.jpg"
-              alt="Dhuri Resort Facilities Banner"
+              alt="Apexify Resort Facilities Banner"
               fill
               className="object-cover"
               priority
@@ -129,7 +129,7 @@ export default function FacilitiesPage() {
                         </button>
 
                         <a
-                          href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20facilities."
+                          href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20your%20facilities."
                           target="_blank"
                           rel="noopener noreferrer"
                           className="rounded-xl border border-[#234B3C]/30 bg-white px-4 py-2.5 text-xs sm:text-sm font-semibold text-[#234B3C] hover:bg-[#FAF9F6] transition flex items-center gap-2"

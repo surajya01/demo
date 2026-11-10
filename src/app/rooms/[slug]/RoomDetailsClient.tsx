@@ -25,7 +25,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
   const galleryImages: LightboxImage[] = room.galleryImages.map((src, i) => ({
     src,
     title: `${room.name} — Photo ${i + 1}`,
-    caption: `Verified view of ${room.name} at Dhuri Resort, Waliv, Vasai East`,
+    caption: `Verified view of ${room.name} at Apexify Resort, Waliv, Vasai East`,
   }));
 
   return (
@@ -232,7 +232,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                   </button>
 
                   <a
-                    href={`https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20am%20inquiring%20about%20booking%20the%20${encodeURIComponent(room.name)}.`}
+                    href={`https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20am%20inquiring%20about%20booking%20the%20${encodeURIComponent(room.name)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center gap-2 rounded-2xl bg-[#25D366] py-3 px-4 text-xs font-semibold text-white shadow-sm hover:bg-[#20ba5a] transition"

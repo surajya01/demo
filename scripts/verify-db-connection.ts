@@ -1,5 +1,5 @@
 /**
- * Dhuri Resort - Database Connection & Health Verification Script
+ * Apexify Resort - Database Connection & Health Verification Script
  * Developed by Apexify
  */
 
@@ -35,11 +35,11 @@ import { PrismaClient } from "@prisma/client";
 
 async function verifyDatabase() {
   console.log("==================================================================");
-  console.log(" Dhuri Resort — Database Connection Verification (MySQL 8.0+)");
+  console.log(" Apexify Resort — Database Connection Verification (MySQL 8.0+)");
   console.log(" Technology Partner: Apexify");
   console.log("==================================================================");
 
-  const rawUrl = process.env.DATABASE_URL || "mysql://root:password@localhost:3306/dhuri_resort";
+  const rawUrl = process.env.DATABASE_URL || "mysql://root:password@localhost:3306/apexify_resort";
   const maskedUrl = rawUrl.replace(/:\/\/([^:]+):([^@]+)@/, "://$1:******@");
   console.log(`Configured DATABASE_URL: ${maskedUrl}`);
 
@@ -79,9 +79,9 @@ async function verifyDatabase() {
     console.log("📋 INSTRUCTIONS FOR LOCAL MYSQL SETUP:");
     console.log("1. Ensure MySQL 8.0+ server is running on localhost:3306.");
     console.log("2. Create the database:");
-    console.log("     mysql -u root -p -e 'CREATE DATABASE IF NOT EXISTS dhuri_resort;'");
+    console.log("     mysql -u root -p -e 'CREATE DATABASE IF NOT EXISTS apexify_resort;'");
     console.log("3. Update .env with your local credentials:");
-    console.log('     DATABASE_URL="mysql://root:YOUR_PASSWORD@localhost:3306/dhuri_resort"');
+    console.log('     DATABASE_URL="mysql://root:YOUR_PASSWORD@localhost:3306/apexify_resort"');
     console.log("4. Apply migrations and seed data:");
     console.log("     npm run prisma:push   (or: npx prisma migrate deploy)");
     console.log("     npm run prisma:seed");

@@ -14,14 +14,14 @@ export function WelcomeSection() {
           <MotionWrapper direction="left">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A46D] mb-3 block">
-                Welcome to Dhuri Resort
+                Welcome to Apexify Resort
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#234B3C] leading-[1.15]">
                 Where Natural Tranquility Meets Heartfelt Hospitality
               </h2>
 
               <p className="mt-6 text-base sm:text-lg text-[#292D2A]/80 leading-relaxed">
-                Tucked away in the serene greenery of Waliv, Vasai East, Dhuri Resort offers a refreshing respite from Mumbai and Thane. Combining modern room comforts with expansive recreational spaces, our property is tailored for leisurely weekend staycations, family celebrations, intimate weddings, and group picnics.
+                Tucked away in the serene greenery of Waliv, Vasai East, Apexify Resort offers a refreshing respite from Mumbai and Thane. Combining modern room comforts with expansive recreational spaces, our property is tailored for leisurely weekend staycations, family celebrations, intimate weddings, and group picnics.
               </p>
 
               <p className="mt-4 text-base text-[#292D2A]/75 leading-relaxed">
@@ -62,7 +62,7 @@ export function WelcomeSection() {
                   href="/about"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-[#234B3C] hover:text-[#C5A46D] transition group"
                 >
-                  <span>Learn more about Dhuri Resort story</span>
+                  <span>Learn more about Apexify Resort story</span>
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
@@ -76,7 +76,7 @@ export function WelcomeSection() {
               <div className="relative h-[340px] sm:h-[420px] w-full rounded-2xl overflow-hidden shadow-xl border border-[#C5A46D]/20">
                 <Image
                   src="/images/resort/reception_lobby.jpg"
-                  alt="Dhuri Resort Front Desk and Reception Lobby with Official Wall Logo"
+                  alt="Apexify Resort Front Desk and Reception Lobby with Official Wall Logo"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -90,7 +90,7 @@ export function WelcomeSection() {
               <div className="hidden sm:block absolute -bottom-10 -left-8 w-60 h-44 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                 <Image
                   src="/images/resort/corridor_lifts.jpg"
-                  alt="Dhuri Resort Dual Passenger Lifts and Granite Corridor"
+                  alt="Apexify Resort Dual Passenger Lifts and Granite Corridor"
                   fill
                   className="object-cover"
                   sizes="240px"

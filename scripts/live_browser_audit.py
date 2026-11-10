@@ -1,5 +1,5 @@
 """
-Dhuri Resort Phase 2 - Live Browser & UI Automated Audit Runner
+Apexify Resort Phase 2 - Live Browser & UI Automated Audit Runner
 Runs Playwright via installed Chrome against http://localhost:3005,
 visits all routes, tests interactions, audits responsive layouts, captures screenshots,
 inspects console logs, network requests, assets, accessibility, and APIs.
@@ -84,7 +84,7 @@ def test_api_routes():
             content = resp.read().decode("utf-8")
             status = resp.status
             content_type = resp.headers.get("Content-Type", "")
-            has_urls = "<url>" in content and "dhuri-resort" in content
+            has_urls = "<url>" in content and "apexify-resort" in content
             audit_results["seo_endpoints"]["sitemap"] = {
                 "status": status,
                 "content_type": content_type,
@@ -274,7 +274,7 @@ def run_browser_audit():
         # Test 3.1: Header Sticky & Navigation
         page.goto(f"{BASE_URL}/", wait_until="networkidle")
         header = page.locator("header")
-        brand_link = page.locator("header a:has-text('Dhuri Resort')").first
+        brand_link = page.locator("header a:has-text('Apexify Resort')").first
         header_visible = header.is_visible() and brand_link.is_visible()
         print(f"  Header Sticky Navigation: {'PASS' if header_visible else 'FAIL'}")
 

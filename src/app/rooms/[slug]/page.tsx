@@ -19,14 +19,14 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const room = getRoomBySlug(params.slug);
   if (!room) {
-    return { title: "Room Not Found | Dhuri Resort" };
+    return { title: "Room Not Found | Apexify Resort" };
   }
 
   return {
-    title: `${room.name} | Dhuri Resort Vasai`,
-    description: `${room.shortDescription} Starting from ₹${room.basePrice.toLocaleString()} per night at Dhuri Resort, Waliv, Vasai East.`,
+    title: `${room.name} | Apexify Resort Vasai`,
+    description: `${room.shortDescription} Starting from ₹${room.basePrice.toLocaleString()} per night at Apexify Resort, Waliv, Vasai East.`,
     openGraph: {
-      title: `${room.name} | Dhuri Resort`,
+      title: `${room.name} | Apexify Resort`,
       description: room.shortDescription,
       images: [
         {

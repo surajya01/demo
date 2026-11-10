@@ -1,5 +1,5 @@
 /**
- * Dhuri Resort - Core Booking Engine Service
+ * Apexify Resort - Core Booking Engine Service
  * Developed by Apexify
  * 
  * Implements:
@@ -16,7 +16,7 @@ import {
   AvailabilitySearchInput,
   CreateBookingHoldInput,
   CreateBookingInput,
-} from "@dhuri/validation";
+} from "@apexify/validation";
 import { AppError, ConflictError, NotFoundError, ValidationError } from "../lib/errors";
 import { logger } from "../lib/logger";
 import { Prisma } from "@prisma/client";

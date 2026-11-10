@@ -27,7 +27,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
     rating: 5,
     stayDate: "Wedding Anniversary · Sep 2026",
     roomType: "Deluxe Double Room",
-    comment: "We loved our stay at Dhuri Resort! The evening ambiance around the pool with fairy lights was magical. The room was spacious, comfortable, and the air conditioning was ice-cold. Highly recommend for couples seeking peace away from city traffic.",
+    comment: "We loved our stay at Apexify Resort! The evening ambiance around the pool with fairy lights was magical. The room was spacious, comfortable, and the air conditioning was ice-cold. Highly recommend for couples seeking peace away from city traffic.",
     isSample: true
   },
   {

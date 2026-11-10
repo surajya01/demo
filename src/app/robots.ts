@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://dhuri-resort.example.com/sitemap.xml",
+    sitemap: "https://apexify-resort.example.com/sitemap.xml",
   };
 }
 

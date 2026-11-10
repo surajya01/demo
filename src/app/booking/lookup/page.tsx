@@ -369,7 +369,7 @@ export default function BookingLookupPage() {
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="/images/resort/exterior_facade.jpg"
-            alt="Dhuri Resort Reservation"
+            alt="Apexify Resort Reservation"
             fill
             className="object-cover"
             priority
@@ -381,13 +381,13 @@ export default function BookingLookupPage() {
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#F4EFE5]/80 hover:text-white mb-4 transition"
           >
             <ArrowLeft className="h-3.5 w-3.5 text-[#C5A46D]" />
-            <span>Return to Dhuri Resort Home</span>
+            <span>Return to Apexify Resort Home</span>
           </Link>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold tracking-tight">
             Reservation Confirmation
           </h1>
           <p className="mt-3 text-sm sm:text-base text-[#F4EFE5]/85 max-w-xl mx-auto font-light">
-            View and verify your booking at Dhuri Resort, Waliv, Vasai East.
+            View and verify your booking at Apexify Resort, Waliv, Vasai East.
           </p>
         </div>
       </section>

@@ -15,7 +15,7 @@ export function Footer() {
                 Plan Your Getaway
               </span>
               <h3 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1">
-                Experience Tranquil Hospitality at Dhuri Resort
+                Experience Tranquil Hospitality at Apexify Resort
               </h3>
               <p className="text-sm text-[#F4EFE5]/80 mt-1 max-w-xl">
                 Located near Navjeevan Naka in Waliv, Vasai East — your peaceful weekend retreat with swimming pool, multi-cuisine dining, and party lawn.
@@ -30,7 +30,7 @@ export function Footer() {
                 <ArrowUpRight className="h-4 w-4" />
               </Link>
               <a
-                href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20booking."
+                href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20booking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-[#25D366] px-5 py-3 text-sm font-semibold text-white hover:bg-[#20ba5a] transition shadow-md"
@@ -50,7 +50,7 @@ export function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#C5A46D] text-[#234B3C] shadow-sm">
-                <span className="font-serif text-2xl font-bold">D</span>
+                <span className="font-serif text-2xl font-bold">A</span>
               </div>
               <div>
                 <span className="font-serif text-2xl font-bold tracking-tight text-white">
@@ -63,11 +63,11 @@ export function Footer() {
             </Link>
 
             <p className="text-sm text-[#F4EFE5]/75 leading-relaxed max-w-sm">
-              Dhuri Resort is a premier leisure and hospitality destination nestled in Waliv, Vasai East, Maharashtra. Designed for restful staycations, pool parties, family celebrations, and banquet gatherings.
+              Apexify Resort is a premier leisure and hospitality destination nestled in Waliv, Vasai East, Maharashtra. Designed for restful staycations, pool parties, family celebrations, and banquet gatherings.
             </p>
 
             <p className="font-serif italic text-sm text-[#C5A46D]">
-              “Dhuri Resort — Your Stay, Simplified.”
+              “Apexify Resort — Your Stay, Simplified.”
             </p>
 
             <div className="pt-2 text-xs text-[#F4EFE5]/70 space-y-2">
@@ -83,7 +83,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="h-4 w-4 text-[#C5A46D] flex-shrink-0" />
-                <span>contact@dhuri-resort.example.com</span>
+                <span>contact@apexify-resort.example.com</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="h-4 w-4 text-[#C5A46D] flex-shrink-0" />
@@ -163,7 +163,7 @@ export function Footer() {
             <ul className="space-y-2.5 text-sm text-[#F4EFE5]/80">
               <li>
                 <Link href="/about" className="hover:text-[#C5A46D] transition">
-                  About Dhuri Resort
+                  About Apexify Resort
                 </Link>
               </li>
               <li>

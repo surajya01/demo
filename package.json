@@ -1,8 +1,8 @@
 {
-  "name": "dhuri-resort",
+  "name": "apexify-resort",
   "version": "1.0.0",
   "private": true,
-  "description": "Dhuri Resort Digital Hospitality Platform - Developed by Apexify",
+  "description": "Apexify Resort Digital Hospitality Platform - Developed by Apexify",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

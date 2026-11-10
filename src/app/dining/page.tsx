@@ -55,7 +55,7 @@ export default function DiningPage() {
     {
       src: "/images/resort/restaurant_dining.jpg",
       title: "Family Dining Hall & Buffet Setup",
-      caption: "Spacious air-conditioned dining counters and comfortable family booths at Dhuri Resort",
+      caption: "Spacious air-conditioned dining counters and comfortable family booths at Apexify Resort",
       category: "Dining",
     },
     {
@@ -175,7 +175,7 @@ export default function DiningPage() {
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/resort/restaurant_dining.jpg"
-              alt="Dhuri Resort Family Restaurant and Bar Atmosphere"
+              alt="Apexify Resort Family Restaurant and Bar Atmosphere"
               fill
               className="object-cover object-center scale-105"
               priority
@@ -252,7 +252,7 @@ export default function DiningPage() {
                 Distinct Dining Spaces for Every Occasion
               </h2>
               <p className="mt-3 text-sm sm:text-base text-[#292D2A]/75">
-                Whether you prefer air-conditioned comfort, al fresco dining beside our sparkling swimming pool, or a private banquet feast, Dhuri Resort has the perfect setting.
+                Whether you prefer air-conditioned comfort, al fresco dining beside our sparkling swimming pool, or a private banquet feast, Apexify Resort has the perfect setting.
               </p>
             </div>
 
@@ -429,7 +429,7 @@ export default function DiningPage() {
                 <div className="relative h-56 w-full overflow-hidden bg-[#E8DEC9]/20">
                   <Image
                     src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=800&auto=format&fit=crop&q=80"
-                    alt="Dhuri Signature Tandoori Chicken"
+                    alt="Apexify Signature Tandoori Chicken"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -449,7 +449,7 @@ export default function DiningPage() {
                 <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
                     <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
-                      Dhuri Signature Tandoori Chicken
+                      Apexify Signature Tandoori Chicken
                     </h3>
                     <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
                       Tender whole spring chicken marinated for 12 hours with mustard oil, hung curd, and roasted stone-ground garam masala. Char-grilled on glowing clay embers.
@@ -844,7 +844,7 @@ export default function DiningPage() {
                               </span>
 
                               <a
-                                href={`https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20am%20interested%20in%20ordering%20the%20${encodeURIComponent(item.name)}%20(₹${item.price}).`}
+                                href={`https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20am%20interested%20in%20ordering%20the%20${encodeURIComponent(item.name)}%20(₹${item.price}).`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center gap-1.5 rounded-xl bg-[#234B3C]/5 hover:bg-[#234B3C] text-[#234B3C] hover:text-white px-3.5 py-1.5 font-semibold text-xs transition duration-200"
@@ -1030,7 +1030,7 @@ export default function DiningPage() {
 
                       <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
                         <a
-                          href={`https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20just%20submitted%20a%20table%20reservation%20for%20${encodeURIComponent(reservationName)}%20on%20${encodeURIComponent(reservationDate)}.`}
+                          href={`https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20just%20submitted%20a%20table%20reservation%20for%20${encodeURIComponent(reservationName)}%20on%20${encodeURIComponent(reservationDate)}.`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 rounded-xl bg-[#25D366] px-5 py-3 text-xs font-semibold text-white shadow-sm hover:bg-[#20ba59] transition"

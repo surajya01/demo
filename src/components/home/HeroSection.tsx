@@ -20,7 +20,7 @@ export function HeroSection() {
         <div className="absolute inset-0 z-0 overflow-hidden">
           <Image
             src="/images/resort/exterior_facade.jpg"
-            alt="Dhuri Resort Exterior Facade and Pool Deck in Waliv, Vasai East"
+            alt="Apexify Resort Exterior Facade and Pool Deck in Waliv, Vasai East"
             fill
             priority
             className="object-cover object-center scale-100 sm:scale-105 transition-transform duration-1000 ease-out"
@@ -73,7 +73,7 @@ export function HeroSection() {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="mt-2 font-serif italic text-base sm:text-lg text-[#C5A46D]"
             >
-              “Dhuri Resort — Your Stay, Simplified.”
+              “Apexify Resort — Your Stay, Simplified.”
             </motion.p>
 
             {/* Key Value Badges */}

@@ -5,8 +5,8 @@ import { ArrowLeft, Clock, Calendar } from "lucide-react";
 import { BRAND_CONFIG } from "@/config/brand";
 
 export const metadata: Metadata = {
-  title: "Cancellation Policy | Dhuri Resort",
-  description: "Read the room reservation and banquet event cancellation terms for Dhuri Resort, Waliv, Vasai East.",
+  title: "Cancellation Policy | Apexify Resort",
+  description: "Read the room reservation and banquet event cancellation terms for Apexify Resort, Waliv, Vasai East.",
 };
 
 export default function CancellationPolicyPage() {
@@ -30,7 +30,7 @@ export default function CancellationPolicyPage() {
               Cancellation & Refund Policy
             </h1>
             <p className="mt-2 text-xs text-[#292D2A]/60">
-              Dhuri Resort, Waliv, Vasai East, Maharashtra
+              Apexify Resort, Waliv, Vasai East, Maharashtra
             </p>
           </div>
 

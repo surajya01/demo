@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { ROOMS_DATA } from "@/data/rooms.data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://dhuri-resort.example.com";
+  const baseUrl = "https://apexify-resort.example.com";
   const lastModified = new Date();
 
   const staticRoutes = [

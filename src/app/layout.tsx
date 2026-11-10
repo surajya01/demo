@@ -5,14 +5,14 @@ import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Dhuri Resort | Luxury Resort & Dining in Vasai East",
-    template: "%s | Dhuri Resort",
+    default: "Apexify Resort | Luxury Resort & Dining in Vasai East",
+    template: "%s | Apexify Resort",
   },
   description:
-    "Dhuri Resort in Waliv, Vasai East — Your Stay, Simplified. Featuring an outdoor swimming pool, air-conditioned deluxe rooms, multi-cuisine restaurant, and grand banquet lawn.",
+    "Apexify Resort in Waliv, Vasai East — Your Stay, Simplified. Featuring an outdoor swimming pool, air-conditioned deluxe rooms, multi-cuisine restaurant, and grand banquet lawn.",
   keywords: [
-    "Dhuri Resort",
-    "Dhuri Resort Vasai",
+    "Apexify Resort",
+    "Apexify Resort Vasai",
     "Resort near Mumbai",
     "Resort with swimming pool",
     "Waliv Vasai East",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "Banquet lawn Vasai",
   ],
   authors: [{ name: "Apexify" }],
-  metadataBase: new URL("https://dhuri-resort.example.com"),
+  metadataBase: new URL("https://apexify-resort.example.com"),
 };
 
 export const viewport: Viewport = {

@@ -27,7 +27,7 @@ export function GalleryPreview() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
             <SectionHeader
               eyebrow="Photographic Tour"
-              title="A Glimpse Into Dhuri Resort"
+              title="A Glimpse Into Apexify Resort"
               subtitle="All photographs are verified, genuine captures of our Waliv property, suites, swimming pool, and banquet grounds."
               align="left"
               className="mb-0"

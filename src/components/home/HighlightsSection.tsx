@@ -60,7 +60,7 @@ export function HighlightsSection() {
         <SectionHeader
           eyebrow="Resort Highlights"
           title="Curated Experiences for Every Guest"
-          subtitle="Whether you are unwinding beside the pool, dining with loved ones, or hosting a grand celebration, Dhuri Resort offers the perfect setting."
+          subtitle="Whether you are unwinding beside the pool, dining with loved ones, or hosting a grand celebration, Apexify Resort offers the perfect setting."
         />
 
         <div className="space-y-16 sm:space-y-20">

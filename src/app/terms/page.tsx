@@ -5,8 +5,8 @@ import { ArrowLeft } from "lucide-react";
 import { BRAND_CONFIG } from "@/config/brand";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | Dhuri Resort",
-  description: "Terms and conditions governing stays, dining, and property use at Dhuri Resort, Waliv, Vasai East.",
+  title: "Terms and Conditions | Apexify Resort",
+  description: "Terms and conditions governing stays, dining, and property use at Apexify Resort, Waliv, Vasai East.",
 };
 
 export default function TermsPage() {
@@ -30,7 +30,7 @@ export default function TermsPage() {
               Terms & Conditions
             </h1>
             <p className="mt-2 text-xs text-[#292D2A]/60">
-              Standard Hospitality Terms · Dhuri Resort, Waliv, Vasai East
+              Standard Hospitality Terms · Apexify Resort, Waliv, Vasai East
             </p>
           </div>
 

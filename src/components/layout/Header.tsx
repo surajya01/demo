@@ -45,7 +45,7 @@ const COMPACT_PRIMARY_NAV = [
 const MORE_NAV_LINKS = [
   { label: "Photo Gallery", href: "/gallery", icon: Camera },
   { label: "Special Offers", href: "/offers", icon: Tag },
-  { label: "About Dhuri Resort", href: "/about", icon: Info },
+  { label: "About Apexify Resort", href: "/about", icon: Info },
   { label: "FAQs & Policies", href: "/faq", icon: HelpCircle },
   { label: "Look Up Reservation", href: "/booking/lookup", icon: Search },
 ];
@@ -112,7 +112,7 @@ export function Header() {
             </Link>
             <span className="text-[#C5A46D]/30">|</span>
             <a
-              href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20booking."
+              href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20booking."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-[#F4EFE5]/90 hover:text-[#25D366] transition whitespace-nowrap"
@@ -144,7 +144,7 @@ export function Header() {
           {/* 1. Left: Brand Logo & Title */}
           <Link href="/" className="flex items-center gap-3.5 group flex-shrink-0">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] shadow-sm border border-[#C5A46D]/40 transition-transform duration-300 group-hover:scale-105">
-              <span className="font-serif text-2xl font-bold">D</span>
+              <span className="font-serif text-2xl font-bold">A</span>
             </div>
             <div>
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#234B3C] block leading-none">
@@ -329,7 +329,7 @@ export function Header() {
                   <span>Call Us</span>
                 </a>
                 <a
-                  href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20stay."
+                  href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20stay."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-xl bg-[#25D366] py-2.5 text-xs font-semibold text-white shadow-sm"
@@ -343,7 +343,7 @@ export function Header() {
               <div className="mt-2 rounded-xl bg-white p-3.5 border border-[#E8DEC9] text-[11px] text-[#292D2A]/75 space-y-1">
                 <div className="flex items-center gap-1.5 font-semibold text-[#234B3C]">
                   <MapPin className="h-3.5 w-3.5 text-[#C5A46D]" />
-                  <span>Dhuri Resort, Waliv, Vasai East</span>
+                  <span>Apexify Resort, Waliv, Vasai East</span>
                 </div>
                 <p>Near Navjeevan Naka, Maharashtra 401208</p>
                 <p className="text-[#C5A46D] font-medium pt-0.5">Check-in: 12:00 PM · Check-out: 10:00 AM</p>

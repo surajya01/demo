@@ -1,8 +1,8 @@
-# Dhuri Resort Digital Hospitality Platform
+# Apexify Resort Digital Hospitality Platform
 
 **Designed & Developed by Apexify**
 
-A comprehensive, mobile-first resort platform for **Dhuri Resort**, located in Waliv, Vasai East, Maharashtra, India. The platform integrates:
+A comprehensive, mobile-first resort platform for **Apexify Resort**, located in Waliv, Vasai East, Maharashtra, India. The platform integrates:
 - Direct room reservations and enquiry workflows
 - Restaurant QR digital menu, ordering, table sessions and billing
 - Room-specific QR guest portal for housekeeping and service requests
@@ -45,7 +45,7 @@ A comprehensive, mobile-first resort platform for **Dhuri Resort**, located in W
 ## Project Structure
 
 ```
-dhuri-resort/
+apexify-resort/
 ├── packages/
 │   ├── database/         # Prisma client instance and transaction helpers
 │   ├── shared-types/     # DTOs, Enums, API response contracts
@@ -87,7 +87,7 @@ cp .env.example .env
 ```
 Ensure `DATABASE_URL` in `.env` points to your MySQL server:
 ```
-DATABASE_URL="mysql://root:YOUR_PASSWORD@localhost:3306/dhuri_resort"
+DATABASE_URL="mysql://root:YOUR_PASSWORD@localhost:3306/apexify_resort"
 ```
 
 ### 3. Install Dependencies
@@ -135,6 +135,6 @@ npm run dev
 
 ---
 
-**Project: Dhuri Resort**  
+**Project: Apexify Resort**  
 **Technology Partner: Apexify**
 

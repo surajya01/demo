@@ -13,7 +13,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "exterior-facade",
     title: "Resort Exterior & Grounds",
-    caption: "Multi-story Dhuri Resort building facade surrounded by lush tropical palm trees and open skies.",
+    caption: "Multi-story Apexify Resort building facade surrounded by lush tropical palm trees and open skies.",
     src: "/images/resort/exterior_facade.jpg",
     category: "property",
     categoryLabel: "Property & Grounds",
@@ -43,7 +43,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "reception-lobby",
     title: "Front Desk & Reception Lobby",
-    caption: "Official Dhuri Resort branded reception counter staffed 24 hours a day for guest check-in and assistance.",
+    caption: "Official Apexify Resort branded reception counter staffed 24 hours a day for guest check-in and assistance.",
     src: "/images/resort/reception_lobby.jpg",
     category: "property",
     categoryLabel: "Property & Grounds",

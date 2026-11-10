@@ -10,7 +10,7 @@ export const FAQS_DATA: FAQItem[] = [
   {
     id: "checkin-checkout",
     category: "Stay & Rooms",
-    question: "What are the standard check-in and check-out timings at Dhuri Resort?",
+    question: "What are the standard check-in and check-out timings at Apexify Resort?",
     answer: "Our standard check-in time is 12:00 PM (noon) and check-out time is 10:00 AM. Early check-in or late check-out is subject to room availability upon arrival and may incur an additional nominal charge. Our 24-hour reception desk is always available to store your luggage securely.",
     isVerified: true,
   },
@@ -45,8 +45,8 @@ export const FAQS_DATA: FAQItem[] = [
   {
     id: "location-directions",
     category: "Location & Policies",
-    question: "How do I reach Dhuri Resort from Mumbai or Vasai Road railway station?",
-    answer: "Dhuri Resort is located Near Navjeevan Naka, Waliv, Vasai Road - East, Maharashtra 401208. It is approximately 7.0 km (15-20 minutes by auto-rickshaw or taxi) from Vasai Road Railway Station (Western Railway line). By road from Mumbai/Thane, exit the Western Express Highway (NH 48) at Pelhar / Sativali and proceed toward Waliv.",
+    question: "How do I reach Apexify Resort from Mumbai or Vasai Road railway station?",
+    answer: "Apexify Resort is located Near Navjeevan Naka, Waliv, Vasai Road - East, Maharashtra 401208. It is approximately 7.0 km (15-20 minutes by auto-rickshaw or taxi) from Vasai Road Railway Station (Western Railway line). By road from Mumbai/Thane, exit the Western Express Highway (NH 48) at Pelhar / Sativali and proceed toward Waliv.",
     isVerified: true,
   },
   {
@@ -60,7 +60,7 @@ export const FAQS_DATA: FAQItem[] = [
     id: "parking-facility",
     category: "Stay & Rooms",
     question: "Is car parking available on the resort premises?",
-    answer: "Yes, Dhuri Resort offers spacious, complimentary on-site private parking for all registered staying guests and event attendees, monitored with 24-hour perimeter security.",
+    answer: "Yes, Apexify Resort offers spacious, complimentary on-site private parking for all registered staying guests and event attendees, monitored with 24-hour perimeter security.",
     isVerified: true,
   },
   {

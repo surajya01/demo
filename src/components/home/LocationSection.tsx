@@ -12,7 +12,7 @@ export function LocationSection() {
         <SectionHeader
           eyebrow="Convenient Connectivity"
           title="Easy to Reach in Vasai East"
-          subtitle="Conveniently situated near Navjeevan Naka in Waliv, Dhuri Resort offers smooth road access from Mumbai, Thane, and the Western Express Highway."
+          subtitle="Conveniently situated near Navjeevan Naka in Waliv, Apexify Resort offers smooth road access from Mumbai, Thane, and the Western Express Highway."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -45,7 +45,7 @@ export function LocationSection() {
                   </div>
                   <div className="flex items-center gap-2.5">
                     <Mail className="h-4 w-4 text-[#234B3C]" />
-                    <span>info@dhuri-resort.example.com</span>
+                    <span>info@apexify-resort.example.com</span>
                   </div>
                   <div className="flex items-center gap-2.5">
                     <Clock className="h-4 w-4 text-[#234B3C]" />
@@ -98,7 +98,7 @@ export function LocationSection() {
                 {/* Embed Map / Interactive Map Placeholder */}
                 <div className="relative flex-grow w-full bg-[#FAF9F6]">
                   <iframe
-                    title="Dhuri Resort Location Map"
+                    title="Apexify Resort Location Map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.541485665809!2d72.8665!3d19.3919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDIzJzMwLjgiTiA3MsKwNTInMDAuMSJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
@@ -109,7 +109,7 @@ export function LocationSection() {
                     className="w-full h-full grayscale-[20%] contrast-105"
                   />
                   <div className="absolute top-4 left-4 rounded-xl bg-white/95 px-4 py-2.5 shadow-md backdrop-blur-sm border border-[#E8DEC9] text-xs max-w-xs">
-                    <p className="font-bold text-[#234B3C]">Dhuri Resort Location Pin</p>
+                    <p className="font-bold text-[#234B3C]">Apexify Resort Location Pin</p>
                     <p className="text-[11px] text-[#292D2A]/70 mt-0.5">
                       Waliv, Vasai East — 7 km from Vasai Road Railway Station
                     </p>

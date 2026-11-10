@@ -11,7 +11,7 @@ export function TestimonialsSection() {
         <SectionHeader
           eyebrow="Guest Impressions"
           title="Loved by Families & Travelers"
-          subtitle="Read reflections from guests who chose Dhuri Resort for peaceful weekend staycations, pool outings, and family gatherings in Vasai East."
+          subtitle="Read reflections from guests who chose Apexify Resort for peaceful weekend staycations, pool outings, and family gatherings in Vasai East."
         />
 
         {/* Clear Sample Disclaimer Callout */}

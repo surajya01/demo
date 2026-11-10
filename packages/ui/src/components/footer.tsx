@@ -10,10 +10,10 @@ export interface FooterProps {
 }
 
 export function Footer({
-  brandName = "Dhuri Resort",
+  brandName = "Apexify Resort",
   address = "Near Navjeevan Naka, Waliv, Vasai Road - East, 401208 Vasai, Maharashtra, India",
   phone = "+91 00000 00000",
-  email = "info@dhuri-resort.example.com",
+  email = "info@apexify-resort.example.com",
   developerCredit = "Designed & Developed by Apexify",
 }: FooterProps) {
   return (
@@ -23,9 +23,7 @@ export function Footer({
           {/* Brand Column */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#C5A46D] text-[#234B3C] font-serif font-bold text-xl">
-                D
-              </div>
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#C5A46D] text-[#234B3C] font-serif font-bold text-xl">A</div>
               <span className="font-serif text-2xl font-bold tracking-tight text-white">
                 {brandName}
               </span>
@@ -45,7 +43,7 @@ export function Footer({
             </h4>
             <ul className="space-y-2 text-sm text-[#DDE8E2]">
               <li><Link href="#rooms" className="hover:text-white transition-colors">Accommodation</Link></li>
-              <li><Link href="#dining" className="hover:text-white transition-colors">Dhuri Restaurant & Bar</Link></li>
+              <li><Link href="#dining" className="hover:text-white transition-colors">Apexify Restaurant & Bar</Link></li>
               <li><Link href="#facilities" className="hover:text-white transition-colors">Resort Amenities</Link></li>
               <li><Link href="#gallery" className="hover:text-white transition-colors">Photo Gallery</Link></li>
               <li><Link href="#contact" className="hover:text-white transition-colors">Location & Contact</Link></li>

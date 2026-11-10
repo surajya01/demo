@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { CreateEnquirySchema } from "@dhuri/validation";
+import { CreateEnquirySchema } from "@apexify/validation";
 import { bookingService } from "@/services/booking.service";
 import { logger } from "@/lib/logger";
 
@@ -75,7 +75,7 @@ export async function POST(req: NextRequest) {
           enquiryId: enquiryRecord.id,
           guestName: enquiryRecord.guestName,
           status: enquiryRecord.status,
-          message: "Thank you for contacting Dhuri Resort. Our reception team will reach out to you shortly.",
+          message: "Thank you for contacting Apexify Resort. Our reception team will reach out to you shortly.",
         },
       },
       { status: 201 }

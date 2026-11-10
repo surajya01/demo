@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { UpdateEnquirySchema } from "@dhuri/validation";
+import { UpdateEnquirySchema } from "@apexify/validation";
 import { bookingService } from "@/services/booking.service";
 import { AppError } from "@/lib/errors";
 import { logger } from "@/lib/logger";

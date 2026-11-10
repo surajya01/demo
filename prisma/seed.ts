@@ -1,5 +1,5 @@
 /**
- * Dhuri Resort - Development Database Seed Script
+ * Apexify Resort - Development Database Seed Script
  * Developed by Apexify
  * 
  * DISCLAIMER:
@@ -40,7 +40,7 @@ import { PrismaClient, RoomOperationalStatus, TableStatus, DietaryType, ServiceP
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("🌱 Starting Dhuri Resort Development Seed...");
+  console.log("🌱 Starting Apexify Resort Development Seed...");
 
   // 1. Clean existing records in reverse dependency order (DEV ONLY)
   console.log("Cleaning old development data...");
@@ -96,7 +96,7 @@ async function main() {
         create: [
           {
             storagePath: "/images/resort/room_deluxe_double.jpg",
-            altText: "Dhuri Resort Deluxe Double Room Interior",
+            altText: "Apexify Resort Deluxe Double Room Interior",
             isCover: true,
             sortOrder: 0,
           },
@@ -240,7 +240,7 @@ async function main() {
   console.log("Seeding Restaurant, Categories, Items & Tables...");
   const restaurant = await prisma.restaurant.create({
     data: {
-      name: "Dhuri Family Restaurant & Bar",
+      name: "Apexify Family Restaurant & Bar",
       description: "Multi-cuisine dining offering authentic Indian, Chinese, Tandoori, and local specialties alongside refreshing cocktails.",
       openingTime: "07:30",
       closingTime: "23:00",
@@ -256,7 +256,7 @@ async function main() {
             menuItems: {
               create: [
                 {
-                  name: "Dhuri Special Tandoori Platter",
+                  name: "Apexify Special Tandoori Platter",
                   description: "Assorted tandoori kebabs served with mint chutney and fresh onion salad.",
                   price: 550.00,
                   dietaryType: DietaryType.NON_VEGETARIAN,
@@ -399,7 +399,7 @@ async function main() {
     },
   });
 
-  console.log("✅ Dhuri Resort Development Database Seed Completed Successfully!");
+  console.log("✅ Apexify Resort Development Database Seed Completed Successfully!");
 }
 
 main()

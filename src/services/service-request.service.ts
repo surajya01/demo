@@ -1,5 +1,5 @@
 import { prisma } from "../lib/prisma";
-import { CreateServiceRequestInput } from "@dhuri/validation";
+import { CreateServiceRequestInput } from "@apexify/validation";
 import { qrService } from "./qr.service";
 import { NotFoundError } from "../lib/errors";
 

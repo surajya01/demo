@@ -1,5 +1,5 @@
 /**
- * Dhuri Resort - Phase 3 Automated Booking Engine & Integration Test Suite
+ * Apexify Resort - Phase 3 Automated Booking Engine & Integration Test Suite
  * Developed by Apexify
  */
 
@@ -44,7 +44,7 @@ function formatDate(date: Date): string {
 
 async function runPhase3Tests() {
   console.log("================================================================");
-  console.log(" DHURI RESORT - PHASE 3 BOOKING ENGINE INTEGRATION TEST SUITE");
+  console.log(" APEXIFY RESORT - PHASE 3 BOOKING ENGINE INTEGRATION TEST SUITE");
   console.log(" Developed by Apexify");
   console.log("================================================================\n");
 

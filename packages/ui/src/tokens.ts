@@ -1,5 +1,5 @@
 /**
- * Dhuri Resort Design Tokens
+ * Apexify Resort Design Tokens
  * Approved Brand Palette:
  * - Forest Green: #234B3C
  * - Warm Beige:   #F4EFE5

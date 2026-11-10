@@ -1,11 +1,11 @@
 import { z } from "zod";
 
 const EnvSchema = z.object({
-  DATABASE_URL: z.string().default("mysql://root:password@localhost:3306/dhuri_resort"),
+  DATABASE_URL: z.string().default("mysql://root:password@localhost:3306/apexify_resort"),
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   PORT: z.coerce.number().default(3000),
   NEXT_PUBLIC_APP_URL: z.string().default("http://localhost:3000"),
-  NEXT_PUBLIC_APP_NAME: z.string().default("Dhuri Resort"),
+  NEXT_PUBLIC_APP_NAME: z.string().default("Apexify Resort"),
   BOOKING_HOLD_EXPIRY_MINUTES: z.coerce.number().default(15),
   DEFAULT_CURRENCY: z.string().default("INR"),
   RESORT_TIMEZONE: z.string().default("Asia/Kolkata"),

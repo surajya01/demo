@@ -16,7 +16,7 @@ export interface NavbarProps {
 }
 
 export function Navbar({
-  brandName = "Dhuri Resort",
+  brandName = "Apexify Resort",
   items = [
     { label: "Home", href: "/" },
     { label: "Rooms", href: "#rooms" },
@@ -35,7 +35,7 @@ export function Navbar({
         {/* Brand Logo & Title */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] shadow-sm">
-            <span className="font-serif text-xl font-bold">D</span>
+            <span className="font-serif text-xl font-bold">A</span>
           </div>
           <div>
             <span className="font-serif text-xl font-bold tracking-tight text-[#234B3C]">

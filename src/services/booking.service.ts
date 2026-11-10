@@ -1,10 +1,10 @@
 /**
- * Dhuri Resort - Enquiry & Reservation Management Service
+ * Apexify Resort - Enquiry & Reservation Management Service
  * Developed by Apexify
  */
 
 import { prisma } from "../lib/prisma";
-import { CreateEnquiryInput, UpdateEnquiryInput } from "@dhuri/validation";
+import { CreateEnquiryInput, UpdateEnquiryInput } from "@apexify/validation";
 import { logger } from "../lib/logger";
 import { NotFoundError } from "../lib/errors";
 import { EnquiryStatus } from "@prisma/client";

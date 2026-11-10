@@ -40,7 +40,7 @@ export const ROOMS_DATA: RoomItem[] = [
     shortDescription: "Air-conditioned luxury room featuring plush double bed, private ensuite bathroom, and direct swimming pool access.",
     description: "Our signature Deluxe Double Room is meticulously appointed for couples, business travelers, and small families seeking tranquil resort comfort in Vasai.",
     longDescription: [
-      "The Deluxe Double Room at Dhuri Resort combines modern hospitality with the peaceful ambiance of our lush Vasai property. Featuring an extra-comfortable double bed with crisp white linens, high-velocity air conditioning, and a dedicated workspace, it is designed for both restful weekends and extended stays.",
+      "The Deluxe Double Room at Apexify Resort combines modern hospitality with the peaceful ambiance of our lush Vasai property. Featuring an extra-comfortable double bed with crisp white linens, high-velocity air conditioning, and a dedicated workspace, it is designed for both restful weekends and extended stays.",
       "Guests enjoy a private ensuite bathroom equipped with a contemporary vanity, instant hot water shower, premium toiletries, and fresh plush towels. Large windows welcome natural garden light while insulated glazing ensures a quiet, peaceful sleep.",
       "Step directly out toward the palm-fringed swimming pool deck or order 24-hour in-room dining from our Family Restaurant & Bar with a single phone call to reception."
     ],

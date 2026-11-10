@@ -7,8 +7,8 @@ import { SectionHeader } from "@/components/common/SectionHeader";
 import { MotionWrapper } from "@/components/common/MotionWrapper";
 
 export const metadata: Metadata = {
-  title: "About Us | Dhuri Resort, Waliv, Vasai East",
-  description: "Discover the story of Dhuri Resort in Waliv, Vasai East. Learn about our peaceful grounds, genuine hospitality, swimming pool, dining experience, and event lawn.",
+  title: "About Us | Apexify Resort, Waliv, Vasai East",
+  description: "Discover the story of Apexify Resort in Waliv, Vasai East. Learn about our peaceful grounds, genuine hospitality, swimming pool, dining experience, and event lawn.",
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 z-0 opacity-25">
           <Image
             src="/images/resort/exterior_facade.jpg"
-            alt="Dhuri Resort Property Background"
+            alt="Apexify Resort Property Background"
             fill
             className="object-cover"
             priority
@@ -30,7 +30,7 @@ export default function AboutPage() {
             Our Story & Heritage
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-            About Dhuri Resort
+            About Apexify Resort
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#F4EFE5]/85 max-w-2xl mx-auto font-light">
             A sanctuary of peace, relaxation, and genuine hospitality nestled amidst the green outskirts of Waliv, Vasai East.
@@ -52,7 +52,7 @@ export default function AboutPage() {
                   Designed for Effortless Escapes and Meaningful Celebrations
                 </h2>
                 <p className="mt-5 text-base text-[#292D2A]/80 leading-relaxed">
-                  Established with the vision of offering city dwellers and traveling families a serene, unpretentious retreat, <strong>Dhuri Resort</strong> has become a beloved destination for weekend staycations, day picnics, and celebratory events in the Palghar and Mumbai metropolitan region.
+                  Established with the vision of offering city dwellers and traveling families a serene, unpretentious retreat, <strong>Apexify Resort</strong> has become a beloved destination for weekend staycations, day picnics, and celebratory events in the Palghar and Mumbai metropolitan region.
                 </p>
                 <p className="mt-4 text-base text-[#292D2A]/80 leading-relaxed">
                   Located near Navjeevan Naka in Waliv, Vasai East, our property combines modern architectural conveniences — including dual passenger elevators and contemporary ensuite bathrooms — with the timeless pleasure of open skies, breezy palm groves, and a sparkling swimming pool.
@@ -81,7 +81,7 @@ export default function AboutPage() {
                 <div className="relative h-60 sm:h-72 rounded-2xl overflow-hidden shadow-md">
                   <Image
                     src="/images/resort/reception_lobby.jpg"
-                    alt="Dhuri Resort Reception Lobby"
+                    alt="Apexify Resort Reception Lobby"
                     fill
                     className="object-cover"
                     sizes="300px"
@@ -90,7 +90,7 @@ export default function AboutPage() {
                 <div className="relative h-60 sm:h-72 rounded-2xl overflow-hidden shadow-md mt-6">
                   <Image
                     src="/images/resort/swimming_pool_night.jpg"
-                    alt="Evening Swimming Pool at Dhuri Resort"
+                    alt="Evening Swimming Pool at Apexify Resort"
                     fill
                     className="object-cover"
                     sizes="300px"
@@ -124,8 +124,8 @@ export default function AboutPage() {
       <section className="py-20 sm:py-24 bg-[#F4EFE5]/40 border-b border-[#E8DEC9]/60">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader
-            eyebrow="The Dhuri Distinction"
-            title="Why Guests Return to Dhuri Resort"
+            eyebrow="The Apexify Distinction"
+            title="Why Guests Return to Apexify Resort"
             subtitle="Built upon genuine values of cleanliness, warmth, accessibility, and community."
           />
 

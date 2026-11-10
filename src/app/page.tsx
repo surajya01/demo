@@ -10,11 +10,11 @@ import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { LocationSection } from "@/components/home/LocationSection";
 
 export const metadata: Metadata = {
-  title: "Dhuri Resort | Luxury Resort & Dining in Waliv, Vasai East",
-  description: "Experience serene relaxation at Dhuri Resort in Waliv, Vasai East. Featuring outdoor swimming pool, air-conditioned deluxe rooms, multi-cuisine restaurant, and grand banquet party lawn.",
+  title: "Apexify Resort | Luxury Resort & Dining in Waliv, Vasai East",
+  description: "Experience serene relaxation at Apexify Resort in Waliv, Vasai East. Featuring outdoor swimming pool, air-conditioned deluxe rooms, multi-cuisine restaurant, and grand banquet party lawn.",
   keywords: [
-    "Dhuri Resort",
-    "Dhuri Resort Vasai",
+    "Apexify Resort",
+    "Apexify Resort Vasai",
     "Resorts in Vasai East",
     "Resorts near Mumbai",
     "Resort with swimming pool Vasai",
@@ -23,16 +23,16 @@ export const metadata: Metadata = {
     "Banquet lawn Vasai"
   ],
   openGraph: {
-    title: "Dhuri Resort | Luxury Resort & Dining in Waliv, Vasai East",
+    title: "Apexify Resort | Luxury Resort & Dining in Waliv, Vasai East",
     description: "Your Stay, Simplified. Featuring outdoor swimming pool, air-conditioned suites, multi-cuisine dining, and grand party lawn in Vasai East.",
-    url: "https://dhuri-resort.example.com",
-    siteName: "Dhuri Resort",
+    url: "https://apexify-resort.example.com",
+    siteName: "Apexify Resort",
     images: [
       {
         url: "/images/resort/exterior_facade.jpg",
         width: 1024,
         height: 683,
-        alt: "Dhuri Resort Exterior Facade and Swimming Pool",
+        alt: "Apexify Resort Exterior Facade and Swimming Pool",
       },
     ],
     locale: "en_IN",

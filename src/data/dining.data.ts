@@ -45,7 +45,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
       },
       {
         id: "chicken-tandoori",
-        name: "Dhuri Signature Tandoori Chicken",
+        name: "Apexify Signature Tandoori Chicken",
         description: "Tender whole spring chicken marinated for 12 hours with mustard oil, hung curd, and roasted garam masala.",
         category: "starters-tandoor",
         price: 360,

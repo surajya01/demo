@@ -32,7 +32,7 @@ export default function GalleryPage() {
           <div className="absolute inset-0 z-0 opacity-25">
             <Image
               src="/images/resort/swimming_pool_night.jpg"
-              alt="Dhuri Resort Gallery Header"
+              alt="Apexify Resort Gallery Header"
               fill
               className="object-cover"
               priority
@@ -43,7 +43,7 @@ export default function GalleryPage() {
               Official Property Visuals
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-              Dhuri Resort Photo Gallery
+              Apexify Resort Photo Gallery
             </h1>
             <p className="mt-4 text-base sm:text-lg text-[#F4EFE5]/85 max-w-2xl mx-auto font-light">
               Explore authentic photographs of our outdoor swimming pool, guest suites, dining areas, and expansive banquet lawns in Waliv, Vasai East.

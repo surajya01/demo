@@ -29,7 +29,7 @@ export default function FAQPage() {
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="/images/resort/reception_lobby.jpg"
-            alt="Dhuri Resort Front Desk FAQ"
+            alt="Apexify Resort Front Desk FAQ"
             fill
             className="object-cover"
             priority
@@ -142,7 +142,7 @@ export default function FAQPage() {
                 <span>Call Front Desk: +91 98200 00000</span>
               </a>
               <a
-                href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20have%20a%20question%20regarding%20my%20stay."
+                href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20have%20a%20question%20regarding%20my%20stay."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-[#25D366] px-5 py-2.5 text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#20ba5a] transition"

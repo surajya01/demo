@@ -1,10 +1,10 @@
 /**
- * Dhuri Resort Brand Configuration
+ * Apexify Resort Brand Configuration
  * Developed by Apexify
  */
 
 export const BRAND_CONFIG = {
-  resortName: "Dhuri Resort",
+  resortName: "Apexify Resort",
   brandSubtitle: "Resort & Dining · Vasai",
   developerCredit: "Designed & Developed by Apexify",
   developerName: "Apexify",

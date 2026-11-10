@@ -27,7 +27,7 @@ export default function RoomsPage() {
           <div className="absolute inset-0 z-0 opacity-20">
             <Image
               src="/images/resort/room_deluxe_double.jpg"
-              alt="Dhuri Resort Rooms Header"
+              alt="Apexify Resort Rooms Header"
               fill
               className="object-cover"
               priority

@@ -72,7 +72,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="/images/resort/exterior_facade.jpg"
-            alt="Dhuri Resort Contact Banner"
+            alt="Apexify Resort Contact Banner"
             fill
             className="object-cover"
             priority
@@ -83,7 +83,7 @@ export default function ContactPage() {
             Get in Touch
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-            Contact Dhuri Resort
+            Contact Apexify Resort
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#F4EFE5]/85 max-w-2xl mx-auto font-light">
             Have questions about room availability, banquet lawn bookings, or pool picnics? Our front desk team in Waliv, Vasai East is ready to assist.
@@ -146,7 +146,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <strong className="text-[#234B3C] block font-semibold">Email Correspondence:</strong>
-                        <span className="text-[#292D2A]/75 block mt-0.5">info@dhuri-resort.example.com</span>
+                        <span className="text-[#292D2A]/75 block mt-0.5">info@apexify-resort.example.com</span>
                       </div>
                     </div>
 
@@ -166,7 +166,7 @@ export default function ContactPage() {
                   {/* WhatsApp Quick Action */}
                   <div className="pt-4 border-t border-[#E8DEC9]">
                     <a
-                      href="https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20stay."
+                      href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20stay."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 rounded-2xl bg-[#25D366] py-3.5 px-4 text-sm font-semibold text-white shadow-sm hover:bg-[#20ba5a] transition"
@@ -392,7 +392,7 @@ export default function ContactPage() {
 
           <div className="rounded-3xl overflow-hidden shadow-md border border-[#E8DEC9] h-96 w-full">
             <iframe
-              title="Dhuri Resort Google Map Location"
+              title="Apexify Resort Google Map Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.541485665809!2d72.8665!3d19.3919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDIzJzMwLjgiTiA3MsKwNTInMDAuMSJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"

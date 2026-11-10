@@ -20,6 +20,10 @@
     "paths": {
       "@/*": ["./src/*"],
       "@packages/*": ["./packages/*"],
+      "@apexify/database": ["./packages/database/src"],
+      "@apexify/shared-types": ["./packages/shared-types/src"],
+      "@apexify/validation": ["./packages/validation/src"],
+      "@apexify/ui": ["./packages/ui/src"],
       "@dhuri/database": ["./packages/database/src"],
       "@dhuri/shared-types": ["./packages/shared-types/src"],
       "@dhuri/validation": ["./packages/validation/src"],
