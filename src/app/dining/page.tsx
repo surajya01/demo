@@ -720,84 +720,100 @@ export default function DiningPage() {
                       {category.items.map((item) => (
                         <div
                           key={item.id}
-                          className="rounded-3xl bg-white border border-[#E8DEC9] hover:border-[#C5A46D] p-6 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between group relative overflow-hidden"
+                          className="rounded-3xl bg-white border border-[#E8DEC9] hover:border-[#C5A46D] shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group relative overflow-hidden"
                         >
                           {/* Accent Top Bar for Chef Special */}
                           {item.isChefSpecial && (
-                            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#C5A46D] via-[#e5cf9f] to-[#C5A46D]" />
+                            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#C5A46D] via-[#e5cf9f] to-[#C5A46D] z-10" />
                           )}
 
-                          <div>
-                            {/* Card Top Row: Dietary Icon + Tags + Price */}
-                            <div className="flex items-start justify-between gap-3 mb-3">
-                              <div className="flex items-center gap-2">
-                                {/* FSSAI Official Style Dietary Icon */}
-                                {item.dietary === "veg" && (
-                                  <span className="flex h-5 w-5 items-center justify-center rounded border border-green-600 bg-white p-0.5" title="Pure Vegetarian">
-                                    <span className="h-2.5 w-2.5 rounded-full bg-green-600" />
-                                  </span>
-                                )}
-                                {item.dietary === "non-veg" && (
-                                  <span className="flex h-5 w-5 items-center justify-center rounded border border-red-600 bg-white p-0.5" title="Non-Vegetarian">
-                                    <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
-                                  </span>
-                                )}
-                                {item.dietary === "beverage" && (
-                                  <span className="flex h-5 w-5 items-center justify-center rounded border border-blue-600 bg-white p-0.5 text-blue-600" title="Beverage / Bar">
-                                    <GlassWater className="h-3 w-3" />
-                                  </span>
-                                )}
+                          {/* Food Dish Image */}
+                          {item.image && (
+                            <div className="relative h-48 w-full overflow-hidden bg-[#E8DEC9]/20">
+                              <Image
+                                src={item.image}
+                                alt={item.name}
+                                fill
+                                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60 group-hover:opacity-30 transition-opacity" />
+                            </div>
+                          )}
 
-                                {item.isChefSpecial && (
-                                  <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D]/20 px-2.5 py-0.5 text-[10.5px] font-bold text-[#234B3C]">
-                                    <Sparkles className="h-3 w-3 text-[#C5A46D]" />
-                                    Chef Special
-                                  </span>
-                                )}
+                          <div className="p-6 flex flex-col flex-1 justify-between">
+                            <div>
+                              {/* Card Top Row: Dietary Icon + Tags + Price */}
+                              <div className="flex items-start justify-between gap-3 mb-3">
+                                <div className="flex items-center gap-2">
+                                  {/* FSSAI Official Style Dietary Icon */}
+                                  {item.dietary === "veg" && (
+                                    <span className="flex h-5 w-5 items-center justify-center rounded border border-green-600 bg-white p-0.5" title="Pure Vegetarian">
+                                      <span className="h-2.5 w-2.5 rounded-full bg-green-600" />
+                                    </span>
+                                  )}
+                                  {item.dietary === "non-veg" && (
+                                    <span className="flex h-5 w-5 items-center justify-center rounded border border-red-600 bg-white p-0.5" title="Non-Vegetarian">
+                                      <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
+                                    </span>
+                                  )}
+                                  {item.dietary === "beverage" && (
+                                    <span className="flex h-5 w-5 items-center justify-center rounded border border-blue-600 bg-white p-0.5 text-blue-600" title="Beverage / Bar">
+                                      <GlassWater className="h-3 w-3" />
+                                    </span>
+                                  )}
 
-                                {item.isSpicy && (
-                                  <span className="inline-flex items-center gap-1 rounded-full bg-red-50 border border-red-200 px-2 py-0.5 text-[10px] font-semibold text-red-700">
-                                    <Flame className="h-2.5 w-2.5 text-red-500" />
-                                    Spicy
+                                  {item.isChefSpecial && (
+                                    <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D]/20 px-2.5 py-0.5 text-[10.5px] font-bold text-[#234B3C]">
+                                      <Sparkles className="h-3 w-3 text-[#C5A46D]" />
+                                      Chef Special
+                                    </span>
+                                  )}
+
+                                  {item.isSpicy && (
+                                    <span className="inline-flex items-center gap-1 rounded-full bg-red-50 border border-red-200 px-2 py-0.5 text-[10px] font-semibold text-red-700">
+                                      <Flame className="h-2.5 w-2.5 text-red-500" />
+                                      Spicy
+                                    </span>
+                                  )}
+                                </div>
+
+                                {/* Price */}
+                                <div className="text-right">
+                                  <span className="font-serif font-bold text-xl sm:text-2xl text-[#234B3C]">
+                                    ₹{item.price}
                                   </span>
-                                )}
+                                </div>
                               </div>
 
-                              {/* Price */}
-                              <div className="text-right">
-                                <span className="font-serif font-bold text-xl sm:text-2xl text-[#234B3C]">
-                                  ₹{item.price}
-                                </span>
-                              </div>
+                              {/* Dish Name */}
+                              <h4 className="font-serif text-lg sm:text-xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors leading-snug">
+                                {item.name}
+                              </h4>
+
+                              {/* Description */}
+                              <p className="mt-2.5 text-xs sm:text-[13px] text-[#292D2A]/75 leading-relaxed font-normal">
+                                {item.description}
+                              </p>
                             </div>
 
-                            {/* Dish Name */}
-                            <h4 className="font-serif text-lg sm:text-xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors leading-snug">
-                              {item.name}
-                            </h4>
+                            {/* Card Footer */}
+                            <div className="mt-6 pt-4 border-t border-[#E8DEC9]/70 flex items-center justify-between text-xs">
+                              <span className="text-[11px] font-medium text-[#292D2A]/60 flex items-center gap-1">
+                                <Utensils className="h-3 w-3 text-[#C5A46D]" />
+                                <span>Prepared Fresh to Order</span>
+                              </span>
 
-                            {/* Description */}
-                            <p className="mt-2.5 text-xs sm:text-[13px] text-[#292D2A]/75 leading-relaxed font-normal">
-                              {item.description}
-                            </p>
-                          </div>
-
-                          {/* Card Footer */}
-                          <div className="mt-6 pt-4 border-t border-[#E8DEC9]/70 flex items-center justify-between text-xs">
-                            <span className="text-[11px] font-medium text-[#292D2A]/60 flex items-center gap-1">
-                              <Utensils className="h-3 w-3 text-[#C5A46D]" />
-                              <span>Prepared Fresh to Order</span>
-                            </span>
-
-                            <a
-                              href={`https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20am%20interested%20in%20ordering%20the%20${encodeURIComponent(item.name)}%20(₹${item.price}).`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1.5 rounded-xl bg-[#234B3C]/5 hover:bg-[#234B3C] text-[#234B3C] hover:text-white px-3.5 py-1.5 font-semibold text-xs transition duration-200"
-                            >
-                              <MessageSquare className="h-3.5 w-3.5 text-[#25D366] group-hover:text-white" />
-                              <span>Order</span>
-                            </a>
+                              <a
+                                href={`https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20am%20interested%20in%20ordering%20the%20${encodeURIComponent(item.name)}%20(₹${item.price}).`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1.5 rounded-xl bg-[#234B3C]/5 hover:bg-[#234B3C] text-[#234B3C] hover:text-white px-3.5 py-1.5 font-semibold text-xs transition duration-200"
+                              >
+                                <MessageSquare className="h-3.5 w-3.5 text-[#25D366] group-hover:text-white" />
+                                <span>Order</span>
+                              </a>
+                            </div>
                           </div>
                         </div>
                       ))}

@@ -32,6 +32,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         dietary: "veg",
         isSpicy: true,
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "veg-crispy",
@@ -40,6 +41,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "starters-tandoor",
         price: 240,
         dietary: "veg",
+        image: "https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "chicken-tandoori",
@@ -49,6 +51,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 360,
         dietary: "non-veg",
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "chicken-pahadi",
@@ -57,6 +60,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "starters-tandoor",
         price: 320,
         dietary: "non-veg",
+        image: "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "fish-koliwada",
@@ -66,6 +70,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 390,
         dietary: "non-veg",
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1518732751612-2c0787ff5684?w=800&auto=format&fit=crop&q=80",
       }
     ]
   },
@@ -82,6 +87,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 260,
         dietary: "veg",
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "paneer-butter-masala",
@@ -90,6 +96,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "main-course-indian",
         price: 290,
         dietary: "veg",
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "butter-chicken",
@@ -99,6 +106,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 380,
         dietary: "non-veg",
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "mutton-rogan-josh",
@@ -108,6 +116,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 450,
         dietary: "non-veg",
         isSpicy: true,
+        image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&auto=format&fit=crop&q=80",
       }
     ]
   },
@@ -123,6 +132,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "rice-biryani",
         price: 280,
         dietary: "veg",
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "chicken-dum-biryani",
@@ -132,6 +142,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 360,
         dietary: "non-veg",
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "jeera-rice",
@@ -140,6 +151,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "rice-biryani",
         price: 220,
         dietary: "veg",
+        image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&auto=format&fit=crop&q=80",
       }
     ]
   },
@@ -156,6 +168,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         price: 160,
         dietary: "beverage",
         isChefSpecial: true,
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "fresh-lime-soda",
@@ -164,6 +177,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "beverages-bar",
         price: 90,
         dietary: "beverage",
+        image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "masala-chaas",
@@ -172,6 +186,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "beverages-bar",
         price: 80,
         dietary: "beverage",
+        image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&auto=format&fit=crop&q=80",
       },
       {
         id: "bar-cocktails",
@@ -180,6 +195,7 @@ export const SAMPLE_MENU_CATEGORIES: MenuCategory[] = [
         category: "beverages-bar",
         price: 350,
         dietary: "beverage",
+        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&auto=format&fit=crop&q=80",
       }
     ]
   }
