@@ -28,7 +28,7 @@ export default function GalleryPage() {
     <>
       <main className="min-h-screen bg-[#FAF9F6]">
         {/* Banner */}
-        <section className="relative py-20 sm:py-28 bg-[#234B3C] text-white overflow-hidden">
+        <section className="relative py-20 sm:py-28 bg-[#0F2C59] text-white overflow-hidden">
           <div className="absolute inset-0 z-0 opacity-25">
             <Image
               src="/images/resort/swimming_pool_night.jpg"
@@ -62,7 +62,7 @@ export default function GalleryPage() {
                   onClick={() => setActiveCategory(cat.key)}
                   className={`rounded-full px-5 py-2.5 text-xs sm:text-sm font-semibold transition ${
                     activeCategory === cat.key
-                      ? "bg-[#234B3C] text-white shadow-md"
+                      ? "bg-[#0F2C59] text-white shadow-md"
                       : "bg-white text-[#292D2A] border border-[#E8DEC9] hover:bg-[#F4EFE5]"
                   }`}
                 >
@@ -86,7 +86,7 @@ export default function GalleryPage() {
                         setLightboxIndex(index);
                       }
                     }}
-                    className="group relative h-72 sm:h-80 w-full rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer border border-[#E8DEC9] bg-slate-100 focus:outline-none focus:ring-2 focus:ring-[#234B3C]"
+                    className="group relative h-72 sm:h-80 w-full rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer border border-[#E8DEC9] bg-slate-100 focus:outline-none focus:ring-2 focus:ring-[#0F2C59]"
                   >
                     <Image
                       src={item.src}
@@ -101,7 +101,7 @@ export default function GalleryPage() {
 
                     {/* Verified Badge */}
                     <div className="absolute top-3 left-3">
-                      <span className="inline-flex items-center gap-1 rounded-full bg-[#234B3C]/90 px-3 py-1 text-[11px] font-medium text-[#F4EFE5] backdrop-blur-sm">
+                      <span className="inline-flex items-center gap-1 rounded-full bg-[#0F2C59]/90 px-3 py-1 text-[11px] font-medium text-[#F4EFE5] backdrop-blur-sm">
                         <Sparkles className="h-3 w-3 text-[#C5A46D]" />
                         {item.categoryLabel}
                       </span>

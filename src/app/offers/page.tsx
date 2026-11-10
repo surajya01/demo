@@ -16,7 +16,7 @@ export default function OffersPage() {
     <>
       <main className="min-h-screen bg-[#FAF9F6]">
         {/* Banner */}
-        <section className="relative py-20 sm:py-28 bg-[#234B3C] text-white overflow-hidden">
+        <section className="relative py-20 sm:py-28 bg-[#0F2C59] text-white overflow-hidden">
           <div className="absolute inset-0 z-0 opacity-25">
             <Image
               src="/images/resort/swimming_pool_night.jpg"
@@ -46,7 +46,7 @@ export default function OffersPage() {
             <div className="max-w-2xl mx-auto mb-14 rounded-2xl bg-[#F4EFE5] border border-[#C5A46D]/40 p-4 flex items-start gap-3 text-xs text-[#292D2A]/80">
               <AlertCircle className="h-4 w-4 text-[#C5A46D] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#234B3C]">Phase 2 Preview Notice:</strong> Packages shown below reflect representative sample offers designed for frontend demonstration. Final rates, seasonal discounts, and festival availability can be confirmed directly with resort management via WhatsApp or telephone.
+                <strong className="text-[#0F2C59]">Phase 2 Preview Notice:</strong> Packages shown below reflect representative sample offers designed for frontend demonstration. Final rates, seasonal discounts, and festival availability can be confirmed directly with resort management via WhatsApp or telephone.
               </div>
             </div>
 
@@ -67,7 +67,7 @@ export default function OffersPage() {
                           sizes="(max-width: 1024px) 100vw, 40vw"
                         />
                         <div className="absolute top-4 left-4">
-                          <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D] px-3.5 py-1 text-xs font-bold text-[#234B3C] shadow-md">
+                          <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D] px-3.5 py-1 text-xs font-bold text-[#0F2C59] shadow-md">
                             <Tag className="h-3.5 w-3.5" />
                             {offer.badge}
                           </span>
@@ -84,7 +84,7 @@ export default function OffersPage() {
                           <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold">
                             {offer.subtitle}
                           </span>
-                          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#234B3C] mt-1">
+                          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F2C59] mt-1">
                             {offer.title}
                           </h2>
 
@@ -92,7 +92,7 @@ export default function OffersPage() {
                             {offer.description}
                           </p>
 
-                          <div className="my-5 p-4 rounded-2xl bg-[#FAF9F6] border border-[#E8DEC9] text-sm font-semibold text-[#234B3C] flex items-center justify-between">
+                          <div className="my-5 p-4 rounded-2xl bg-[#FAF9F6] border border-[#E8DEC9] text-sm font-semibold text-[#0F2C59] flex items-center justify-between">
                             <span>{offer.priceNote}</span>
                             <span className="text-xs font-normal text-[#292D2A]/60">Subject to date</span>
                           </div>
@@ -105,7 +105,7 @@ export default function OffersPage() {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#292D2A]/85">
                               {offer.inclusions.map((inc, i) => (
                                 <div key={i} className="flex items-start gap-2">
-                                  <Check className="h-3.5 w-3.5 text-[#234B3C] mt-0.5 flex-shrink-0" />
+                                  <Check className="h-3.5 w-3.5 text-[#0F2C59] mt-0.5 flex-shrink-0" />
                                   <span>{inc}</span>
                                 </div>
                               ))}
@@ -125,7 +125,7 @@ export default function OffersPage() {
                         <div className="mt-8 pt-5 border-t border-[#E8DEC9] flex flex-wrap items-center gap-3">
                           <button
                             onClick={() => setIsModalOpen(true)}
-                            className="rounded-xl bg-[#234B3C] px-6 py-3 text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition flex items-center gap-2"
+                            className="rounded-xl bg-[#0F2C59] px-6 py-3 text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#163B72] transition flex items-center gap-2"
                           >
                             <Calendar className="h-4 w-4 text-[#C5A46D]" />
                             <span>Enquire for Dates</span>

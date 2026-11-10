@@ -25,7 +25,7 @@ export default function FAQPage() {
   return (
     <main className="min-h-screen bg-[#FAF9F6]">
       {/* Banner */}
-      <section className="relative py-20 sm:py-28 bg-[#234B3C] text-white overflow-hidden">
+      <section className="relative py-20 sm:py-28 bg-[#0F2C59] text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="/images/resort/reception_lobby.jpg"
@@ -59,7 +59,7 @@ export default function FAQPage() {
                 onClick={() => setActiveCategory(cat)}
                 className={`rounded-full px-5 py-2.5 text-xs sm:text-sm font-semibold transition ${
                   activeCategory === cat
-                    ? "bg-[#234B3C] text-white shadow-md"
+                    ? "bg-[#0F2C59] text-white shadow-md"
                     : "bg-white text-[#292D2A] border border-[#E8DEC9] hover:bg-[#F4EFE5]"
                 }`}
               >
@@ -78,7 +78,7 @@ export default function FAQPage() {
                   key={faq.id}
                   className={`rounded-2xl transition-all duration-200 border ${
                     isOpen
-                      ? "bg-white border-[#234B3C]/40 shadow-md"
+                      ? "bg-white border-[#0F2C59]/40 shadow-md"
                       : "bg-white/80 border-[#E8DEC9] hover:bg-white"
                   }`}
                 >
@@ -89,17 +89,17 @@ export default function FAQPage() {
                   >
                     <div className="flex items-center gap-3 pr-4">
                       <div className={`flex h-8 w-8 items-center justify-center rounded-lg flex-shrink-0 transition-colors ${
-                        isOpen ? "bg-[#234B3C] text-[#C5A46D]" : "bg-[#F4EFE5] text-[#234B3C]"
+                        isOpen ? "bg-[#0F2C59] text-[#C5A46D]" : "bg-[#F4EFE5] text-[#0F2C59]"
                       }`}>
                         <HelpCircle className="h-4 w-4" />
                       </div>
-                      <span className="font-serif font-bold text-base sm:text-lg text-[#234B3C]">
+                      <span className="font-serif font-bold text-base sm:text-lg text-[#0F2C59]">
                         {faq.question}
                       </span>
                     </div>
 
-                    <div className={`flex h-8 w-8 items-center justify-center rounded-full bg-[#FAF9F6] text-[#234B3C] flex-shrink-0 transition-transform duration-300 ${
-                      isOpen ? "rotate-180 bg-[#234B3C] text-white" : ""
+                    <div className={`flex h-8 w-8 items-center justify-center rounded-full bg-[#FAF9F6] text-[#0F2C59] flex-shrink-0 transition-transform duration-300 ${
+                      isOpen ? "rotate-180 bg-[#0F2C59] text-white" : ""
                     }`}>
                       <ChevronDown className="h-4 w-4" />
                     </div>
@@ -127,7 +127,7 @@ export default function FAQPage() {
 
           {/* Still Have Questions Card */}
           <div className="mt-16 rounded-3xl bg-[#F4EFE5] p-8 border border-[#C5A46D]/30 text-center space-y-4">
-            <h3 className="font-serif text-2xl font-bold text-[#234B3C]">
+            <h3 className="font-serif text-2xl font-bold text-[#0F2C59]">
               Have a Question Not Listed Here?
             </h3>
             <p className="text-sm text-[#292D2A]/75 max-w-lg mx-auto">
@@ -136,7 +136,7 @@ export default function FAQPage() {
             <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
               <a
                 href="tel:+919820000000"
-                className="inline-flex items-center gap-2 rounded-xl bg-[#234B3C] px-5 py-2.5 text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition"
+                className="inline-flex items-center gap-2 rounded-xl bg-[#0F2C59] px-5 py-2.5 text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#163B72] transition"
               >
                 <Phone className="h-4 w-4 text-[#C5A46D]" />
                 <span>Call Front Desk: +91 98200 00000</span>

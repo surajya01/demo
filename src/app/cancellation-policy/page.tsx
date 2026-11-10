@@ -15,7 +15,7 @@ export default function CancellationPolicyPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition mb-8"
+          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition mb-8"
         >
           <ArrowLeft className="h-4 w-4" />
           <span>Back to Home</span>
@@ -26,7 +26,7 @@ export default function CancellationPolicyPage() {
             <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-bold">
               Booking Terms
             </span>
-            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#234B3C] mt-1">
+            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#0F2C59] mt-1">
               Cancellation & Refund Policy
             </h1>
             <p className="mt-2 text-xs text-[#292D2A]/60">
@@ -36,7 +36,7 @@ export default function CancellationPolicyPage() {
 
           <div className="prose prose-sm max-w-none text-[#292D2A]/80 space-y-6 text-sm leading-relaxed">
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">1. Standard Individual Room Reservations</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">1. Standard Individual Room Reservations</h3>
               <p>For direct room bookings:</p>
               <ul className="list-disc pl-5 space-y-1 text-xs">
                 <li>
@@ -52,14 +52,14 @@ export default function CancellationPolicyPage() {
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">2. Day Picnic & Pool Pass Tickets</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">2. Day Picnic & Pool Pass Tickets</h3>
               <p>
                 Day picnic and swimming pool passes may be rescheduled up to 24 hours in advance. Same-day cancellations or non-arrivals are non-refundable.
               </p>
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">3. Banquet Lawn & Wedding Event Bookings</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">3. Banquet Lawn & Wedding Event Bookings</h3>
               <p>
                 Due to the exclusive allocation of property lawns and custom culinary preparation for banquet events:
               </p>
@@ -71,7 +71,7 @@ export default function CancellationPolicyPage() {
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">4. Refund Processing Time</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">4. Refund Processing Time</h3>
               <p>
                 Approved refunds are processed through the original payment method within 7 to 10 business days following written cancellation confirmation.
               </p>

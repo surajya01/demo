@@ -8,7 +8,7 @@ A modern, responsive, mobile-first frontend website for **Apexify Resort**, loca
 
 ## Features
 
-- **Luxury Brand Aesthetic:** Built with a curated color palette (Forest Green `#234B3C`, Warm Beige `#F4EFE5`, Muted Gold `#C5A46D`, and Off-White `#FAF9F6`).
+- **Luxury Brand Aesthetic:** Built with a curated color palette (Royal Sapphire `#0F2C59`, Deep Midnight Navy `#0A1C38`, Warm Beige `#F4EFE5`, Champagne Gold `#C5A46D`, and Off-White `#FAF9F6`).
 - **Comprehensive Public Pages (17 Routes):**
   - Home (`/`) with Hero, Highlights, Featured Rooms, Special Offers, Dining & Banquet, Gallery preview, Location & Testimonials.
   - Accommodation (`/rooms`) with room filters, amenity highlights, and individual room detail pages (`/rooms/[slug]`).

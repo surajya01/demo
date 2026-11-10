@@ -136,7 +136,7 @@ export function QuickEnquiryModal({
             className="relative w-full max-w-xl rounded-2xl bg-white shadow-2xl border border-[#C5A46D]/20 overflow-hidden z-10 my-8"
           >
             {/* Header */}
-            <div className="bg-[#234B3C] px-6 py-5 text-white flex items-center justify-between">
+            <div className="bg-[#0F2C59] px-6 py-5 text-white flex items-center justify-between">
               <div>
                 <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold">
                   Apexify Resort · Direct Booking
@@ -158,10 +158,10 @@ export function QuickEnquiryModal({
             <div className="p-6">
               {isSubmitted ? (
                 <div className="text-center py-6">
-                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C] mb-4">
+                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59] mb-4">
                     <CheckCircle className="h-9 w-9" />
                   </div>
-                  <h4 className="font-serif text-2xl font-bold text-[#234B3C]">
+                  <h4 className="font-serif text-2xl font-bold text-[#0F2C59]">
                     Enquiry Received (Preview)
                   </h4>
                   <p className="mt-3 text-sm text-[#292D2A]/80 leading-relaxed max-w-md mx-auto">
@@ -170,7 +170,7 @@ export function QuickEnquiryModal({
                   </p>
 
                   <div className="my-5 p-4 rounded-xl bg-[#F4EFE5] border border-[#C5A46D]/30 text-xs text-left text-[#292D2A]/80 space-y-1.5">
-                    <p className="font-semibold text-[#234B3C] uppercase tracking-wider text-[11px]">
+                    <p className="font-semibold text-[#0F2C59] uppercase tracking-wider text-[11px]">
                       Phase 2 Frontend Simulation Note:
                     </p>
                     <p>
@@ -196,7 +196,7 @@ export function QuickEnquiryModal({
                     </a>
                     <button
                       onClick={resetForm}
-                      className="rounded-xl border border-[#234B3C]/30 bg-transparent px-5 py-2.5 text-sm font-semibold text-[#234B3C] hover:bg-[#FAF9F6] transition"
+                      className="rounded-xl border border-[#0F2C59]/30 bg-transparent px-5 py-2.5 text-sm font-semibold text-[#0F2C59] hover:bg-[#FAF9F6] transition"
                     >
                       Close Window
                     </button>
@@ -219,7 +219,7 @@ export function QuickEnquiryModal({
                     <select
                       value={roomSlug}
                       onChange={(e) => setRoomSlug(e.target.value)}
-                      className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                      className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                     >
                       {ROOMS_DATA.map((room) => (
                         <option key={room.slug} value={room.slug}>
@@ -240,7 +240,7 @@ export function QuickEnquiryModal({
                           type="date"
                           value={checkIn}
                           onChange={(e) => setCheckIn(e.target.value)}
-                          className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                          className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                         />
                       </div>
                     </div>
@@ -252,7 +252,7 @@ export function QuickEnquiryModal({
                         type="date"
                         value={checkOut}
                         onChange={(e) => setCheckOut(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                       />
                     </div>
                   </div>
@@ -266,7 +266,7 @@ export function QuickEnquiryModal({
                       <select
                         value={adults}
                         onChange={(e) => setAdults(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                       >
                         <option value="1">1 Adult</option>
                         <option value="2">2 Adults</option>
@@ -279,7 +279,7 @@ export function QuickEnquiryModal({
                       <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
                         Children (under 12)
                       </label>
-                      <select className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition">
+                      <select className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition">
                         <option value="0">0 Children</option>
                         <option value="1">1 Child</option>
                         <option value="2">2 Children</option>
@@ -300,7 +300,7 @@ export function QuickEnquiryModal({
                         placeholder="e.g. Ramesh Patel"
                         value={guestName}
                         onChange={(e) => setGuestName(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                       />
                     </div>
                     <div>
@@ -313,7 +313,7 @@ export function QuickEnquiryModal({
                         placeholder="e.g. 98200 00000"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                       />
                     </div>
                   </div>
@@ -328,7 +328,7 @@ export function QuickEnquiryModal({
                       placeholder="e.g. Pool-facing room preferred, extra bed requirement, late check-in time..."
                       value={specialRequests}
                       onChange={(e) => setSpecialRequests(e.target.value)}
-                      className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                      className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                     />
                   </div>
 
@@ -337,7 +337,7 @@ export function QuickEnquiryModal({
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full rounded-xl bg-[#234B3C] py-3.5 px-4 text-center font-medium text-white shadow-md hover:bg-[#1b3b2f] transition disabled:opacity-70 flex items-center justify-center gap-2"
+                      className="w-full rounded-xl bg-[#0F2C59] py-3.5 px-4 text-center font-medium text-white shadow-md hover:bg-[#163B72] transition disabled:opacity-70 flex items-center justify-center gap-2"
                     >
                       {isSubmitting ? (
                         <>

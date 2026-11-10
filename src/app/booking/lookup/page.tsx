@@ -138,7 +138,7 @@ function BookingLookupContent() {
           <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-bold">
             Guest Self-Service Portal
           </span>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#234B3C] mt-1">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F2C59] mt-1">
             Look Up Your Reservation
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-[#292D2A]/75">
@@ -154,13 +154,13 @@ function BookingLookupContent() {
               value={reference}
               onChange={(e) => setReference(e.target.value.toUpperCase())}
               placeholder="e.g. DR-202611-ABCD"
-              className="w-full rounded-2xl border border-[#E8DEC9] bg-[#FAF9F6] pl-11 pr-4 py-3 text-sm font-mono uppercase tracking-wider text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+              className="w-full rounded-2xl border border-[#E8DEC9] bg-[#FAF9F6] pl-11 pr-4 py-3 text-sm font-mono uppercase tracking-wider text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
             />
           </div>
           <button
             type="submit"
             disabled={isLoading}
-            className="flex items-center justify-center gap-2 rounded-2xl bg-[#234B3C] px-6 py-3 text-sm font-semibold text-white shadow-md hover:bg-[#1b3b2f] transition disabled:opacity-50"
+            className="flex items-center justify-center gap-2 rounded-2xl bg-[#0F2C59] px-6 py-3 text-sm font-semibold text-white shadow-md hover:bg-[#163B72] transition disabled:opacity-50"
           >
             {isLoading ? (
               <span>Searching...</span>
@@ -185,7 +185,7 @@ function BookingLookupContent() {
       {booking && (
         <div className="rounded-3xl bg-white shadow-lg border border-[#C5A46D]/30 overflow-hidden print:border-none print:shadow-none">
           {/* Header Banner */}
-          <div className="bg-[#234B3C] px-6 sm:px-8 py-6 text-white flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="bg-[#0F2C59] px-6 sm:px-8 py-6 text-white flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <div className="inline-flex items-center gap-1.5 rounded-full bg-[#C5A46D]/20 border border-[#C5A46D]/40 px-3 py-1 text-xs font-semibold text-[#F4EFE5] mb-2">
                 <CheckCircle className="h-3.5 w-3.5 text-[#C5A46D]" />
@@ -223,7 +223,7 @@ function BookingLookupContent() {
                     <span className="text-[10px] text-[#292D2A]/60 uppercase font-semibold block">
                       Check-In
                     </span>
-                    <strong className="text-sm text-[#234B3C] block mt-0.5">
+                    <strong className="text-sm text-[#0F2C59] block mt-0.5">
                       {formatDate(booking.checkIn)}
                     </strong>
                     <span className="text-[11px] text-[#292D2A]/60">From 12:00 PM</span>
@@ -232,7 +232,7 @@ function BookingLookupContent() {
                     <span className="text-[10px] text-[#292D2A]/60 uppercase font-semibold block">
                       Check-Out
                     </span>
-                    <strong className="text-sm text-[#234B3C] block mt-0.5">
+                    <strong className="text-sm text-[#0F2C59] block mt-0.5">
                       {formatDate(booking.checkOut)}
                     </strong>
                     <span className="text-[11px] text-[#292D2A]/60">Until 10:00 AM</span>
@@ -254,7 +254,7 @@ function BookingLookupContent() {
                 <div className="rounded-2xl bg-[#FAF9F6] p-4 border border-[#E8DEC9] space-y-1.5 text-xs">
                   <div className="flex justify-between">
                     <span className="text-[#292D2A]/60">Primary Guest:</span>
-                    <strong className="text-[#234B3C]">{booking.leadGuest.fullName}</strong>
+                    <strong className="text-[#0F2C59]">{booking.leadGuest.fullName}</strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-[#292D2A]/60">Contact Phone:</span>
@@ -290,11 +290,11 @@ function BookingLookupContent() {
                     className="flex flex-col sm:flex-row sm:items-center justify-between rounded-2xl border border-[#E8DEC9] bg-[#FAF9F6] p-4 gap-4"
                   >
                     <div className="flex items-center gap-3.5">
-                      <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] flex-shrink-0">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
                         <Bed className="h-5 w-5" />
                       </div>
                       <div>
-                        <h4 className="font-serif text-base font-bold text-[#234B3C]">
+                        <h4 className="font-serif text-base font-bold text-[#0F2C59]">
                           {br.roomType.name}
                         </h4>
                         <span className="text-xs text-[#292D2A]/70 block">
@@ -305,7 +305,7 @@ function BookingLookupContent() {
 
                     <div className="text-right">
                       {br.room ? (
-                        <div className="inline-flex items-center gap-1.5 rounded-lg bg-[#234B3C]/10 px-3 py-1 text-xs font-semibold text-[#234B3C]">
+                        <div className="inline-flex items-center gap-1.5 rounded-lg bg-[#0F2C59]/10 px-3 py-1 text-xs font-semibold text-[#0F2C59]">
                           <span>Assigned Room #{br.room.roomNumber}</span>
                           {br.room.floorLabel && <span className="text-[11px] text-[#292D2A]/60">({br.room.floorLabel})</span>}
                         </div>
@@ -332,8 +332,8 @@ function BookingLookupContent() {
                 <span className="font-medium text-[#292D2A]">₹{Number(booking.taxAmount).toLocaleString()}</span>
               </div>
               <div className="pt-2 border-t border-[#C5A46D]/30 flex justify-between items-baseline text-sm">
-                <strong className="text-[#234B3C] font-serif text-base">Total Reservation Amount:</strong>
-                <strong className="font-serif text-xl font-bold text-[#234B3C]">
+                <strong className="text-[#0F2C59] font-serif text-base">Total Reservation Amount:</strong>
+                <strong className="font-serif text-xl font-bold text-[#0F2C59]">
                   ₹{Number(booking.totalAmount).toLocaleString()}
                 </strong>
               </div>
@@ -342,14 +342,14 @@ function BookingLookupContent() {
             {/* Special Requests */}
             {booking.specialRequests && (
               <div className="rounded-2xl bg-[#FAF9F6] p-4 border border-[#E8DEC9] text-xs text-[#292D2A]/80">
-                <strong className="text-[#234B3C] block mb-1">Special Guest Notes:</strong>
+                <strong className="text-[#0F2C59] block mb-1">Special Guest Notes:</strong>
                 <p>{booking.specialRequests}</p>
               </div>
             )}
 
             {/* Important Resort Notes */}
             <div className="rounded-2xl bg-white p-4 border border-[#E8DEC9] text-xs text-[#292D2A]/75 space-y-1.5">
-              <strong className="text-[#234B3C] block">Important Resort Guidelines:</strong>
+              <strong className="text-[#0F2C59] block">Important Resort Guidelines:</strong>
               <p>• Government-issued photo ID is required for all adult guests at the front desk upon arrival.</p>
               <p>• Swimming pool timings are 7:00 AM to 8:00 PM (proper nylon swimwear mandatory).</p>
               <p>• For any changes to stay dates or special requests, please contact reception at <strong>+91 98200 00000</strong>.</p>
@@ -365,7 +365,7 @@ export default function BookingLookupPage() {
   return (
     <main className="min-h-screen bg-[#FAF9F6]">
       {/* Page Header */}
-      <section className="relative py-16 sm:py-24 bg-[#234B3C] text-white overflow-hidden">
+      <section className="relative py-16 sm:py-24 bg-[#0F2C59] text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="/images/resort/exterior_facade.jpg"

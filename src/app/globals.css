@@ -5,16 +5,19 @@
 :root {
   --font-playfair: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --color-forest: #234B3C;
-  --color-forest-dark: #1A372C;
-  --color-forest-light: #3E7461;
+  --color-sapphire: #0F2C59;
+  --color-sapphire-dark: #0A1C38;
+  --color-sapphire-light: #255294;
+  --color-forest: #0F2C59;
+  --color-forest-dark: #0A1C38;
+  --color-forest-light: #255294;
   --color-beige: #F4EFE5;
   --color-beige-border: #E8DEC9;
   --color-gold: #C5A46D;
   --color-gold-hover: #B08A4E;
   --color-offwhite: #FAF9F6;
-  --color-charcoal: #292D2A;
-  --color-charcoal-muted: #5A615C;
+  --color-charcoal: #1B2430;
+  --color-charcoal-muted: #4F5D70;
 }
 
 @layer base {
@@ -23,7 +26,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #FAF9F6;
-    color: #292D2A;
+    color: #1B2430;
     max-width: 100vw;
     overflow-x: hidden;
   }
@@ -43,7 +46,7 @@
 
   /* Accessible focus indicators */
   *:focus-visible {
-    outline: 2px solid #234B3C;
+    outline: 2px solid #0F2C59;
     outline-offset: 2px;
   }
 }

@@ -171,7 +171,7 @@ export default function DiningPage() {
         {/* ================================================================= */}
         {/* 1. HERO SECTION: Immersive Luxury Gastronomy Banner               */}
         {/* ================================================================= */}
-        <section className="relative min-h-[580px] lg:min-h-[640px] flex items-center justify-center overflow-hidden bg-[#234B3C] text-white">
+        <section className="relative min-h-[580px] lg:min-h-[640px] flex items-center justify-center overflow-hidden bg-[#0F2C59] text-white">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/resort/restaurant_dining.jpg"
@@ -181,8 +181,8 @@ export default function DiningPage() {
               priority
             />
             {/* Multi-layered luxury emerald overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#173327]/95 via-[#173327]/85 to-[#173327]/80" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#173327] via-transparent to-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0A1C38]/95 via-[#0A1C38]/85 to-[#0A1C38]/80" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0A1C38] via-transparent to-black/30" />
           </div>
 
           <div className="relative z-10 mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8 py-20 text-center">
@@ -248,7 +248,7 @@ export default function DiningPage() {
               <span className="text-xs uppercase tracking-[0.2em] text-[#C5A46D] font-bold block mb-2">
                 Atmosphere & Ambiance
               </span>
-              <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#234B3C]">
+              <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#0F2C59]">
                 Distinct Dining Spaces for Every Occasion
               </h2>
               <p className="mt-3 text-sm sm:text-base text-[#292D2A]/75">
@@ -280,13 +280,13 @@ export default function DiningPage() {
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#C5A46D]">
                     Air Conditioned
                   </span>
-                  <h3 className="font-serif text-xl font-bold text-[#234B3C] mt-1">
+                  <h3 className="font-serif text-xl font-bold text-[#0F2C59] mt-1">
                     Main Family Dining Hall
                   </h3>
                   <p className="mt-2 text-xs text-[#292D2A]/75 leading-relaxed flex-1">
                     Spacious indoor seating with comfortable family booths, soft background music, and direct view of the buffet counters.
                   </p>
-                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#234B3C] flex items-center justify-between">
+                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#0F2C59] flex items-center justify-between">
                     <span>Capacity: 80+ Seats</span>
                     <span className="text-[#C5A46D]">Lunch & Dinner</span>
                   </div>
@@ -316,13 +316,13 @@ export default function DiningPage() {
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#C5A46D]">
                     Al Fresco Deck
                   </span>
-                  <h3 className="font-serif text-xl font-bold text-[#234B3C] mt-1">
+                  <h3 className="font-serif text-xl font-bold text-[#0F2C59] mt-1">
                     Poolside Starlit Deck
                   </h3>
                   <p className="mt-2 text-xs text-[#292D2A]/75 leading-relaxed flex-1">
                     Dine beneath palm trees beside our illuminated outdoor swimming pool. Enjoy evening breezes, grilled tandoor, and chilled drinks.
                   </p>
-                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#234B3C] flex items-center justify-between">
+                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#0F2C59] flex items-center justify-between">
                     <span>Poolside Tables</span>
                     <span className="text-[#C5A46D]">Evening Specials</span>
                   </div>
@@ -352,13 +352,13 @@ export default function DiningPage() {
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#C5A46D]">
                     Spirits & Brews
                   </span>
-                  <h3 className="font-serif text-xl font-bold text-[#234B3C] mt-1">
+                  <h3 className="font-serif text-xl font-bold text-[#0F2C59] mt-1">
                     Licensed Cocktail Bar
                   </h3>
                   <p className="mt-2 text-xs text-[#292D2A]/75 leading-relaxed flex-1">
                     A curated beverage selection including classic cocktails, chilled draught beer, mocktails, fresh lime refreshments, and party spirits.
                   </p>
-                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#234B3C] flex items-center justify-between">
+                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#0F2C59] flex items-center justify-between">
                     <span>Full Liquor Permit</span>
                     <span className="text-[#C5A46D]">11 AM – 11:30 PM</span>
                   </div>
@@ -388,13 +388,13 @@ export default function DiningPage() {
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#C5A46D]">
                     Celebration Feasts
                   </span>
-                  <h3 className="font-serif text-xl font-bold text-[#234B3C] mt-1">
+                  <h3 className="font-serif text-xl font-bold text-[#0F2C59] mt-1">
                     Banquet & Lawn Buffets
                   </h3>
                   <p className="mt-2 text-xs text-[#292D2A]/75 leading-relaxed flex-1">
                     Customized grand menus and live counters for birthdays, destination weddings, and corporate annual days on our lush party lawn.
                   </p>
-                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#234B3C] flex items-center justify-between">
+                  <div className="mt-4 pt-4 border-t border-[#E8DEC9] text-xs font-semibold text-[#0F2C59] flex items-center justify-between">
                     <span>Up to 500+ Guests</span>
                     <span className="text-[#C5A46D]">Custom Menus</span>
                   </div>
@@ -414,7 +414,7 @@ export default function DiningPage() {
                 <span className="text-xs uppercase tracking-[0.2em] text-[#C5A46D] font-bold block mb-2">
                   Culinary Highlights
                 </span>
-                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#234B3C]">
+                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0F2C59]">
                   Chef's Signature Recommendations
                 </h2>
               </div>
@@ -436,7 +436,7 @@ export default function DiningPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#234B3C] shadow-sm">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#0F2C59] shadow-sm">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Signature Roast
                     </span>
@@ -448,7 +448,7 @@ export default function DiningPage() {
 
                 <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
-                    <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
+                    <h3 className="font-serif text-2xl font-bold text-[#0F2C59] group-hover:text-[#C5A46D] transition-colors">
                       Apexify Signature Tandoori Chicken
                     </h3>
                     <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -459,11 +459,11 @@ export default function DiningPage() {
                   <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
                     <div>
                       <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Full Portion</span>
-                      <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹360</strong>
+                      <strong className="font-serif text-2xl font-bold text-[#0F2C59]">₹360</strong>
                     </div>
                     <a
                       href="#table-reservation"
-                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition"
                     >
                       <span>Reserve a Table</span>
                       <ChevronRight className="h-3.5 w-3.5" />
@@ -484,7 +484,7 @@ export default function DiningPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#234B3C] shadow-sm">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#0F2C59] shadow-sm">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Slow-Cooked Classic
                     </span>
@@ -496,7 +496,7 @@ export default function DiningPage() {
 
                 <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
-                    <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
+                    <h3 className="font-serif text-2xl font-bold text-[#0F2C59] group-hover:text-[#C5A46D] transition-colors">
                       Dal Makhani Royal
                     </h3>
                     <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -507,11 +507,11 @@ export default function DiningPage() {
                   <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
                     <div>
                       <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Serves 2-3 Guests</span>
-                      <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹260</strong>
+                      <strong className="font-serif text-2xl font-bold text-[#0F2C59]">₹260</strong>
                     </div>
                     <a
                       href="#table-reservation"
-                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition"
                     >
                       <span>Reserve a Table</span>
                       <ChevronRight className="h-3.5 w-3.5" />
@@ -532,7 +532,7 @@ export default function DiningPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#234B3C] shadow-sm">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-white/95 backdrop-blur-xs px-3 py-1 text-xs font-bold text-[#0F2C59] shadow-sm">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Clay Pot Special
                     </span>
@@ -544,7 +544,7 @@ export default function DiningPage() {
 
                 <div className="p-7 flex flex-col flex-1 justify-between">
                   <div>
-                    <h3 className="font-serif text-2xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors">
+                    <h3 className="font-serif text-2xl font-bold text-[#0F2C59] group-hover:text-[#C5A46D] transition-colors">
                       Hyderabadi Chicken Dum Biryani
                     </h3>
                     <p className="mt-3 text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -555,11 +555,11 @@ export default function DiningPage() {
                   <div className="mt-6 pt-4 border-t border-[#E8DEC9] flex items-baseline justify-between">
                     <div>
                       <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">Includes Raita</span>
-                      <strong className="font-serif text-2xl font-bold text-[#234B3C]">₹360</strong>
+                      <strong className="font-serif text-2xl font-bold text-[#0F2C59]">₹360</strong>
                     </div>
                     <a
                       href="#table-reservation"
-                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition"
                     >
                       <span>Reserve a Table</span>
                       <ChevronRight className="h-3.5 w-3.5" />
@@ -581,7 +581,7 @@ export default function DiningPage() {
               <span className="text-xs uppercase tracking-[0.25em] text-[#C5A46D] font-bold block mb-2">
                 A Taste of Our Kitchen
               </span>
-              <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#234B3C]">
+              <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#0F2C59]">
                 Explore Our Complete Menu
               </h2>
               <p className="mt-3 text-sm sm:text-base text-[#292D2A]/75 leading-relaxed">
@@ -600,12 +600,12 @@ export default function DiningPage() {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Search dishes by name or ingredients (e.g. Biryani, Paneer, Tandoori)..."
-                    className="w-full rounded-2xl border border-[#E8DEC9] bg-[#FAF9F6] pl-11 pr-10 py-3 text-sm text-[#292D2A] placeholder-[#292D2A]/45 focus:border-[#234B3C] focus:bg-white focus:outline-none transition shadow-inner"
+                    className="w-full rounded-2xl border border-[#E8DEC9] bg-[#FAF9F6] pl-11 pr-10 py-3 text-sm text-[#292D2A] placeholder-[#292D2A]/45 focus:border-[#0F2C59] focus:bg-white focus:outline-none transition shadow-inner"
                   />
                   {searchQuery && (
                     <button
                       onClick={() => setSearchQuery("")}
-                      className="absolute right-3.5 top-1/2 -translate-y-1/2 text-xs font-bold text-[#292D2A]/50 hover:text-[#234B3C] px-2 py-1 rounded-md bg-white border border-[#E8DEC9]"
+                      className="absolute right-3.5 top-1/2 -translate-y-1/2 text-xs font-bold text-[#292D2A]/50 hover:text-[#0F2C59] px-2 py-1 rounded-md bg-white border border-[#E8DEC9]"
                     >
                       Clear
                     </button>
@@ -618,7 +618,7 @@ export default function DiningPage() {
                     onClick={() => setDietaryFilter("all")}
                     className={`rounded-xl px-4 py-2.5 text-xs font-semibold transition ${
                       dietaryFilter === "all"
-                        ? "bg-[#234B3C] text-white shadow-xs"
+                        ? "bg-[#0F2C59] text-white shadow-xs"
                         : "bg-[#FAF9F6] text-[#292D2A]/75 border border-[#E8DEC9] hover:bg-[#F4EFE5]"
                     }`}
                   >
@@ -654,7 +654,7 @@ export default function DiningPage() {
                     onClick={() => setDietaryFilter("chef-special")}
                     className={`rounded-xl px-4 py-2.5 text-xs font-semibold transition flex items-center gap-1.5 ${
                       dietaryFilter === "chef-special"
-                        ? "bg-[#C5A46D] text-[#234B3C] shadow-xs font-bold"
+                        ? "bg-[#C5A46D] text-[#0F2C59] shadow-xs font-bold"
                         : "bg-[#FAF9F6] text-[#292D2A]/75 border border-[#E8DEC9] hover:bg-[#F4EFE5]"
                     }`}
                   >
@@ -671,7 +671,7 @@ export default function DiningPage() {
                     onClick={() => setSelectedCategory("all")}
                     className={`rounded-xl px-4 py-2 text-xs font-semibold transition ${
                       selectedCategory === "all"
-                        ? "bg-[#234B3C] text-white"
+                        ? "bg-[#0F2C59] text-white"
                         : "bg-[#FAF9F6] text-[#292D2A]/75 border border-[#E8DEC9] hover:bg-[#F4EFE5]"
                     }`}
                   >
@@ -685,7 +685,7 @@ export default function DiningPage() {
                         onClick={() => setSelectedCategory(cat.id)}
                         className={`rounded-xl px-4 py-2 text-xs font-semibold transition flex items-center gap-1.5 ${
                           selectedCategory === cat.id
-                            ? "bg-[#234B3C] text-white shadow-xs"
+                            ? "bg-[#0F2C59] text-white shadow-xs"
                             : "bg-[#FAF9F6] text-[#292D2A]/75 border border-[#E8DEC9] hover:bg-[#F4EFE5]"
                         }`}
                       >
@@ -705,7 +705,7 @@ export default function DiningPage() {
                 </div>
 
                 <div className="text-xs text-[#292D2A]/70 flex items-center gap-1.5">
-                  <CheckCheck className="h-4 w-4 text-[#234B3C]" />
+                  <CheckCheck className="h-4 w-4 text-[#0F2C59]" />
                   <span>Showing <strong>{totalFilteredCount}</strong> curated dishes</span>
                 </div>
               </div>
@@ -715,7 +715,7 @@ export default function DiningPage() {
             {displayedCategories.length === 0 ? (
               <div className="text-center py-20 bg-white rounded-3xl border border-[#E8DEC9] p-8 max-w-xl mx-auto shadow-sm">
                 <Utensils className="h-12 w-12 text-[#C5A46D] mx-auto mb-3 opacity-60" />
-                <h4 className="font-serif text-2xl font-bold text-[#234B3C]">No dishes found</h4>
+                <h4 className="font-serif text-2xl font-bold text-[#0F2C59]">No dishes found</h4>
                 <p className="mt-2 text-xs sm:text-sm text-[#292D2A]/70 leading-relaxed">
                   We couldn't find any dishes matching your current search or dietary filters. Try resetting the filters to view the full menu.
                 </p>
@@ -725,7 +725,7 @@ export default function DiningPage() {
                     setDietaryFilter("all");
                     setSelectedCategory("all");
                   }}
-                  className="mt-5 inline-flex items-center gap-2 rounded-xl bg-[#234B3C] px-5 py-2.5 text-xs font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition"
+                  className="mt-5 inline-flex items-center gap-2 rounded-xl bg-[#0F2C59] px-5 py-2.5 text-xs font-semibold text-white shadow-sm hover:bg-[#163B72] transition"
                 >
                   Reset All Filters
                 </button>
@@ -741,7 +741,7 @@ export default function DiningPage() {
                           <span className="h-1.5 w-1.5 rounded-full bg-[#C5A46D]" />
                           <span>Specialty Category</span>
                         </div>
-                        <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#234B3C]">
+                        <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F2C59]">
                           {category.name}
                         </h3>
                         <p className="text-xs sm:text-sm text-[#292D2A]/70 mt-1 max-w-2xl">
@@ -803,7 +803,7 @@ export default function DiningPage() {
                                   )}
 
                                   {item.isChefSpecial && (
-                                    <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D]/20 px-2.5 py-0.5 text-[10.5px] font-bold text-[#234B3C]">
+                                    <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D]/20 px-2.5 py-0.5 text-[10.5px] font-bold text-[#0F2C59]">
                                       <Sparkles className="h-3 w-3 text-[#C5A46D]" />
                                       Chef Special
                                     </span>
@@ -819,14 +819,14 @@ export default function DiningPage() {
 
                                 {/* Price */}
                                 <div className="text-right">
-                                  <span className="font-serif font-bold text-xl sm:text-2xl text-[#234B3C]">
+                                  <span className="font-serif font-bold text-xl sm:text-2xl text-[#0F2C59]">
                                     ₹{item.price}
                                   </span>
                                 </div>
                               </div>
 
                               {/* Dish Name */}
-                              <h4 className="font-serif text-lg sm:text-xl font-bold text-[#234B3C] group-hover:text-[#C5A46D] transition-colors leading-snug">
+                              <h4 className="font-serif text-lg sm:text-xl font-bold text-[#0F2C59] group-hover:text-[#C5A46D] transition-colors leading-snug">
                                 {item.name}
                               </h4>
 
@@ -847,7 +847,7 @@ export default function DiningPage() {
                                 href={`https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20am%20interested%20in%20ordering%20the%20${encodeURIComponent(item.name)}%20(₹${item.price}).`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1.5 rounded-xl bg-[#234B3C]/5 hover:bg-[#234B3C] text-[#234B3C] hover:text-white px-3.5 py-1.5 font-semibold text-xs transition duration-200"
+                                className="inline-flex items-center gap-1.5 rounded-xl bg-[#0F2C59]/5 hover:bg-[#0F2C59] text-[#0F2C59] hover:text-white px-3.5 py-1.5 font-semibold text-xs transition duration-200"
                               >
                                 <MessageSquare className="h-3.5 w-3.5 text-[#25D366] group-hover:text-white" />
                                 <span>Order</span>
@@ -872,10 +872,10 @@ export default function DiningPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Card 1 */}
               <div className="rounded-3xl bg-[#FAF9F6] p-7 border border-[#E8DEC9] space-y-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#234B3C] text-[#C5A46D]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0F2C59] text-[#C5A46D]">
                   <Coffee className="h-6 w-6" />
                 </div>
-                <h4 className="font-serif text-xl font-bold text-[#234B3C]">
+                <h4 className="font-serif text-xl font-bold text-[#0F2C59]">
                   Morning Breakfast
                 </h4>
                 <p className="text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -885,10 +885,10 @@ export default function DiningPage() {
 
               {/* Card 2 */}
               <div className="rounded-3xl bg-[#FAF9F6] p-7 border border-[#E8DEC9] space-y-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#234B3C] text-[#C5A46D]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0F2C59] text-[#C5A46D]">
                   <Utensils className="h-6 w-6" />
                 </div>
-                <h4 className="font-serif text-xl font-bold text-[#234B3C]">
+                <h4 className="font-serif text-xl font-bold text-[#0F2C59]">
                   Lunch & Afternoon
                 </h4>
                 <p className="text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -898,10 +898,10 @@ export default function DiningPage() {
 
               {/* Card 3 */}
               <div className="rounded-3xl bg-[#FAF9F6] p-7 border border-[#E8DEC9] space-y-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#234B3C] text-[#C5A46D]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0F2C59] text-[#C5A46D]">
                   <Clock className="h-6 w-6" />
                 </div>
-                <h4 className="font-serif text-xl font-bold text-[#234B3C]">
+                <h4 className="font-serif text-xl font-bold text-[#0F2C59]">
                   Evening Sundowners
                 </h4>
                 <p className="text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -911,10 +911,10 @@ export default function DiningPage() {
 
               {/* Card 4 */}
               <div className="rounded-3xl bg-[#FAF9F6] p-7 border border-[#E8DEC9] space-y-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#234B3C] text-[#C5A46D]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0F2C59] text-[#C5A46D]">
                   <Wine className="h-6 w-6" />
                 </div>
-                <h4 className="font-serif text-xl font-bold text-[#234B3C]">
+                <h4 className="font-serif text-xl font-bold text-[#0F2C59]">
                   Dinner & Cocktails
                 </h4>
                 <p className="text-xs sm:text-sm text-[#292D2A]/75 leading-relaxed">
@@ -932,7 +932,7 @@ export default function DiningPage() {
           <div className="mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
               {/* Left Column: Hospitality Context & Visual Guarantee */}
-              <div className="lg:col-span-5 rounded-3xl bg-[#234B3C] text-white p-8 sm:p-12 flex flex-col justify-between relative overflow-hidden shadow-md">
+              <div className="lg:col-span-5 rounded-3xl bg-[#0F2C59] text-white p-8 sm:p-12 flex flex-col justify-between relative overflow-hidden shadow-md">
                 <div className="relative z-10">
                   <div className="inline-flex items-center gap-2 rounded-full border border-[#C5A46D]/40 bg-[#C5A46D]/15 px-3.5 py-1 text-xs font-semibold text-[#F4EFE5] mb-6">
                     <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
@@ -1011,17 +1011,17 @@ export default function DiningPage() {
                     <span className="text-xs uppercase tracking-wider text-[#C5A46D] font-bold block mb-1">
                       Online Reservation Form
                     </span>
-                    <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#234B3C]">
+                    <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F2C59]">
                       Table Request Details
                     </h3>
                   </div>
 
                   {reservationSuccess ? (
                     <div className="text-center py-12">
-                      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C] mb-4">
-                        <CheckCircle className="h-10 w-10 text-[#234B3C]" />
+                      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59] mb-4">
+                        <CheckCircle className="h-10 w-10 text-[#0F2C59]" />
                       </div>
-                      <h4 className="font-serif text-2xl font-bold text-[#234B3C]">
+                      <h4 className="font-serif text-2xl font-bold text-[#0F2C59]">
                         Table Request Received!
                       </h4>
                       <p className="mt-2 text-sm text-[#292D2A]/80 max-w-md mx-auto leading-relaxed">
@@ -1044,7 +1044,7 @@ export default function DiningPage() {
                             setReservationName("");
                             setReservationPhone("");
                           }}
-                          className="rounded-xl border border-[#234B3C] px-5 py-3 text-xs font-semibold text-[#234B3C] hover:bg-[#FAF9F6] transition"
+                          className="rounded-xl border border-[#0F2C59] px-5 py-3 text-xs font-semibold text-[#0F2C59] hover:bg-[#FAF9F6] transition"
                         >
                           Reserve Another Table
                         </button>
@@ -1070,7 +1070,7 @@ export default function DiningPage() {
                             value={reservationName}
                             onChange={(e) => setReservationName(e.target.value)}
                             placeholder="e.g. Rajesh Patil"
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           />
                         </div>
 
@@ -1084,7 +1084,7 @@ export default function DiningPage() {
                             value={reservationPhone}
                             onChange={(e) => setReservationPhone(e.target.value)}
                             placeholder="e.g. 98200 00000"
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           />
                         </div>
                       </div>
@@ -1099,7 +1099,7 @@ export default function DiningPage() {
                             required
                             value={reservationDate}
                             onChange={(e) => setReservationDate(e.target.value)}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           />
                         </div>
 
@@ -1110,7 +1110,7 @@ export default function DiningPage() {
                           <select
                             value={reservationTimeSlot}
                             onChange={(e) => setReservationTimeSlot(e.target.value)}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           >
                             <option value="Lunch (12:00 PM - 3:30 PM)">Lunch (12:00 PM - 3:30 PM)</option>
                             <option value="Sundowner / Tea (4:00 PM - 6:30 PM)">Sundowner / Tea (4:00 PM - 6:30 PM)</option>
@@ -1125,7 +1125,7 @@ export default function DiningPage() {
                           <select
                             value={guestsCount}
                             onChange={(e) => setGuestsCount(e.target.value)}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           >
                             <option value="2">2 Guests (Couple)</option>
                             <option value="4">4 Guests (Family)</option>
@@ -1145,7 +1145,7 @@ export default function DiningPage() {
                           <select
                             value={seatingPreference}
                             onChange={(e) => setSeatingPreference(e.target.value)}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           >
                             <option value="Poolside Deck Tables (Outdoor Starlit)">Poolside Deck Tables (Outdoor Starlit)</option>
                             <option value="Main Indoor AC Hall (Family Comfort)">Main Indoor AC Hall (Family Comfort)</option>
@@ -1161,7 +1161,7 @@ export default function DiningPage() {
                           <select
                             value={specialOccasion}
                             onChange={(e) => setSpecialOccasion(e.target.value)}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           >
                             <option value="Family Dinner / Casual Outing">Family Dinner / Casual Outing</option>
                             <option value="Birthday Celebration">Birthday Celebration</option>
@@ -1175,7 +1175,7 @@ export default function DiningPage() {
                       <button
                         type="submit"
                         disabled={isSubmittingReservation}
-                        className="w-full mt-4 flex items-center justify-center gap-2 rounded-2xl bg-[#234B3C] py-4 px-6 text-sm font-semibold text-white shadow-md hover:bg-[#1b3b2f] transition-all hover:shadow-lg disabled:opacity-50"
+                        className="w-full mt-4 flex items-center justify-center gap-2 rounded-2xl bg-[#0F2C59] py-4 px-6 text-sm font-semibold text-white shadow-md hover:bg-[#163B72] transition-all hover:shadow-lg disabled:opacity-50"
                       >
                         {isSubmittingReservation ? (
                           <span>Submitting Table Reservation...</span>
@@ -1193,11 +1193,11 @@ export default function DiningPage() {
                 {/* Direct Help Guarantee */}
                 <div className="mt-8 pt-5 border-t border-[#E8DEC9] flex flex-wrap items-center justify-between gap-3 text-xs text-[#292D2A]/70">
                   <div className="flex items-center gap-2">
-                    <ShieldCheck className="h-4 w-4 text-[#234B3C]" />
+                    <ShieldCheck className="h-4 w-4 text-[#0F2C59]" />
                     <span>Instant Table Confirmation · No Credit Card Required</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="font-semibold text-[#234B3C]">Waliv, Vasai East</span>
+                    <span className="font-semibold text-[#0F2C59]">Waliv, Vasai East</span>
                   </div>
                 </div>
               </div>

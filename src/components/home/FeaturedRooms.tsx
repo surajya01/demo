@@ -38,7 +38,7 @@ export function FeaturedRooms() {
                     {/* Status Badge */}
                     <div className="absolute top-3 left-3 flex flex-col gap-1.5">
                       {room.isVerified ? (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-[#234B3C]/90 px-3 py-1 text-[11px] font-semibold text-[#F4EFE5] backdrop-blur-sm shadow-sm">
+                        <span className="inline-flex items-center gap-1 rounded-full bg-[#0F2C59]/90 px-3 py-1 text-[11px] font-semibold text-[#F4EFE5] backdrop-blur-sm shadow-sm">
                           <Sparkles className="h-3 w-3 text-[#C5A46D]" />
                           Verified Genuine Photo
                         </span>
@@ -48,7 +48,7 @@ export function FeaturedRooms() {
                         </span>
                       )}
                       {room.isPopular && (
-                        <span className="inline-flex items-center rounded-full bg-[#C5A46D] px-3 py-1 text-[11px] font-bold text-[#234B3C] shadow-sm">
+                        <span className="inline-flex items-center rounded-full bg-[#C5A46D] px-3 py-1 text-[11px] font-bold text-[#0F2C59] shadow-sm">
                           Most Popular
                         </span>
                       )}
@@ -57,7 +57,7 @@ export function FeaturedRooms() {
                     {/* Price Tag Overlay */}
                     <div className="absolute bottom-3 right-3 rounded-xl bg-white/95 px-3.5 py-1.5 text-right shadow-md backdrop-blur-sm border border-[#C5A46D]/20">
                       <span className="text-[10px] uppercase font-semibold text-[#292D2A]/70 block">Starting From</span>
-                      <div className="font-serif text-lg font-bold text-[#234B3C]">
+                      <div className="font-serif text-lg font-bold text-[#0F2C59]">
                         ₹{room.basePrice.toLocaleString()}
                         <span className="text-xs font-normal text-[#292D2A]/70 font-sans"> / night</span>
                       </div>
@@ -69,7 +69,7 @@ export function FeaturedRooms() {
                     <span className="text-xs font-semibold uppercase tracking-wider text-[#C5A46D]">
                       {room.categoryName}
                     </span>
-                    <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#234B3C] mt-1 group-hover:text-[#C5A46D] transition">
+                    <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#0F2C59] mt-1 group-hover:text-[#C5A46D] transition">
                       <Link href={`/rooms/${room.slug}`}>{room.name}</Link>
                     </h3>
 
@@ -97,7 +97,7 @@ export function FeaturedRooms() {
                     <div className="space-y-1.5 mb-6 text-xs text-[#292D2A]/80">
                       {room.amenities.slice(0, 3).map((amenity, i) => (
                         <div key={i} className="flex items-center gap-2">
-                          <Check className="h-3.5 w-3.5 text-[#234B3C] flex-shrink-0" />
+                          <Check className="h-3.5 w-3.5 text-[#0F2C59] flex-shrink-0" />
                           <span className="truncate">{amenity}</span>
                         </div>
                       ))}
@@ -107,13 +107,13 @@ export function FeaturedRooms() {
                     <div className="mt-auto grid grid-cols-2 gap-2.5 pt-2">
                       <Link
                         href={`/rooms/${room.slug}`}
-                        className="rounded-xl border border-[#234B3C]/30 bg-transparent py-2.5 px-3 text-center text-xs sm:text-sm font-semibold text-[#234B3C] hover:bg-[#FAF9F6] transition"
+                        className="rounded-xl border border-[#0F2C59]/30 bg-transparent py-2.5 px-3 text-center text-xs sm:text-sm font-semibold text-[#0F2C59] hover:bg-[#FAF9F6] transition"
                       >
                         View Details
                       </Link>
                       <button
                         onClick={() => setSelectedRoomSlug(room.slug)}
-                        className="rounded-xl bg-[#234B3C] py-2.5 px-3 text-center text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition flex items-center justify-center gap-1.5"
+                        className="rounded-xl bg-[#0F2C59] py-2.5 px-3 text-center text-xs sm:text-sm font-semibold text-white shadow-sm hover:bg-[#163B72] transition flex items-center justify-center gap-1.5"
                       >
                         <Calendar className="h-3.5 w-3.5 text-[#C5A46D]" />
                         <span>Enquire</span>
@@ -129,7 +129,7 @@ export function FeaturedRooms() {
           <div className="mt-12 text-center">
             <Link
               href="/rooms"
-              className="inline-flex items-center gap-2 rounded-xl bg-[#234B3C] px-7 py-3.5 text-sm font-semibold text-white shadow-md hover:bg-[#1b3b2f] transition"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#0F2C59] px-7 py-3.5 text-sm font-semibold text-white shadow-md hover:bg-[#163B72] transition"
             >
               <span>Explore All Rooms & Accommodation Plans</span>
               <ArrowRight className="h-4 w-4 text-[#C5A46D]" />

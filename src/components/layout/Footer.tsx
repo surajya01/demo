@@ -5,7 +5,7 @@ import { BRAND_CONFIG } from "@/config/brand";
 
 export function Footer() {
   return (
-    <footer className="bg-[#234B3C] text-[#FAF9F6] border-t border-[#C5A46D]/20">
+    <footer className="bg-[#0F2C59] text-[#FAF9F6] border-t border-[#C5A46D]/20">
       {/* Top Banner CTA */}
       <div className="border-b border-white/10 bg-[#1d3f33]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
@@ -49,7 +49,7 @@ export function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#C5A46D] text-[#234B3C] shadow-sm">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#C5A46D] text-[#0F2C59] shadow-sm">
                 <span className="font-serif text-2xl font-bold">A</span>
               </div>
               <div>

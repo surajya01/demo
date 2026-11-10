@@ -68,7 +68,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-[#FAF9F6]">
       {/* Page Header */}
-      <section className="relative py-20 sm:py-28 bg-[#234B3C] text-white overflow-hidden">
+      <section className="relative py-20 sm:py-28 bg-[#0F2C59] text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="/images/resort/exterior_facade.jpg"
@@ -103,7 +103,7 @@ export default function ContactPage() {
                     <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-bold">
                       Direct Hospitality Desk
                     </span>
-                    <h2 className="font-serif text-2xl font-bold text-[#234B3C] mt-1">
+                    <h2 className="font-serif text-2xl font-bold text-[#0F2C59] mt-1">
                       Resort Contact Details
                     </h2>
                     <p className="mt-2 text-xs text-[#292D2A]/75 leading-relaxed">
@@ -114,11 +114,11 @@ export default function ContactPage() {
                   {/* Contact Items */}
                   <div className="space-y-4 pt-2 text-xs sm:text-sm text-[#292D2A]/85">
                     <div className="flex items-start gap-3.5">
-                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] flex-shrink-0">
+                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
                         <MapPin className="h-4 w-4" />
                       </div>
                       <div>
-                        <strong className="text-[#234B3C] block font-semibold">Resort Location:</strong>
+                        <strong className="text-[#0F2C59] block font-semibold">Resort Location:</strong>
                         <span className="text-[#292D2A]/75 leading-relaxed block mt-0.5">
                           {BRAND_CONFIG.location.address},<br />
                           {BRAND_CONFIG.location.city}, {BRAND_CONFIG.location.district} - {BRAND_CONFIG.location.pincode}, Maharashtra.
@@ -130,32 +130,32 @@ export default function ContactPage() {
                     </div>
 
                     <div className="flex items-start gap-3.5">
-                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] flex-shrink-0">
+                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
                         <Phone className="h-4 w-4" />
                       </div>
                       <div>
-                        <strong className="text-[#234B3C] block font-semibold">Telephone & Front Desk:</strong>
+                        <strong className="text-[#0F2C59] block font-semibold">Telephone & Front Desk:</strong>
                         <span className="text-[#292D2A]/75 block mt-0.5">+91 98200 00000 / +91 0250 000000</span>
                         <span className="text-[11px] text-[#292D2A]/60 block">Available 24 Hours / 7 Days</span>
                       </div>
                     </div>
 
                     <div className="flex items-start gap-3.5">
-                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] flex-shrink-0">
+                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
                         <Mail className="h-4 w-4" />
                       </div>
                       <div>
-                        <strong className="text-[#234B3C] block font-semibold">Email Correspondence:</strong>
+                        <strong className="text-[#0F2C59] block font-semibold">Email Correspondence:</strong>
                         <span className="text-[#292D2A]/75 block mt-0.5">info@apexify-resort.example.com</span>
                       </div>
                     </div>
 
                     <div className="flex items-start gap-3.5">
-                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] flex-shrink-0">
+                      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
                         <Clock className="h-4 w-4" />
                       </div>
                       <div>
-                        <strong className="text-[#234B3C] block font-semibold">Check-in / Check-out:</strong>
+                        <strong className="text-[#0F2C59] block font-semibold">Check-in / Check-out:</strong>
                         <span className="text-[#292D2A]/75 block mt-0.5">
                           Check-in: 12:00 PM · Check-out: 10:00 AM
                         </span>
@@ -181,25 +181,25 @@ export default function ContactPage() {
               {/* Transit Distance Summary */}
               <MotionWrapper direction="left" delay={0.15}>
                 <div className="rounded-3xl bg-[#F4EFE5] p-6 border border-[#C5A46D]/30 space-y-3">
-                  <h4 className="font-serif font-bold text-base text-[#234B3C]">
+                  <h4 className="font-serif font-bold text-base text-[#0F2C59]">
                     Transit & Railway Connectivity
                   </h4>
                   <ul className="text-xs text-[#292D2A]/80 space-y-2">
                     <li className="flex justify-between">
                       <span>Vasai Road Railway Station:</span>
-                      <strong className="text-[#234B3C]">7.0 km (15-20 min)</strong>
+                      <strong className="text-[#0F2C59]">7.0 km (15-20 min)</strong>
                     </li>
                     <li className="flex justify-between">
                       <span>Nalasopara Railway Station:</span>
-                      <strong className="text-[#234B3C]">7.0 km (15-20 min)</strong>
+                      <strong className="text-[#0F2C59]">7.0 km (15-20 min)</strong>
                     </li>
                     <li className="flex justify-between">
                       <span>Western Express Highway (NH 48):</span>
-                      <strong className="text-[#234B3C]">3.5 km via Pelhar</strong>
+                      <strong className="text-[#0F2C59]">3.5 km via Pelhar</strong>
                     </li>
                     <li className="flex justify-between">
                       <span>Mumbai Airport (BOM):</span>
-                      <strong className="text-[#234B3C]">36 – 42 km</strong>
+                      <strong className="text-[#0F2C59]">36 – 42 km</strong>
                     </li>
                   </ul>
                 </div>
@@ -213,7 +213,7 @@ export default function ContactPage() {
                   <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-bold">
                     Online Communication
                   </span>
-                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#234B3C] mt-1">
+                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F2C59] mt-1">
                     Send an Enquiry Message
                   </h3>
                   <p className="mt-2 text-xs sm:text-sm text-[#292D2A]/75">
@@ -222,10 +222,10 @@ export default function ContactPage() {
 
                   {isSubmitted ? (
                     <div className="my-10 text-center py-8">
-                      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C] mb-4">
+                      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59] mb-4">
                         <CheckCircle className="h-9 w-9" />
                       </div>
-                      <h4 className="font-serif text-2xl font-bold text-[#234B3C]">
+                      <h4 className="font-serif text-2xl font-bold text-[#0F2C59]">
                         Enquiry Successfully Registered
                       </h4>
                       <p className="mt-3 text-sm text-[#292D2A]/80 max-w-md mx-auto leading-relaxed">
@@ -233,7 +233,7 @@ export default function ContactPage() {
                       </p>
 
                       <div className="my-6 max-w-md mx-auto rounded-2xl bg-[#F4EFE5] p-4 border border-[#C5A46D]/30 text-xs text-left text-[#292D2A]/80 space-y-1.5">
-                        <p className="font-semibold text-[#234B3C] uppercase text-[11px]">
+                        <p className="font-semibold text-[#0F2C59] uppercase text-[11px]">
                           Next Steps:
                         </p>
                         <p>
@@ -249,7 +249,7 @@ export default function ContactPage() {
                           setIsSubmitted(false);
                           setFormData({ name: "", phone: "", email: "", subject: "General Room Enquiry", message: "" });
                         }}
-                        className="rounded-xl border border-[#234B3C] px-5 py-2.5 text-xs font-semibold text-[#234B3C] hover:bg-[#FAF9F6] transition"
+                        className="rounded-xl border border-[#0F2C59] px-5 py-2.5 text-xs font-semibold text-[#0F2C59] hover:bg-[#FAF9F6] transition"
                       >
                         Submit Another Message
                       </button>
@@ -276,7 +276,7 @@ export default function ContactPage() {
                             placeholder="e.g. Sameer Kulkarni"
                             value={formData.name}
                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           />
                         </div>
 
@@ -292,7 +292,7 @@ export default function ContactPage() {
                             placeholder="e.g. 98200 00000"
                             value={formData.phone}
                             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           />
                         </div>
                       </div>
@@ -309,7 +309,7 @@ export default function ContactPage() {
                             placeholder="e.g. sameer@example.com"
                             value={formData.email}
                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           />
                         </div>
 
@@ -322,7 +322,7 @@ export default function ContactPage() {
                             name="subject"
                             value={formData.subject}
                             onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                            className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                           >
                             <option value="General Room Enquiry">Room Stay & Suite Reservation</option>
                             <option value="Day Picnic & Pool Pass">Day Picnic & Swimming Pool Pass</option>
@@ -344,7 +344,7 @@ export default function ContactPage() {
                           placeholder="Tell us about your expected dates, guest count, or any specific celebration needs..."
                           value={formData.message}
                           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                          className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                          className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-4 py-3 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                         />
                       </div>
 
@@ -352,7 +352,7 @@ export default function ContactPage() {
                         <button
                           type="submit"
                           disabled={isSubmitting}
-                          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-[#234B3C] py-3.5 px-8 text-sm font-semibold text-white shadow-md hover:bg-[#1b3b2f] transition disabled:opacity-70"
+                          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-[#0F2C59] py-3.5 px-8 text-sm font-semibold text-white shadow-md hover:bg-[#163B72] transition disabled:opacity-70"
                         >
                           {isSubmitting ? (
                             <>
@@ -369,7 +369,7 @@ export default function ContactPage() {
                       </div>
 
                       <div className="mt-4 p-3 rounded-xl bg-[#FAF9F6] border border-[#E8DEC9] text-[11px] text-[#292D2A]/70 flex items-center gap-2">
-                        <ShieldCheck className="h-4 w-4 text-[#234B3C] flex-shrink-0" />
+                        <ShieldCheck className="h-4 w-4 text-[#0F2C59] flex-shrink-0" />
                         <span>We respect your privacy. Contact details are used strictly for reservation correspondence.</span>
                       </div>
                     </form>

@@ -43,7 +43,7 @@ export function TestimonialsSection() {
 
                 {/* Author Info */}
                 <div className="mt-6 pt-4 border-t border-[#E8DEC9]/60">
-                  <div className="font-serif font-bold text-base text-[#234B3C]">
+                  <div className="font-serif font-bold text-base text-[#0F2C59]">
                     {item.guestName}
                   </div>
                   <div className="text-xs text-[#292D2A]/60 flex items-center justify-between mt-0.5">

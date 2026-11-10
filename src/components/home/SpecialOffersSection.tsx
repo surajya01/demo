@@ -37,7 +37,7 @@ export function SpecialOffersSection() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                     <div className="absolute top-3 left-3">
-                      <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D] px-3 py-1 text-[11px] font-bold text-[#234B3C] shadow-sm">
+                      <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D] px-3 py-1 text-[11px] font-bold text-[#0F2C59] shadow-sm">
                         <Tag className="h-3 w-3" />
                         {offer.badge}
                       </span>
@@ -51,7 +51,7 @@ export function SpecialOffersSection() {
 
                   {/* Body */}
                   <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="font-serif text-xl font-bold text-[#234B3C]">
+                    <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
                       {offer.title}
                     </h3>
 
@@ -60,7 +60,7 @@ export function SpecialOffersSection() {
                     </p>
 
                     {/* Price banner */}
-                    <div className="my-4 rounded-xl bg-[#FAF9F6] p-3 border border-[#E8DEC9] text-xs font-semibold text-[#234B3C]">
+                    <div className="my-4 rounded-xl bg-[#FAF9F6] p-3 border border-[#E8DEC9] text-xs font-semibold text-[#0F2C59]">
                       {offer.priceNote}
                     </div>
 
@@ -71,7 +71,7 @@ export function SpecialOffersSection() {
                       </span>
                       {offer.inclusions.slice(0, 4).map((inc, i) => (
                         <div key={i} className="flex items-start gap-2 text-xs text-[#292D2A]/80">
-                          <Check className="h-3.5 w-3.5 text-[#234B3C] mt-0.5 flex-shrink-0" />
+                          <Check className="h-3.5 w-3.5 text-[#0F2C59] mt-0.5 flex-shrink-0" />
                           <span>{inc}</span>
                         </div>
                       ))}
@@ -85,7 +85,7 @@ export function SpecialOffersSection() {
                     {/* CTA */}
                     <button
                       onClick={() => setIsModalOpen(true)}
-                      className="w-full rounded-xl bg-[#234B3C] py-2.5 px-4 text-center text-xs font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition flex items-center justify-center gap-2"
+                      className="w-full rounded-xl bg-[#0F2C59] py-2.5 px-4 text-center text-xs font-semibold text-white shadow-sm hover:bg-[#163B72] transition flex items-center justify-center gap-2"
                     >
                       <Calendar className="h-3.5 w-3.5 text-[#C5A46D]" />
                       <span>Enquire About Package</span>
@@ -99,7 +99,7 @@ export function SpecialOffersSection() {
           <div className="mt-12 text-center">
             <Link
               href="/offers"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition"
             >
               <span>View full terms & seasonal offer details</span>
               <ArrowRight className="h-4 w-4" />

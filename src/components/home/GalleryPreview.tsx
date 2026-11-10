@@ -34,7 +34,7 @@ export function GalleryPreview() {
             />
             <Link
               href="/gallery"
-              className="inline-flex items-center gap-2 rounded-xl border border-[#234B3C] bg-white px-5 py-2.5 text-sm font-semibold text-[#234B3C] hover:bg-[#234B3C] hover:text-white transition-all shadow-sm"
+              className="inline-flex items-center gap-2 rounded-xl border border-[#0F2C59] bg-white px-5 py-2.5 text-sm font-semibold text-[#0F2C59] hover:bg-[#0F2C59] hover:text-white transition-all shadow-sm"
             >
               <span>View Full Gallery (10+ Photos)</span>
               <ArrowRight className="h-4 w-4" />

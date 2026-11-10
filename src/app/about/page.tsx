@@ -15,7 +15,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#FAF9F6]">
       {/* Page Header Banner */}
-      <section className="relative py-20 sm:py-28 bg-[#234B3C] text-white overflow-hidden">
+      <section className="relative py-20 sm:py-28 bg-[#0F2C59] text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-25">
           <Image
             src="/images/resort/exterior_facade.jpg"
@@ -48,7 +48,7 @@ export default function AboutPage() {
                 <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold block mb-2">
                   Hospitality with Heart
                 </span>
-                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#234B3C] leading-snug">
+                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0F2C59] leading-snug">
                   Designed for Effortless Escapes and Meaningful Celebrations
                 </h2>
                 <p className="mt-5 text-base text-[#292D2A]/80 leading-relaxed">
@@ -60,13 +60,13 @@ export default function AboutPage() {
 
                 <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="rounded-xl bg-[#F4EFE5] p-4 border border-[#C5A46D]/30">
-                    <h4 className="font-serif font-bold text-[#234B3C] text-base mb-1">Our Mission</h4>
+                    <h4 className="font-serif font-bold text-[#0F2C59] text-base mb-1">Our Mission</h4>
                     <p className="text-xs text-[#292D2A]/75 leading-relaxed">
                       To deliver warm, hassle-free hospitality that lets guests recharge, celebrate, and feel completely at home.
                     </p>
                   </div>
                   <div className="rounded-xl bg-[#F4EFE5] p-4 border border-[#C5A46D]/30">
-                    <h4 className="font-serif font-bold text-[#234B3C] text-base mb-1">Our Promise</h4>
+                    <h4 className="font-serif font-bold text-[#0F2C59] text-base mb-1">Our Promise</h4>
                     <p className="text-xs text-[#292D2A]/75 leading-relaxed">
                       Clean air-conditioned accommodations, authentic cuisine, genuine property care, and transparent pricing.
                     </p>
@@ -131,10 +131,10 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="rounded-2xl bg-white p-8 shadow-sm border border-[#E8DEC9] space-y-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D]">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D]">
                 <Waves className="h-6 w-6" />
               </div>
-              <h3 className="font-serif text-xl font-bold text-[#234B3C]">
+              <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
                 Recreation in Every Corner
               </h3>
               <p className="text-sm text-[#292D2A]/75 leading-relaxed">
@@ -143,10 +143,10 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm border border-[#E8DEC9] space-y-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D]">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D]">
                 <Utensils className="h-6 w-6" />
               </div>
-              <h3 className="font-serif text-xl font-bold text-[#234B3C]">
+              <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
                 Homestyle Quality Dining
               </h3>
               <p className="text-sm text-[#292D2A]/75 leading-relaxed">
@@ -155,10 +155,10 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm border border-[#E8DEC9] space-y-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D]">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D]">
                 <Users className="h-6 w-6" />
               </div>
-              <h3 className="font-serif text-xl font-bold text-[#234B3C]">
+              <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
                 Caring 24/7 Front Desk
               </h3>
               <p className="text-sm text-[#292D2A]/75 leading-relaxed">
@@ -170,7 +170,7 @@ export default function AboutPage() {
       </section>
 
       {/* Bottom CTA Banner */}
-      <section className="py-16 bg-[#234B3C] text-white text-center">
+      <section className="py-16 bg-[#0F2C59] text-white text-center">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold block mb-2">
             Plan Your Visit

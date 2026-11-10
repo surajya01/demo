@@ -16,7 +16,7 @@ export function WelcomeSection() {
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A46D] mb-3 block">
                 Welcome to Apexify Resort
               </span>
-              <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#234B3C] leading-[1.15]">
+              <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0F2C59] leading-[1.15]">
                 Where Natural Tranquility Meets Heartfelt Hospitality
               </h2>
 
@@ -29,27 +29,27 @@ export function WelcomeSection() {
               </p>
 
               {/* Value Points */}
-              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm font-medium text-[#234B3C]">
+              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm font-medium text-[#0F2C59]">
                 <div className="flex items-center gap-2.5">
-                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C]">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59]">
                     <Check className="h-3.5 w-3.5" />
                   </div>
                   <span>24-Hour Reception & Key Support</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C]">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59]">
                     <Check className="h-3.5 w-3.5" />
                   </div>
                   <span>Year-Round Outdoor Swimming Pool</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C]">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59]">
                     <Check className="h-3.5 w-3.5" />
                   </div>
                   <span>Multi-Cuisine Restaurant & Full Bar</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#234B3C]/10 text-[#234B3C]">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59]">
                     <Check className="h-3.5 w-3.5" />
                   </div>
                   <span>Dual Passenger Lifts & Accessibility</span>
@@ -60,7 +60,7 @@ export function WelcomeSection() {
               <div className="mt-10 flex items-center gap-4">
                 <Link
                   href="/about"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#234B3C] hover:text-[#C5A46D] transition group"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition group"
                 >
                   <span>Learn more about Apexify Resort story</span>
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -81,7 +81,7 @@ export function WelcomeSection() {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-                <div className="absolute top-4 left-4 rounded-full bg-[#234B3C]/90 px-3.5 py-1 text-[11px] font-semibold text-[#F4EFE5] backdrop-blur-sm">
+                <div className="absolute top-4 left-4 rounded-full bg-[#0F2C59]/90 px-3.5 py-1 text-[11px] font-semibold text-[#F4EFE5] backdrop-blur-sm">
                   Verified Property Reception
                 </div>
               </div>
@@ -101,7 +101,7 @@ export function WelcomeSection() {
               <div className="absolute -bottom-6 -right-4 sm:right-6 rounded-2xl bg-white p-5 shadow-xl border border-[#C5A46D]/30 max-w-[200px]">
                 <div className="flex items-center gap-2 text-[#C5A46D] mb-1">
                   <Sparkles className="h-5 w-5 fill-[#C5A46D]" />
-                  <span className="font-serif text-2xl font-bold text-[#234B3C]">100%</span>
+                  <span className="font-serif text-2xl font-bold text-[#0F2C59]">100%</span>
                 </div>
                 <p className="text-xs text-[#292D2A]/80 font-medium">
                   Genuine property photography & verified guest amenities.

@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#234B3C] hover:text-[#C5A46D] transition mb-8"
+          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition mb-8"
         >
           <ArrowLeft className="h-4 w-4" />
           <span>Back to Home</span>
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
             <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-bold">
               Legal & Compliance
             </span>
-            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#234B3C] mt-1">
+            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#0F2C59] mt-1">
               Privacy Policy
             </h1>
             <p className="mt-2 text-xs text-[#292D2A]/60">
@@ -36,14 +36,14 @@ export default function PrivacyPolicyPage() {
 
           <div className="prose prose-sm max-w-none text-[#292D2A]/80 space-y-6 text-sm leading-relaxed">
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">1. Introduction</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">1. Introduction</h3>
               <p>
                 Apexify Resort (&quot;we,&quot; &quot;our,&quot; or &quot;the Resort&quot;) is committed to respecting and protecting the privacy of our website visitors, guests, and patrons. This Privacy Policy describes the types of information we may collect from you and our practices for collecting, using, maintaining, and protecting that information.
               </p>
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">2. Information We Collect</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">2. Information We Collect</h3>
               <p>When you make an enquiry, request room reservation assistance, or contact us through our website, we may collect:</p>
               <ul className="list-disc pl-5 space-y-1 text-xs">
                 <li>Personal identification details such as your full name, mobile number, and email address.</li>
@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">3. How We Use Your Information</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">3. How We Use Your Information</h3>
               <p>We use information collected strictly for the purpose of:</p>
               <ul className="list-disc pl-5 space-y-1 text-xs">
                 <li>Facilitating reservation enquiries, date availability checks, and front desk communications.</li>
@@ -63,14 +63,14 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">4. Data Protection & Sharing</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">4. Data Protection & Sharing</h3>
               <p>
                 Apexify Resort does not sell, trade, or rent guest personal details to third-party marketing companies. Information is shared strictly with authorized operational staff members responsible for servicing your reservation.
               </p>
             </section>
 
             <section className="space-y-2">
-              <h3 className="font-serif text-lg font-bold text-[#234B3C]">5. Contact Regarding Privacy</h3>
+              <h3 className="font-serif text-lg font-bold text-[#0F2C59]">5. Contact Regarding Privacy</h3>
               <p>
                 If you have questions regarding this policy, please reach out to our management at:
               </p>

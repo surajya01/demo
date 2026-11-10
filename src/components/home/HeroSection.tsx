@@ -15,7 +15,7 @@ export function HeroSection() {
 
   return (
     <>
-      <section className="relative min-h-[90vh] lg:min-h-[92vh] flex items-center justify-center overflow-hidden bg-[#234B3C]">
+      <section className="relative min-h-[90vh] lg:min-h-[92vh] flex items-center justify-center overflow-hidden bg-[#0F2C59]">
         {/* Background Image with Dark Vignette */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <Image
@@ -27,8 +27,8 @@ export function HeroSection() {
             sizes="100vw"
           />
           {/* Multi-layered luxury overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#234B3C]/95 via-[#234B3C]/75 to-[#234B3C]/80" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#234B3C] via-transparent to-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0F2C59]/95 via-[#0F2C59]/75 to-[#0F2C59]/80" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0F2C59] via-transparent to-black/30" />
         </div>
 
         {/* Hero Content */}
@@ -122,7 +122,7 @@ export function HeroSection() {
                   type="date"
                   value={checkIn}
                   onChange={(e) => setCheckIn(e.target.value)}
-                  className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                  className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                 />
               </div>
 
@@ -136,7 +136,7 @@ export function HeroSection() {
                   type="date"
                   value={checkOut}
                   onChange={(e) => setCheckOut(e.target.value)}
-                  className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                  className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                 />
               </div>
 
@@ -149,7 +149,7 @@ export function HeroSection() {
                 <select
                   value={roomType}
                   onChange={(e) => setRoomType(e.target.value)}
-                  className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#234B3C] focus:bg-white focus:outline-none transition"
+                  className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
                 >
                   <option value="deluxe-double-room">Deluxe Double Room (AC)</option>
                   <option value="executive-double-room">Executive Double Room</option>
@@ -161,7 +161,7 @@ export function HeroSection() {
               <div>
                 <button
                   onClick={() => setIsModalOpen(true)}
-                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#234B3C] py-3 px-4 text-sm font-semibold text-white shadow-md hover:bg-[#1b3b2f] transition-all hover:shadow-lg"
+                  className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#0F2C59] py-3 px-4 text-sm font-semibold text-white shadow-md hover:bg-[#163B72] transition-all hover:shadow-lg"
                 >
                   <span>Check Availability</span>
                   <ArrowRight className="h-4 w-4 text-[#C5A46D]" />

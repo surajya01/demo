@@ -35,13 +35,15 @@ export const BRAND_CONFIG = {
     smokingAllowed: false,
   },
 
-  // Approved Brand Color Hexes
+  // Approved Brand Color Hexes (Royal Sapphire & Champagne Gold)
   colors: {
-    forestGreen: "#234B3C",
+    royalSapphire: "#0F2C59",
+    forestGreen: "#0F2C59", // alias for backwards compatibility
+    midnightNavy: "#0A1C38",
     warmBeige: "#F4EFE5",
     mutedGold: "#C5A46D",
     offWhite: "#FAF9F6",
-    charcoal: "#292D2A",
+    charcoal: "#1B2430",
     pureWhite: "#FFFFFF",
   },
 } as const;

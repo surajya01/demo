@@ -110,12 +110,12 @@ export function HighlightsSection() {
                   className={isReversed ? "lg:col-start-1" : ""}
                 >
                   <div className="space-y-4">
-                    <div className="inline-flex items-center gap-2 rounded-full bg-[#234B3C]/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#234B3C]">
+                    <div className="inline-flex items-center gap-2 rounded-full bg-[#0F2C59]/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#0F2C59]">
                       <Icon className="h-3.5 w-3.5 text-[#C5A46D]" />
                       <span>{item.eyebrow}</span>
                     </div>
 
-                    <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#234B3C] tracking-tight">
+                    <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2C59] tracking-tight">
                       {item.title}
                     </h3>
 
@@ -136,7 +136,7 @@ export function HighlightsSection() {
                     <div className="pt-4">
                       <Link
                         href={item.linkHref}
-                        className="inline-flex items-center gap-2 rounded-xl bg-[#234B3C] px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition"
+                        className="inline-flex items-center gap-2 rounded-xl bg-[#0F2C59] px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#163B72] transition"
                       >
                         <span>{item.linkText}</span>
                         <ArrowRight className="h-4 w-4 text-[#C5A46D]" />

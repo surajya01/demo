@@ -86,7 +86,7 @@ export function Header() {
   return (
     <>
       {/* Top Luxury Utility Ribbon (Desktop only) */}
-      <div className="hidden lg:block bg-[#173327] text-[#F4EFE5] border-b border-[#C5A46D]/20 text-[11px] font-medium tracking-wide">
+      <div className="hidden lg:block bg-[#0A1C38] text-[#F4EFE5] border-b border-[#C5A46D]/20 text-[11px] font-medium tracking-wide">
         <div className="w-full max-w-[1600px] mx-auto flex items-center justify-between px-6 lg:px-12 py-2">
           {/* Left Metadata */}
           <div className="flex items-center gap-6 text-[#F4EFE5]/85">
@@ -143,11 +143,11 @@ export function Header() {
         <div className="w-full max-w-[1600px] mx-auto flex items-center justify-between px-4 sm:px-8 lg:px-12">
           {/* 1. Left: Brand Logo & Title */}
           <Link href="/" className="flex items-center gap-3.5 group flex-shrink-0">
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] shadow-sm border border-[#C5A46D]/40 transition-transform duration-300 group-hover:scale-105">
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] shadow-sm border border-[#C5A46D]/40 transition-transform duration-300 group-hover:scale-105">
               <span className="font-serif text-2xl font-bold">A</span>
             </div>
             <div>
-              <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#234B3C] block leading-none">
+              <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#0F2C59] block leading-none">
                 {BRAND_CONFIG.resortName}
               </span>
               <span className="block text-[9px] uppercase tracking-[0.25em] text-[#C5A46D] font-bold mt-1">
@@ -166,8 +166,8 @@ export function Header() {
                   href={link.href}
                   className={`text-[12.5px] 2xl:text-[13px] uppercase tracking-[0.1em] font-semibold whitespace-nowrap transition-colors relative py-1 px-1 ${
                     isActive
-                      ? "text-[#234B3C] font-bold"
-                      : "text-[#292D2A]/80 hover:text-[#234B3C]"
+                      ? "text-[#0F2C59] font-bold"
+                      : "text-[#292D2A]/80 hover:text-[#0F2C59]"
                   }`}
                 >
                   {link.label}
@@ -189,8 +189,8 @@ export function Header() {
                   href={link.href}
                   className={`text-xs uppercase tracking-wider font-semibold whitespace-nowrap transition-colors relative py-1 px-1 ${
                     isActive
-                      ? "text-[#234B3C] font-bold"
-                      : "text-[#292D2A]/80 hover:text-[#234B3C]"
+                      ? "text-[#0F2C59] font-bold"
+                      : "text-[#292D2A]/80 hover:text-[#0F2C59]"
                   }`}
                 >
                   {link.label}
@@ -205,7 +205,7 @@ export function Header() {
             <div className="relative" ref={moreMenuRef}>
               <button
                 onClick={() => setIsMoreMenuOpen(!isMoreMenuOpen)}
-                className="inline-flex items-center gap-1 text-xs uppercase tracking-wider font-semibold text-[#292D2A]/80 hover:text-[#234B3C] py-1 px-1 transition whitespace-nowrap"
+                className="inline-flex items-center gap-1 text-xs uppercase tracking-wider font-semibold text-[#292D2A]/80 hover:text-[#0F2C59] py-1 px-1 transition whitespace-nowrap"
               >
                 <span>More</span>
                 <ChevronDown className={`h-3.5 w-3.5 transition-transform ${isMoreMenuOpen ? "rotate-180" : ""}`} />
@@ -220,7 +220,7 @@ export function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={() => setIsMoreMenuOpen(false)}
-                        className="flex items-center gap-2.5 rounded-xl px-3 py-2 text-xs font-medium text-[#292D2A]/90 hover:bg-[#FAF9F6] hover:text-[#234B3C] transition whitespace-nowrap"
+                        className="flex items-center gap-2.5 rounded-xl px-3 py-2 text-xs font-medium text-[#292D2A]/90 hover:bg-[#FAF9F6] hover:text-[#0F2C59] transition whitespace-nowrap"
                       >
                         <Icon className="h-4 w-4 text-[#C5A46D]" />
                         <span>{item.label}</span>
@@ -236,7 +236,7 @@ export function Header() {
           <div className="hidden lg:flex items-center flex-shrink-0">
             <button
               onClick={() => setIsEnquiryModalOpen(true)}
-              className="inline-flex items-center gap-2 rounded-xl bg-[#234B3C] px-5 py-2.5 text-xs sm:text-sm font-semibold tracking-wide text-white shadow-sm hover:bg-[#1b3b2f] transition-all hover:shadow-md border border-[#C5A46D]/40 whitespace-nowrap active:scale-[0.98]"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#0F2C59] px-5 py-2.5 text-xs sm:text-sm font-semibold tracking-wide text-white shadow-sm hover:bg-[#163B72] transition-all hover:shadow-md border border-[#C5A46D]/40 whitespace-nowrap active:scale-[0.98]"
             >
               <Calendar className="h-4 w-4 text-[#C5A46D] flex-shrink-0" />
               <span>Book / Enquire</span>
@@ -247,7 +247,7 @@ export function Header() {
           <div className="flex lg:hidden items-center gap-2.5 flex-shrink-0">
             <button
               onClick={() => setIsEnquiryModalOpen(true)}
-              className="inline-flex items-center gap-1.5 rounded-xl bg-[#234B3C] px-3.5 py-2 text-xs font-semibold text-white shadow-sm whitespace-nowrap"
+              className="inline-flex items-center gap-1.5 rounded-xl bg-[#0F2C59] px-3.5 py-2 text-xs font-semibold text-white shadow-sm whitespace-nowrap"
             >
               <Calendar className="h-3.5 w-3.5 text-[#C5A46D]" />
               <span>Book</span>
@@ -258,9 +258,9 @@ export function Header() {
               aria-label="Toggle navigation menu"
             >
               {isMobileMenuOpen ? (
-                <X className="h-5 w-5 text-[#234B3C]" />
+                <X className="h-5 w-5 text-[#0F2C59]" />
               ) : (
-                <Menu className="h-5 w-5 text-[#234B3C]" />
+                <Menu className="h-5 w-5 text-[#0F2C59]" />
               )}
             </button>
           </div>
@@ -280,7 +280,7 @@ export function Header() {
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={`rounded-xl px-4 py-2.5 text-sm font-semibold transition ${
                       isActive
-                        ? "bg-[#234B3C] text-white"
+                        ? "bg-[#0F2C59] text-white"
                         : "text-[#292D2A] hover:bg-white"
                     }`}
                   >
@@ -314,7 +314,7 @@ export function Header() {
                   setIsMobileMenuOpen(false);
                   setIsEnquiryModalOpen(true);
                 }}
-                className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#234B3C] py-3 text-sm font-semibold text-white shadow-sm border border-[#C5A46D]/30"
+                className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#0F2C59] py-3 text-sm font-semibold text-white shadow-sm border border-[#C5A46D]/30"
               >
                 <Calendar className="h-4 w-4 text-[#C5A46D]" />
                 <span>Reserve Room / Send Enquiry</span>
@@ -323,7 +323,7 @@ export function Header() {
               <div className="grid grid-cols-2 gap-2.5">
                 <a
                   href="tel:+919820000000"
-                  className="flex items-center justify-center gap-2 rounded-xl border border-[#234B3C]/30 bg-white py-2.5 text-xs font-semibold text-[#234B3C]"
+                  className="flex items-center justify-center gap-2 rounded-xl border border-[#0F2C59]/30 bg-white py-2.5 text-xs font-semibold text-[#0F2C59]"
                 >
                   <Phone className="h-3.5 w-3.5 text-[#C5A46D]" />
                   <span>Call Us</span>
@@ -341,7 +341,7 @@ export function Header() {
 
               {/* Location Footer card in drawer */}
               <div className="mt-2 rounded-xl bg-white p-3.5 border border-[#E8DEC9] text-[11px] text-[#292D2A]/75 space-y-1">
-                <div className="flex items-center gap-1.5 font-semibold text-[#234B3C]">
+                <div className="flex items-center gap-1.5 font-semibold text-[#0F2C59]">
                   <MapPin className="h-3.5 w-3.5 text-[#C5A46D]" />
                   <span>Apexify Resort, Waliv, Vasai East</span>
                 </div>

@@ -34,11 +34,11 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
         {/* Breadcrumb Bar */}
         <div className="border-b border-[#E8DEC9] bg-white py-3.5">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center gap-2 text-xs text-[#292D2A]/70">
-            <Link href="/" className="hover:text-[#234B3C] transition">Home</Link>
+            <Link href="/" className="hover:text-[#0F2C59] transition">Home</Link>
             <ChevronRight className="h-3 w-3 text-[#C5A46D]" />
-            <Link href="/rooms" className="hover:text-[#234B3C] transition">Rooms</Link>
+            <Link href="/rooms" className="hover:text-[#0F2C59] transition">Rooms</Link>
             <ChevronRight className="h-3 w-3 text-[#C5A46D]" />
-            <span className="font-semibold text-[#234B3C] truncate">{room.name}</span>
+            <span className="font-semibold text-[#0F2C59] truncate">{room.name}</span>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                 {/* Badge Overlay */}
                 <div className="absolute top-4 left-4 flex gap-2">
                   {room.isVerified ? (
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-[#234B3C]/95 px-3.5 py-1 text-xs font-semibold text-[#F4EFE5] backdrop-blur-sm shadow-md">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-[#0F2C59]/95 px-3.5 py-1 text-xs font-semibold text-[#F4EFE5] backdrop-blur-sm shadow-md">
                       <Sparkles className="h-3.5 w-3.5 text-[#C5A46D]" />
                       Verified Room Photo
                     </span>
@@ -91,7 +91,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                       onClick={() => setActiveImageIndex(idx)}
                       className={`relative h-20 sm:h-24 rounded-2xl overflow-hidden border-2 transition-all ${
                         activeImageIndex === idx
-                          ? "border-[#234B3C] ring-2 ring-[#C5A46D]/40 scale-102"
+                          ? "border-[#0F2C59] ring-2 ring-[#C5A46D]/40 scale-102"
                           : "border-[#E8DEC9] opacity-70 hover:opacity-100"
                       }`}
                     >
@@ -109,7 +109,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
 
               {/* Room Narrative Description */}
               <div className="mt-8 pt-6 border-t border-[#E8DEC9] space-y-4">
-                <h3 className="font-serif text-2xl font-bold text-[#234B3C]">
+                <h3 className="font-serif text-2xl font-bold text-[#0F2C59]">
                   About This Accommodation
                 </h3>
                 {room.longDescription.map((paragraph, idx) => (
@@ -121,7 +121,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
 
               {/* Technical Specifications Table */}
               <div className="mt-8 pt-6 border-t border-[#E8DEC9]">
-                <h4 className="font-serif text-xl font-bold text-[#234B3C] mb-4">
+                <h4 className="font-serif text-xl font-bold text-[#0F2C59] mb-4">
                   Room Specifications
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
@@ -131,7 +131,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                       className="flex items-center justify-between p-3.5 rounded-xl bg-white border border-[#E8DEC9]"
                     >
                       <span className="font-medium text-[#292D2A]/70">{feat.label}</span>
-                      <span className="font-semibold text-[#234B3C]">{feat.value}</span>
+                      <span className="font-semibold text-[#0F2C59]">{feat.value}</span>
                     </div>
                   ))}
                 </div>
@@ -139,7 +139,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
 
               {/* Full Amenities Checklist */}
               <div className="mt-8 pt-6 border-t border-[#E8DEC9]">
-                <h4 className="font-serif text-xl font-bold text-[#234B3C] mb-4">
+                <h4 className="font-serif text-xl font-bold text-[#0F2C59] mb-4">
                   All Room Amenities & Services
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -148,7 +148,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                       key={idx}
                       className="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-[#E8DEC9] text-xs text-[#292D2A]/85"
                     >
-                      <Check className="h-4 w-4 text-[#234B3C] flex-shrink-0" />
+                      <Check className="h-4 w-4 text-[#0F2C59] flex-shrink-0" />
                       <span>{amenity}</span>
                     </div>
                   ))}
@@ -157,7 +157,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
 
               {/* Resort Policies Note */}
               <div className="mt-8 p-5 rounded-2xl bg-[#F4EFE5] border border-[#C5A46D]/30 text-xs text-[#292D2A]/80 space-y-2">
-                <span className="font-semibold text-[#234B3C] uppercase tracking-wider block">
+                <span className="font-semibold text-[#0F2C59] uppercase tracking-wider block">
                   Important Stay Guidelines:
                 </span>
                 <p>• Standard Check-in: 12:00 PM | Standard Check-out: 10:00 AM.</p>
@@ -174,7 +174,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                   <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-bold">
                     {room.categoryName}
                   </span>
-                  <h1 className="font-serif text-2xl sm:text-3xl font-bold text-[#234B3C] mt-1">
+                  <h1 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F2C59] mt-1">
                     {room.name}
                   </h1>
                   <p className="mt-2 text-xs text-[#292D2A]/70">
@@ -188,14 +188,14 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                     <span className="text-[10px] uppercase font-semibold text-[#292D2A]/60 block">
                       Standard Direct Rate
                     </span>
-                    <div className="font-serif text-3xl font-bold text-[#234B3C]">
+                    <div className="font-serif text-3xl font-bold text-[#0F2C59]">
                       ₹{room.basePrice.toLocaleString()}
                       <span className="text-xs font-normal text-[#292D2A]/70 font-sans"> / night</span>
                     </div>
                   </div>
                   <div className="text-right">
                     <span className="text-[10px] text-[#C5A46D] font-semibold block">Weekend Rate</span>
-                    <span className="font-serif font-bold text-sm text-[#234B3C]">
+                    <span className="font-serif font-bold text-sm text-[#0F2C59]">
                       ₹{room.weekendPrice.toLocaleString()}
                     </span>
                   </div>
@@ -204,19 +204,19 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                 {/* Direct Booking Inclusions */}
                 <div className="space-y-2 text-xs text-[#292D2A]/80">
                   <div className="flex items-center gap-2">
-                    <Check className="h-3.5 w-3.5 text-[#234B3C]" />
+                    <Check className="h-3.5 w-3.5 text-[#0F2C59]" />
                     <span>Complimentary Swimming Pool Access</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Check className="h-3.5 w-3.5 text-[#234B3C]" />
+                    <Check className="h-3.5 w-3.5 text-[#0F2C59]" />
                     <span>High-Speed Wi-Fi & Private Parking</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Check className="h-3.5 w-3.5 text-[#234B3C]" />
+                    <Check className="h-3.5 w-3.5 text-[#0F2C59]" />
                     <span>24-Hour Front Desk Key Support</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Check className="h-3.5 w-3.5 text-[#234B3C]" />
+                    <Check className="h-3.5 w-3.5 text-[#0F2C59]" />
                     <span>Direct In-Room Dining Delivery</span>
                   </div>
                 </div>
@@ -225,7 +225,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                 <div className="space-y-3 pt-2">
                   <button
                     onClick={() => setIsEnquiryModalOpen(true)}
-                    className="w-full flex items-center justify-center gap-2 rounded-2xl bg-[#234B3C] py-3.5 px-4 text-sm font-semibold text-white shadow-md hover:bg-[#1b3b2f] transition"
+                    className="w-full flex items-center justify-center gap-2 rounded-2xl bg-[#0F2C59] py-3.5 px-4 text-sm font-semibold text-white shadow-md hover:bg-[#163B72] transition"
                   >
                     <Calendar className="h-4 w-4 text-[#C5A46D]" />
                     <span>Check Availability & Enquire</span>
@@ -243,7 +243,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
 
                   <a
                     href="tel:+919820000000"
-                    className="w-full flex items-center justify-center gap-2 rounded-2xl border border-[#234B3C]/30 bg-white py-2.5 px-4 text-xs font-semibold text-[#234B3C] hover:bg-[#FAF9F6] transition"
+                    className="w-full flex items-center justify-center gap-2 rounded-2xl border border-[#0F2C59]/30 bg-white py-2.5 px-4 text-xs font-semibold text-[#0F2C59] hover:bg-[#FAF9F6] transition"
                   >
                     <Phone className="h-3.5 w-3.5" />
                     <span>Call Reception: +91 98200 00000</span>
@@ -251,7 +251,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                 </div>
 
                 <div className="pt-2 text-center text-[11px] text-[#292D2A]/60 flex items-center justify-center gap-1.5">
-                  <ShieldCheck className="h-3.5 w-3.5 text-[#234B3C]" />
+                  <ShieldCheck className="h-3.5 w-3.5 text-[#0F2C59]" />
                   <span>Guaranteed Direct Best Rate · No Booking Fees</span>
                 </div>
               </div>
@@ -268,13 +268,13 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                   <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold">
                     Alternative Options
                   </span>
-                  <h3 className="font-serif text-2xl font-bold text-[#234B3C] mt-0.5">
+                  <h3 className="font-serif text-2xl font-bold text-[#0F2C59] mt-0.5">
                     Other Rooms You May Like
                   </h3>
                 </div>
                 <Link
                   href="/rooms"
-                  className="text-xs sm:text-sm font-semibold text-[#234B3C] hover:text-[#C5A46D] transition"
+                  className="text-xs sm:text-sm font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition"
                 >
                   View All Rooms →
                 </Link>
@@ -300,7 +300,7 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                         <span className="text-[10px] uppercase tracking-wider text-[#C5A46D] font-bold">
                           {rel.categoryName}
                         </span>
-                        <h4 className="font-serif font-bold text-lg text-[#234B3C] mt-0.5">
+                        <h4 className="font-serif font-bold text-lg text-[#0F2C59] mt-0.5">
                           {rel.name}
                         </h4>
                         <p className="mt-1 text-xs text-[#292D2A]/70 line-clamp-2">
@@ -308,13 +308,13 @@ export function RoomDetailsClient({ room, relatedRooms }: RoomDetailsClientProps
                         </p>
                       </div>
                       <div className="mt-4 pt-3 border-t border-[#E8DEC9] flex items-center justify-between">
-                        <span className="font-serif font-bold text-base text-[#234B3C]">
+                        <span className="font-serif font-bold text-base text-[#0F2C59]">
                           ₹{rel.basePrice.toLocaleString()}
                           <span className="text-xs font-normal font-sans text-[#292D2A]/60"> / night</span>
                         </span>
                         <Link
                           href={`/rooms/${rel.slug}`}
-                          className="rounded-xl bg-[#234B3C] px-3.5 py-1.5 text-xs font-semibold text-white hover:bg-[#1b3b2f] transition"
+                          className="rounded-xl bg-[#0F2C59] px-3.5 py-1.5 text-xs font-semibold text-white hover:bg-[#163B72] transition"
                         >
                           View Details
                         </Link>

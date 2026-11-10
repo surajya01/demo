@@ -21,11 +21,11 @@ export function LocationSection() {
             <MotionWrapper direction="left">
               <div className="rounded-2xl bg-white p-7 shadow-sm border border-[#E8DEC9]">
                 <div className="flex items-start gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#234B3C] text-[#C5A46D] flex-shrink-0">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-serif text-xl font-bold text-[#234B3C]">
+                    <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
                       Property Address
                     </h3>
                     <p className="mt-1 text-sm text-[#292D2A]/80 leading-relaxed">
@@ -40,15 +40,15 @@ export function LocationSection() {
 
                 <div className="mt-6 pt-5 border-t border-[#E8DEC9] space-y-3 text-xs text-[#292D2A]/80">
                   <div className="flex items-center gap-2.5">
-                    <Phone className="h-4 w-4 text-[#234B3C]" />
+                    <Phone className="h-4 w-4 text-[#0F2C59]" />
                     <span className="font-medium">+91 98200 00000 / Front Desk</span>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    <Mail className="h-4 w-4 text-[#234B3C]" />
+                    <Mail className="h-4 w-4 text-[#0F2C59]" />
                     <span>info@apexify-resort.example.com</span>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    <Clock className="h-4 w-4 text-[#234B3C]" />
+                    <Clock className="h-4 w-4 text-[#0F2C59]" />
                     <span>Check-in: 12:00 PM · Check-out: 10:00 AM</span>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ export function LocationSection() {
                     href="https://maps.google.com/?q=Waliv+Vasai+East+Maharashtra"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 w-full rounded-xl bg-[#234B3C] py-3 text-xs font-semibold text-white shadow-sm hover:bg-[#1b3b2f] transition"
+                    className="inline-flex items-center justify-center gap-2 w-full rounded-xl bg-[#0F2C59] py-3 text-xs font-semibold text-white shadow-sm hover:bg-[#163B72] transition"
                   >
                     <Navigation className="h-4 w-4 text-[#C5A46D]" />
                     <span>Open in Google Maps</span>
@@ -71,7 +71,7 @@ export function LocationSection() {
             {/* Nearby Distances Card */}
             <MotionWrapper direction="left" delay={0.2}>
               <div className="rounded-2xl bg-[#F4EFE5] p-6 border border-[#C5A46D]/30">
-                <h4 className="font-serif text-lg font-bold text-[#234B3C] mb-3">
+                <h4 className="font-serif text-lg font-bold text-[#0F2C59] mb-3">
                   Nearby Landmarks & Transit
                 </h4>
                 <div className="divide-y divide-[#C5A46D]/20 text-xs">
@@ -81,7 +81,7 @@ export function LocationSection() {
                         <span className="font-semibold text-[#292D2A] block">{item.name}</span>
                         <span className="text-[10px] text-[#292D2A]/60">{item.type}</span>
                       </div>
-                      <span className="font-serif font-bold text-sm text-[#234B3C] bg-white/80 px-2.5 py-1 rounded-lg border border-[#C5A46D]/20">
+                      <span className="font-serif font-bold text-sm text-[#0F2C59] bg-white/80 px-2.5 py-1 rounded-lg border border-[#C5A46D]/20">
                         {item.distance}
                       </span>
                     </div>
@@ -109,7 +109,7 @@ export function LocationSection() {
                     className="w-full h-full grayscale-[20%] contrast-105"
                   />
                   <div className="absolute top-4 left-4 rounded-xl bg-white/95 px-4 py-2.5 shadow-md backdrop-blur-sm border border-[#E8DEC9] text-xs max-w-xs">
-                    <p className="font-bold text-[#234B3C]">Apexify Resort Location Pin</p>
+                    <p className="font-bold text-[#0F2C59]">Apexify Resort Location Pin</p>
                     <p className="text-[11px] text-[#292D2A]/70 mt-0.5">
                       Waliv, Vasai East — 7 km from Vasai Road Railway Station
                     </p>
@@ -119,13 +119,13 @@ export function LocationSection() {
                 {/* Map Bottom Bar Directions */}
                 <div className="p-4 bg-white border-t border-[#E8DEC9] flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
                   <div className="text-[#292D2A]/80">
-                    <strong className="text-[#234B3C]">Driving from Mumbai/Thane:</strong> Exit Western Express Highway (NH 48) at Pelhar / Sativali and follow Navjeevan Naka signs into Waliv.
+                    <strong className="text-[#0F2C59]">Driving from Mumbai/Thane:</strong> Exit Western Express Highway (NH 48) at Pelhar / Sativali and follow Navjeevan Naka signs into Waliv.
                   </div>
                   <a
                     href="https://maps.google.com/?q=Waliv+Vasai+East+Maharashtra"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-shrink-0 font-semibold text-[#234B3C] hover:text-[#C5A46D] transition flex items-center gap-1"
+                    className="flex-shrink-0 font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition flex items-center gap-1"
                   >
                     <span>Get Directions</span>
                     <ExternalLink className="h-3 w-3" />
