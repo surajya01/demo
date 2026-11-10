@@ -1,11 +1,11 @@
 # ==============================================================================
-# Netlify Configuration for Apexify Resort Digital Hospitality Platform
+# Netlify Configuration for Apexify Resort Frontend Website
 # Framework: Next.js 14 (App Router)
 # Runtime: @netlify/plugin-nextjs
 # ==============================================================================
 
 [build]
-  command = "npx prisma generate && npm run build"
+  command = "npm run build"
   publish = ".next"
 
 [[plugins]]
@@ -15,7 +15,6 @@
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
 
-# Cache Prisma engines between Netlify builds
 [build.processing]
   skip_processing = false
 
@@ -25,4 +24,3 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-
