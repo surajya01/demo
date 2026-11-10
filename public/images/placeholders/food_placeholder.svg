@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#F4EFE5"/>
+  <rect x="20" y="20" width="760" height="460" rx="16" fill="#FAF9F6" stroke="#E8DEC9" stroke-width="2"/>
+  <g transform="translate(400, 210)" text-anchor="middle">
+    <!-- Dining Cloche Icon -->
+    <path d="M-40 20 C-40 -25, 40 -25, 40 20 Z" fill="none" stroke="#234B3C" stroke-width="3"/>
+    <line x1="-50" y1="20" x2="50" y2="20" stroke="#234B3C" stroke-width="4"/>
+    <circle cx="0" cy="-30" r="6" fill="#C5A46D"/>
+    <text y="80" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#234B3C">
+      DHURI RESTAURANT &amp; BAR
+    </text>
+    <text y="110" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" fill="#5A615C" letter-spacing="2">
+      MENU ITEM IMAGE PLACEHOLDER
+    </text>
+  </g>
+</svg>
+

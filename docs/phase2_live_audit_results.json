@@ -1,0 +1,413 @@
+{
+  "server_info": {
+    "port": 3005,
+    "base_url": "http://localhost:3005",
+    "status": "CONNECTED"
+  },
+  "console_messages": [
+    {
+      "type": "debug",
+      "text": "Search endpoint requested!",
+      "location": {
+        "url": "https://maps.gstatic.com/maps-api-v3/embed/js/66/13d/init_embed.js",
+        "line": 300,
+        "column": 351,
+        "lineNumber": 300,
+        "columnNumber": 351
+      }
+    },
+    {
+      "type": "debug",
+      "text": "Search endpoint requested!",
+      "location": {
+        "url": "https://maps.gstatic.com/maps-api-v3/embed/js/66/13d/init_embed.js",
+        "line": 300,
+        "column": 351,
+        "lineNumber": 300,
+        "columnNumber": 351
+      }
+    },
+    {
+      "type": "debug",
+      "text": "Search endpoint requested!",
+      "location": {
+        "url": "https://maps.gstatic.com/maps-api-v3/embed/js/66/13d/init_embed.js",
+        "line": 300,
+        "column": 351,
+        "lineNumber": 300,
+        "columnNumber": 351
+      }
+    },
+    {
+      "type": "warning",
+      "text": "The resource http://localhost:3005/_next/image?url=%2Fimages%2Fresort%2Fexterior_facade.jpg&w=1080&q=75 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "location": {
+        "url": "http://localhost:3005/",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "debug",
+      "text": "Search endpoint requested!",
+      "location": {
+        "url": "https://maps.gstatic.com/maps-api-v3/embed/js/66/13d/init_embed.js",
+        "line": 300,
+        "column": 351,
+        "lineNumber": 300,
+        "columnNumber": 351
+      }
+    }
+  ],
+  "failed_requests": [],
+  "route_status": {
+    "/": {
+      "status": 200,
+      "duration_ms": 1336,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Waliv, Vasai East",
+      "has_crash": false
+    },
+    "/about": {
+      "status": 200,
+      "duration_ms": 775,
+      "title": "About Us | Dhuri Resort, Waliv, Vasai East | Dhuri Resort",
+      "has_crash": false
+    },
+    "/rooms": {
+      "status": 200,
+      "duration_ms": 768,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/rooms/deluxe-double-room": {
+      "status": 200,
+      "duration_ms": 968,
+      "title": "Deluxe Double Room | Dhuri Resort Vasai | Dhuri Resort",
+      "has_crash": false
+    },
+    "/rooms/executive-double-room": {
+      "status": 200,
+      "duration_ms": 711,
+      "title": "Executive Double Room | Dhuri Resort Vasai | Dhuri Resort",
+      "has_crash": false
+    },
+    "/rooms/standard-double-room-fan": {
+      "status": 200,
+      "duration_ms": 704,
+      "title": "Standard Double Room with Fan | Dhuri Resort Vasai | Dhuri Resort",
+      "has_crash": false
+    },
+    "/rooms/deluxe-cottage": {
+      "status": 200,
+      "duration_ms": 695,
+      "title": "Deluxe Double Room | Dhuri Resort Vasai | Dhuri Resort",
+      "has_crash": false
+    },
+    "/rooms/executive-suite": {
+      "status": 200,
+      "duration_ms": 694,
+      "title": "Executive Double Room | Dhuri Resort Vasai | Dhuri Resort",
+      "has_crash": false
+    },
+    "/rooms/family-villa": {
+      "status": 200,
+      "duration_ms": 660,
+      "title": "Standard Double Room with Fan | Dhuri Resort Vasai | Dhuri Resort",
+      "has_crash": false
+    },
+    "/dining": {
+      "status": 200,
+      "duration_ms": 740,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/restaurant": {
+      "status": 200,
+      "duration_ms": 718,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/facilities": {
+      "status": 200,
+      "duration_ms": 785,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/gallery": {
+      "status": 200,
+      "duration_ms": 830,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/offers": {
+      "status": 200,
+      "duration_ms": 724,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/contact": {
+      "status": 200,
+      "duration_ms": 2418,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/faq": {
+      "status": 200,
+      "duration_ms": 696,
+      "title": "Dhuri Resort | Luxury Resort & Dining in Vasai East",
+      "has_crash": false
+    },
+    "/privacy-policy": {
+      "status": 200,
+      "duration_ms": 642,
+      "title": "Privacy Policy | Dhuri Resort | Dhuri Resort",
+      "has_crash": false
+    },
+    "/terms": {
+      "status": 200,
+      "duration_ms": 649,
+      "title": "Terms and Conditions | Dhuri Resort | Dhuri Resort",
+      "has_crash": false
+    },
+    "/cancellation-policy": {
+      "status": 200,
+      "duration_ms": 661,
+      "title": "Cancellation Policy | Dhuri Resort | Dhuri Resort",
+      "has_crash": false
+    }
+  },
+  "api_checks": {
+    "health": {
+      "status": 200,
+      "response": {
+        "status": "OK",
+        "phase": "PHASE_1_FOUNDATION",
+        "project": "Dhuri Resort Digital Hospitality Platform",
+        "technologyPartner": "Apexify",
+        "timestamp": "2026-11-09T20:06:30.584Z",
+        "database": {
+          "engine": "MySQL 8.0+",
+          "orm": "Prisma ORM 5.22.0",
+          "status": "CONNECTED",
+          "connectionNote": "MySQL active and responding",
+          "error": null
+        },
+        "architecture": {
+          "framework": "Next.js 14 (App Router)",
+          "language": "TypeScript (Strict)",
+          "styling": "Tailwind CSS v3.4 + Brand Theme Tokens",
+          "authStatus": "NOT_CONFIGURED_BY_DESIGN (Strict Phase 1 Scope)",
+          "verifiedAssetsCount": 10
+        }
+      },
+      "no_db_crash": true
+    },
+    "availability_search": {
+      "status": 200,
+      "success": true,
+      "rooms_count": 3,
+      "requires_db": false
+    },
+    "enquiries": {
+      "status": 201,
+      "success": true,
+      "enquiryId": "d6661c60-84d7-4f65-9c5e-a5bcece1b839",
+      "fallback_resilient": true
+    }
+  },
+  "seo_endpoints": {
+    "sitemap": {
+      "status": 200,
+      "content_type": "application/xml",
+      "valid_xml": true,
+      "length_bytes": 2659
+    },
+    "robots": {
+      "status": 200,
+      "content_type": "text/plain",
+      "valid": false,
+      "content_snippet": "User-Agent: * | Allow: / | Disallow: /api/ |  | Sitemap: https://dhuri-resort.example.com/sitemap.xml"
+    }
+  },
+  "responsive_checks": {
+    "320px (Mobile S)": {
+      "scrollW": 320,
+      "clientW": 320,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "375px (Mobile M - iPhone SE)": {
+      "scrollW": 375,
+      "clientW": 375,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "390px (Mobile L - iPhone 12/13/14)": {
+      "scrollW": 390,
+      "clientW": 390,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "430px (Mobile XL - iPhone 14 Pro Max)": {
+      "scrollW": 430,
+      "clientW": 430,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "768px (Tablet Portrait - iPad)": {
+      "scrollW": 768,
+      "clientW": 768,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "1024px (Tablet Landscape / Laptop)": {
+      "scrollW": 1024,
+      "clientW": 1024,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "1280px (Desktop HD)": {
+      "scrollW": 1280,
+      "clientW": 1280,
+      "hasOverflow": false,
+      "offenders": []
+    },
+    "1440px (Desktop Full HD / Wide)": {
+      "scrollW": 1440,
+      "clientW": 1440,
+      "hasOverflow": false,
+      "offenders": []
+    }
+  },
+  "interactive_tests": {
+    "enquiry_modal": {
+      "opened": true,
+      "closed": true
+    },
+    "gallery_filters": {
+      "initial": 10,
+      "pool": 2,
+      "restored": 10,
+      "pass": true
+    },
+    "gallery_lightbox": {
+      "opened": true,
+      "closed": true
+    },
+    "faq_accordions": {
+      "count": 9,
+      "toggled": true
+    },
+    "contact_form": {
+      "validation": true,
+      "submission": true
+    },
+    "communication_links": {
+      "tel": [
+        "tel:+919820000000"
+      ],
+      "whatsapp": [
+        "https://wa.me/919820000000?text=Hello%20Dhuri%20Resort,%20I%20would%20like%20to%20enquire%20about%20booking."
+      ]
+    }
+  },
+  "image_checks": {
+    "total": 21,
+    "loaded": 21,
+    "broken": [],
+    "missing_alt": []
+  },
+  "accessibility_checks": {
+    "unlabelledButtonsCount": 0,
+    "unlabelledButtons": [],
+    "emptyLinksCount": 0,
+    "emptyLinks": []
+  },
+  "verified_resort_assets": {
+    "/images/resort/banquet_lawn.jpg": {
+      "exists": true,
+      "size_kb": 145.2
+    },
+    "/images/resort/banquet_lawn_event.jpg": {
+      "exists": true,
+      "size_kb": 22.6
+    },
+    "/images/resort/bathroom_modern.jpg": {
+      "exists": true,
+      "size_kb": 118.9
+    },
+    "/images/resort/celebration_decor.jpg": {
+      "exists": true,
+      "size_kb": 3.3
+    },
+    "/images/resort/corridor_lifts.jpg": {
+      "exists": true,
+      "size_kb": 158.6
+    },
+    "/images/resort/exterior_facade.jpg": {
+      "exists": true,
+      "size_kb": 248.6
+    },
+    "/images/resort/exterior_pool_day.jpg": {
+      "exists": true,
+      "size_kb": 78.0
+    },
+    "/images/resort/guest_corridor.jpg": {
+      "exists": true,
+      "size_kb": 1.1
+    },
+    "/images/resort/location_map_snippet.jpg": {
+      "exists": true,
+      "size_kb": 21.8
+    },
+    "/images/resort/pool_side_view.jpg": {
+      "exists": true,
+      "size_kb": 4.6
+    },
+    "/images/resort/reception_lobby.jpg": {
+      "exists": true,
+      "size_kb": 143.6
+    },
+    "/images/resort/restaurant_bar.jpg": {
+      "exists": true,
+      "size_kb": 2.5
+    },
+    "/images/resort/restaurant_dining.jpg": {
+      "exists": true,
+      "size_kb": 163.0
+    },
+    "/images/resort/restaurant_entrance.jpg": {
+      "exists": true,
+      "size_kb": 140.8
+    },
+    "/images/resort/room_deluxe_double.jpg": {
+      "exists": true,
+      "size_kb": 115.6
+    },
+    "/images/resort/room_deluxe_interior.jpg": {
+      "exists": true,
+      "size_kb": 15.7
+    },
+    "/images/resort/swimming_pool.jpg": {
+      "exists": true,
+      "size_kb": 262.9
+    },
+    "/images/resort/swimming_pool_night.jpg": {
+      "exists": true,
+      "size_kb": 144.8
+    }
+  },
+  "content_disclaimer_audit": {
+    "has_sample_indicator": false,
+    "footer_developer_credit": true
+  },
+  "summary": {
+    "routes_all_200": true,
+    "responsive_zero_overflow": true,
+    "failed_requests_count": 0,
+    "console_errors_count": 0,
+    "recommendation": "APPROVE"
+  }
+}
