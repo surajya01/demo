@@ -47,7 +47,7 @@ export function GalleryPreview() {
               <MotionWrapper key={item.id} delay={index * 0.08}>
                 <div
                   onClick={() => setLightboxIndex(index)}
-                  className="group relative h-72 sm:h-80 w-full rounded-2xl overflow-hidden shadow-subtle hover:shadow-card transition-all duration-300 cursor-pointer border border-[#E8E3DA] bg-[#F8F6F1]"
+                  className="group relative h-72 sm:h-80 w-full rounded-2xl overflow-hidden shadow-subtle hover:shadow-card hover:-translate-y-1.5 hover:border-[#A78355]/40 transition-all duration-300 cursor-pointer border border-[#E8E3DA] bg-[#F8F6F1]"
                 >
                   <Image
                     src={item.src}

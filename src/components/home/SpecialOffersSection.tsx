@@ -25,14 +25,14 @@ export function SpecialOffersSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {OFFERS_DATA.map((offer, index) => (
               <MotionWrapper key={offer.id} delay={index * 0.12}>
-                <div className="flex flex-col h-full rounded-2xl bg-white overflow-hidden shadow-subtle hover:shadow-card transition-all duration-300 border border-[#E8E3DA]">
+                <div className="group flex flex-col h-full rounded-2xl bg-white overflow-hidden shadow-subtle hover:shadow-card hover:-translate-y-1.5 hover:border-[#A78355]/40 transition-all duration-300 border border-[#E8E3DA]">
                   {/* Image - NO gradient overlay */}
                   <div className="relative h-56 w-full overflow-hidden bg-[#F8F6F1]">
                     <Image
                       src={offer.image}
                       alt={offer.title}
                       fill
-                      className="object-cover transition-transform duration-700 hover:scale-105"
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
                     <div className="absolute top-3.5 left-3.5">

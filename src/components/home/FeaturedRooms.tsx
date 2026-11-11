@@ -25,7 +25,7 @@ export function FeaturedRooms() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {ROOMS_DATA.map((room, index) => (
               <MotionWrapper key={room.id} delay={index * 0.12}>
-                <div className="group flex flex-col h-full rounded-2xl bg-white overflow-hidden shadow-subtle hover:shadow-card transition-all duration-300 border border-[#E8E3DA]">
+                <div className="group flex flex-col h-full rounded-2xl bg-white overflow-hidden shadow-subtle hover:shadow-card hover:-translate-y-1.5 hover:border-[#A78355]/40 transition-all duration-300 border border-[#E8E3DA]">
                   {/* Room Cover Image */}
                   <div className="relative h-64 w-full overflow-hidden bg-[#F8F6F1]">
                     <Image

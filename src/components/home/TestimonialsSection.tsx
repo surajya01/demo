@@ -26,7 +26,7 @@ export function TestimonialsSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {TESTIMONIALS_DATA.map((item, index) => (
             <MotionWrapper key={item.id} delay={index * 0.12}>
-              <div className="flex flex-col h-full rounded-2xl bg-[#F8F6F1] p-7 sm:p-8 shadow-subtle hover:shadow-card transition-shadow border border-[#E8E3DA] relative">
+              <div className="flex flex-col h-full rounded-2xl bg-[#F8F6F1] p-7 sm:p-8 shadow-subtle hover:shadow-card hover:-translate-y-1.5 hover:border-[#A78355]/40 transition-all duration-300 border border-[#E8E3DA] relative">
                 <Quote className="h-7 w-7 text-[#A78355]/40 mb-3" />
 
                 {/* Star rating */}
