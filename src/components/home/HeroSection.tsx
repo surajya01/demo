@@ -38,7 +38,8 @@ export function HeroSection() {
           <div className="absolute inset-0 bg-black/35" />
         </motion.div>
 
-        {/* Top Header / Eyebrow Ribbon */}
+        {/* Top Header / Eyebrow Ribbon - Commented out per request */}
+        {/*
         <div className="relative z-10 pt-8 sm:pt-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full text-center">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -54,6 +55,7 @@ export function HeroSection() {
             </span>
           </motion.div>
         </div>
+        */}
 
         {/* Center Content: Grand Editorial Typography & Animated CTAs */}
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 text-center text-white my-auto">
