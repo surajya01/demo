@@ -35,15 +35,21 @@ export const BRAND_CONFIG = {
     smokingAllowed: false,
   },
 
-  // Approved Brand Color Hexes (Royal Sapphire & Champagne Gold)
+  // Approved Luxury Hospitality Color Palette (Solid tones, no gradients)
   colors: {
-    royalSapphire: "#0F2C59",
-    forestGreen: "#0F2C59", // alias for backwards compatibility
-    midnightNavy: "#0A1C38",
-    warmBeige: "#F4EFE5",
-    mutedGold: "#C5A46D",
-    offWhite: "#FAF9F6",
-    charcoal: "#1B2430",
+    ivory: "#F8F6F1",
+    white: "#FFFFFF",
+    charcoal: "#252525",
+    mutedBronze: "#A78355",
+    warmGrey: "#77736D",
+    lightBeige: "#E8E3DA",
+    // Backwards compatible aliases
+    royalSapphire: "#252525",
+    forestGreen: "#252525",
+    midnightNavy: "#1C1C1C",
+    warmBeige: "#F8F6F1",
+    mutedGold: "#A78355",
+    offWhite: "#F8F6F1",
     pureWhite: "#FFFFFF",
   },
 } as const;

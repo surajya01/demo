@@ -7,7 +7,7 @@ import { MotionWrapper } from "@/components/common/MotionWrapper";
 
 export function LocationSection() {
   return (
-    <section className="py-20 sm:py-24 bg-[#FAF9F6]">
+    <section className="py-20 sm:py-28 bg-[#F8F6F1]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Convenient Connectivity"
@@ -19,48 +19,48 @@ export function LocationSection() {
           {/* Left Column: Location Details & Distance Table */}
           <div className="lg:col-span-5 space-y-6">
             <MotionWrapper direction="left">
-              <div className="rounded-2xl bg-white p-7 shadow-sm border border-[#E8DEC9]">
-                <div className="flex items-start gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#0F2C59] text-[#C5A46D] flex-shrink-0">
+              <div className="rounded-2xl bg-white p-7 sm:p-8 shadow-subtle border border-[#E8E3DA]">
+                <div className="flex items-start gap-3.5">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#252525] text-[#A78355] flex-shrink-0">
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
+                    <h3 className="font-serif text-xl font-medium text-[#252525]">
                       Property Address
                     </h3>
-                    <p className="mt-1 text-sm text-[#292D2A]/80 leading-relaxed">
+                    <p className="mt-1 text-sm text-[#77736D] leading-relaxed">
                       {BRAND_CONFIG.location.address},<br />
                       {BRAND_CONFIG.location.city}, {BRAND_CONFIG.location.district} - {BRAND_CONFIG.location.pincode}, Maharashtra, India.
                     </p>
-                    <p className="mt-2 text-xs text-[#C5A46D] font-semibold">
+                    <p className="mt-2 text-xs text-[#A78355] font-semibold">
                       Landmark: {BRAND_CONFIG.location.landmark}
                     </p>
                   </div>
                 </div>
 
-                <div className="mt-6 pt-5 border-t border-[#E8DEC9] space-y-3 text-xs text-[#292D2A]/80">
+                <div className="mt-6 pt-5 border-t border-[#E8E3DA] space-y-3 text-xs text-[#77736D]">
                   <div className="flex items-center gap-2.5">
-                    <Phone className="h-4 w-4 text-[#0F2C59]" />
-                    <span className="font-medium">+91 98200 00000 / Front Desk</span>
+                    <Phone className="h-4 w-4 text-[#A78355]" />
+                    <span className="font-medium text-[#252525]">+91 98200 00000 / Front Desk</span>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    <Mail className="h-4 w-4 text-[#0F2C59]" />
+                    <Mail className="h-4 w-4 text-[#A78355]" />
                     <span>info@apexify-resort.example.com</span>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    <Clock className="h-4 w-4 text-[#0F2C59]" />
+                    <Clock className="h-4 w-4 text-[#A78355]" />
                     <span>Check-in: 12:00 PM · Check-out: 10:00 AM</span>
                   </div>
                 </div>
 
-                <div className="mt-6 pt-5 border-t border-[#E8DEC9]">
+                <div className="mt-6 pt-5 border-t border-[#E8E3DA]">
                   <a
                     href="https://maps.google.com/?q=Waliv+Vasai+East+Maharashtra"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 w-full rounded-xl bg-[#0F2C59] py-3 text-xs font-semibold text-white shadow-sm hover:bg-[#163B72] transition"
+                    className="inline-flex items-center justify-center gap-2 w-full rounded-xl bg-[#252525] hover:bg-[#1A1A1A] py-3 text-xs font-semibold uppercase tracking-wider text-white shadow-subtle hover:shadow-card transition"
                   >
-                    <Navigation className="h-4 w-4 text-[#C5A46D]" />
+                    <Navigation className="h-4 w-4 text-[#A78355]" />
                     <span>Open in Google Maps</span>
                     <ExternalLink className="h-3.5 w-3.5" />
                   </a>
@@ -70,18 +70,18 @@ export function LocationSection() {
 
             {/* Nearby Distances Card */}
             <MotionWrapper direction="left" delay={0.2}>
-              <div className="rounded-2xl bg-[#F4EFE5] p-6 border border-[#C5A46D]/30">
-                <h4 className="font-serif text-lg font-bold text-[#0F2C59] mb-3">
+              <div className="rounded-2xl bg-white p-6 sm:p-7 border border-[#E8E3DA] shadow-subtle">
+                <h4 className="font-serif text-lg font-medium text-[#252525] mb-3">
                   Nearby Landmarks & Transit
                 </h4>
-                <div className="divide-y divide-[#C5A46D]/20 text-xs">
+                <div className="divide-y divide-[#E8E3DA] text-xs">
                   {RESORT_SURROUNDINGS.map((item, i) => (
                     <div key={i} className="py-2.5 flex items-center justify-between">
                       <div>
-                        <span className="font-semibold text-[#292D2A] block">{item.name}</span>
-                        <span className="text-[10px] text-[#292D2A]/60">{item.type}</span>
+                        <span className="font-medium text-[#252525] block">{item.name}</span>
+                        <span className="text-[11px] text-[#77736D]">{item.type}</span>
                       </div>
-                      <span className="font-serif font-bold text-sm text-[#0F2C59] bg-white/80 px-2.5 py-1 rounded-lg border border-[#C5A46D]/20">
+                      <span className="font-serif font-bold text-sm text-[#252525] bg-[#F8F6F1] px-2.5 py-1 rounded-lg border border-[#E8E3DA]">
                         {item.distance}
                       </span>
                     </div>
@@ -91,12 +91,12 @@ export function LocationSection() {
             </MotionWrapper>
           </div>
 
-          {/* Right Column: Visual Map / Directions Graphic */}
+          {/* Right Column: Visual Map / Directions */}
           <div className="lg:col-span-7">
             <MotionWrapper direction="right">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg border border-[#E8DEC9] bg-white h-[480px] lg:h-[540px] flex flex-col">
-                {/* Embed Map / Interactive Map Placeholder */}
-                <div className="relative flex-grow w-full bg-[#FAF9F6]">
+              <div className="relative rounded-2xl overflow-hidden shadow-card border border-[#E8E3DA] bg-white h-[480px] lg:h-[540px] flex flex-col">
+                {/* Embed Map */}
+                <div className="relative flex-grow w-full bg-[#F8F6F1]">
                   <iframe
                     title="Apexify Resort Location Map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.541485665809!2d72.8665!3d19.3919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDIzJzMwLjgiTiA3MsKwNTInMDAuMSJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
@@ -106,29 +106,29 @@ export function LocationSection() {
                     allowFullScreen={false}
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    className="w-full h-full grayscale-[20%] contrast-105"
+                    className="w-full h-full grayscale-[15%] contrast-105"
                   />
-                  <div className="absolute top-4 left-4 rounded-xl bg-white/95 px-4 py-2.5 shadow-md backdrop-blur-sm border border-[#E8DEC9] text-xs max-w-xs">
-                    <p className="font-bold text-[#0F2C59]">Apexify Resort Location Pin</p>
-                    <p className="text-[11px] text-[#292D2A]/70 mt-0.5">
+                  <div className="absolute top-4 left-4 rounded-xl bg-white px-4 py-2.5 shadow-card border border-[#E8E3DA] text-xs max-w-xs">
+                    <p className="font-bold text-[#252525]">Apexify Resort Location</p>
+                    <p className="text-[11px] text-[#77736D] mt-0.5">
                       Waliv, Vasai East — 7 km from Vasai Road Railway Station
                     </p>
                   </div>
                 </div>
 
                 {/* Map Bottom Bar Directions */}
-                <div className="p-4 bg-white border-t border-[#E8DEC9] flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-                  <div className="text-[#292D2A]/80">
-                    <strong className="text-[#0F2C59]">Driving from Mumbai/Thane:</strong> Exit Western Express Highway (NH 48) at Pelhar / Sativali and follow Navjeevan Naka signs into Waliv.
+                <div className="p-4 bg-white border-t border-[#E8E3DA] flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+                  <div className="text-[#77736D]">
+                    <strong className="text-[#252525]">Driving from Mumbai/Thane:</strong> Exit Western Express Highway (NH 48) at Pelhar / Sativali and follow Navjeevan Naka signs into Waliv.
                   </div>
                   <a
                     href="https://maps.google.com/?q=Waliv+Vasai+East+Maharashtra"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-shrink-0 font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition flex items-center gap-1"
+                    className="flex-shrink-0 font-semibold text-[#252525] hover:text-[#A78355] transition flex items-center gap-1"
                   >
                     <span>Get Directions</span>
-                    <ExternalLink className="h-3 w-3" />
+                    <ExternalLink className="h-3 w-3 text-[#A78355]" />
                   </a>
                 </div>
               </div>
@@ -139,4 +139,3 @@ export function LocationSection() {
     </section>
   );
 }
-

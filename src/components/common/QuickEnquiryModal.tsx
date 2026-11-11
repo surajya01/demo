@@ -121,7 +121,7 @@ export function QuickEnquiryModal({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={resetForm}
-            className="fixed inset-0 bg-[#292D2A]/60 backdrop-blur-sm"
+            className="fixed inset-0 bg-[#252525]/60 backdrop-blur-xs"
           />
 
           {/* Modal Container */}
@@ -133,15 +133,15 @@ export function QuickEnquiryModal({
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.95, opacity: 0, y: 16 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="relative w-full max-w-xl rounded-2xl bg-white shadow-2xl border border-[#C5A46D]/20 overflow-hidden z-10 my-8"
+            className="relative w-full max-w-xl rounded-2xl bg-white shadow-card border border-[#E8E3DA] overflow-hidden z-10 my-8"
           >
             {/* Header */}
-            <div className="bg-[#0F2C59] px-6 py-5 text-white flex items-center justify-between">
+            <div className="bg-[#252525] px-6 py-5 text-white flex items-center justify-between border-b border-[#E8E3DA]">
               <div>
-                <span className="text-xs uppercase tracking-widest text-[#C5A46D] font-semibold">
-                  Apexify Resort · Direct Booking
+                <span className="text-xs uppercase tracking-[0.2em] text-[#A78355] font-semibold">
+                  Apexify Resort · Direct Reservation
                 </span>
-                <h3 id="enquiry-modal-title" className="font-serif text-2xl font-bold tracking-tight mt-0.5">
+                <h3 id="enquiry-modal-title" className="font-serif text-2xl font-medium tracking-tight mt-0.5 text-white">
                   Reservation Enquiry
                 </h3>
               </div>
@@ -158,29 +158,26 @@ export function QuickEnquiryModal({
             <div className="p-6">
               {isSubmitted ? (
                 <div className="text-center py-6">
-                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#0F2C59]/10 text-[#0F2C59] mb-4">
+                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#E8E3DA] text-[#A78355] mb-4">
                     <CheckCircle className="h-9 w-9" />
                   </div>
-                  <h4 className="font-serif text-2xl font-bold text-[#0F2C59]">
-                    Enquiry Received (Preview)
+                  <h4 className="font-serif text-2xl font-medium text-[#252525]">
+                    Enquiry Received
                   </h4>
-                  <p className="mt-3 text-sm text-[#292D2A]/80 leading-relaxed max-w-md mx-auto">
+                  <p className="mt-3 text-sm text-[#77736D] leading-relaxed max-w-md mx-auto">
                     Thank you, <strong>{guestName}</strong>! Your reservation enquiry for the{" "}
-                    <strong>{selectedRoom?.name}</strong> has been logged in this Phase 2 frontend preview.
+                    <strong>{selectedRoom?.name}</strong> has been logged. Our front desk team will contact you promptly.
                   </p>
 
-                  <div className="my-5 p-4 rounded-xl bg-[#F4EFE5] border border-[#C5A46D]/30 text-xs text-left text-[#292D2A]/80 space-y-1.5">
-                    <p className="font-semibold text-[#0F2C59] uppercase tracking-wider text-[11px]">
-                      Phase 2 Frontend Simulation Note:
+                  <div className="my-5 p-4 rounded-xl bg-[#F8F6F1] border border-[#E8E3DA] text-xs text-left text-[#77736D] space-y-1.5">
+                    <p className="font-semibold text-[#252525] uppercase tracking-wider text-[11px]">
+                      Direct Front Desk Contact:
                     </p>
                     <p>
-                      • No database write occurred in Phase 2 frontend preview.
+                      • Telephone: <strong>+91 98200 00000</strong>
                     </p>
                     <p>
-                      • Direct resort front desk contact: <strong>+91 98200 00000</strong>
-                    </p>
-                    <p>
-                      • Resort address: Near Navjeevan Naka, Waliv, Vasai East, Maharashtra.
+                      • Address: Near Navjeevan Naka, Waliv, Vasai East, Maharashtra.
                     </p>
                   </div>
 
@@ -189,14 +186,14 @@ export function QuickEnquiryModal({
                       href="https://wa.me/919820000000?text=Hello%20Apexify%20Resort,%20I%20would%20like%20to%20enquire%20about%20a%20room%20reservation."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#20ba5a] transition"
+                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#252525] hover:bg-[#1A1A1A] px-5 py-2.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white shadow-subtle transition"
                     >
-                      <MessageSquare className="h-4 w-4" />
-                      Chat on WhatsApp Now
+                      <MessageSquare className="h-4 w-4 text-[#A78355]" />
+                      <span>Chat on WhatsApp</span>
                     </a>
                     <button
                       onClick={resetForm}
-                      className="rounded-xl border border-[#0F2C59]/30 bg-transparent px-5 py-2.5 text-sm font-semibold text-[#0F2C59] hover:bg-[#FAF9F6] transition"
+                      className="rounded-xl border border-[#E8E3DA] bg-white px-5 py-2.5 text-xs sm:text-sm font-semibold text-[#252525] hover:bg-[#F8F6F1] transition"
                     >
                       Close Window
                     </button>
@@ -213,13 +210,13 @@ export function QuickEnquiryModal({
 
                   {/* Room Selection */}
                   <div>
-                    <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                    <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                       Selected Room Category
                     </label>
                     <select
                       value={roomSlug}
                       onChange={(e) => setRoomSlug(e.target.value)}
-                      className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
+                      className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
                     >
                       {ROOMS_DATA.map((room) => (
                         <option key={room.slug} value={room.slug}>
@@ -232,27 +229,25 @@ export function QuickEnquiryModal({
                   {/* Dates Row */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
-                      <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                      <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                         Check-in Date
                       </label>
-                      <div className="relative">
-                        <input
-                          type="date"
-                          value={checkIn}
-                          onChange={(e) => setCheckIn(e.target.value)}
-                          className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
-                        />
-                      </div>
+                      <input
+                        type="date"
+                        value={checkIn}
+                        onChange={(e) => setCheckIn(e.target.value)}
+                        className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
+                      />
                     </div>
                     <div>
-                      <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                      <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                         Check-out Date
                       </label>
                       <input
                         type="date"
                         value={checkOut}
                         onChange={(e) => setCheckOut(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
                       />
                     </div>
                   </div>
@@ -260,13 +255,13 @@ export function QuickEnquiryModal({
                   {/* Guests & Adults */}
                   <div className="grid grid-cols-2 gap-3">
                     <div>
-                      <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                      <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                         Adults
                       </label>
                       <select
                         value={adults}
                         onChange={(e) => setAdults(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
                       >
                         <option value="1">1 Adult</option>
                         <option value="2">2 Adults</option>
@@ -276,10 +271,10 @@ export function QuickEnquiryModal({
                       </select>
                     </div>
                     <div>
-                      <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                      <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                         Children (under 12)
                       </label>
-                      <select className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition">
+                      <select className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition">
                         <option value="0">0 Children</option>
                         <option value="1">1 Child</option>
                         <option value="2">2 Children</option>
@@ -291,7 +286,7 @@ export function QuickEnquiryModal({
                   {/* Contact Info */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                     <div>
-                      <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                      <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                         Full Name *
                       </label>
                       <input
@@ -300,11 +295,11 @@ export function QuickEnquiryModal({
                         placeholder="e.g. Ramesh Patel"
                         value={guestName}
                         onChange={(e) => setGuestName(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                      <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                         Mobile Phone *
                       </label>
                       <input
@@ -313,22 +308,22 @@ export function QuickEnquiryModal({
                         placeholder="e.g. 98200 00000"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
+                        className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
                       />
                     </div>
                   </div>
 
                   {/* Special Requests */}
                   <div>
-                    <label className="block text-xs font-semibold uppercase tracking-wider text-[#292D2A]/80 mb-1.5">
+                    <label className="block text-xs font-medium uppercase tracking-wider text-[#77736D] mb-1.5">
                       Special Requests / Notes (Optional)
                     </label>
                     <textarea
                       rows={2}
-                      placeholder="e.g. Pool-facing room preferred, extra bed requirement, late check-in time..."
+                      placeholder="e.g. Pool-facing room preferred, extra bed requirement..."
                       value={specialRequests}
                       onChange={(e) => setSpecialRequests(e.target.value)}
-                      className="w-full rounded-xl border border-[#E8DEC9] bg-[#FAF9F6] px-3.5 py-2.5 text-sm text-[#292D2A] focus:border-[#0F2C59] focus:bg-white focus:outline-none transition"
+                      className="w-full rounded-xl border border-[#E8E3DA] bg-[#F8F6F1] px-3.5 py-2.5 text-sm text-[#252525] focus:border-[#A78355] focus:bg-white focus:outline-none transition"
                     />
                   </div>
 
@@ -337,7 +332,7 @@ export function QuickEnquiryModal({
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full rounded-xl bg-[#0F2C59] py-3.5 px-4 text-center font-medium text-white shadow-md hover:bg-[#163B72] transition disabled:opacity-70 flex items-center justify-center gap-2"
+                      className="w-full rounded-xl bg-[#A78355] hover:bg-[#936F43] py-3.5 px-4 text-center text-xs sm:text-sm font-semibold uppercase tracking-wider text-white shadow-subtle hover:shadow-card transition disabled:opacity-70 flex items-center justify-center gap-2"
                     >
                       {isSubmitting ? (
                         <>
@@ -348,8 +343,8 @@ export function QuickEnquiryModal({
                         <span>Submit Reservation Enquiry</span>
                       )}
                     </button>
-                    <p className="mt-2 text-center text-[11px] text-[#292D2A]/60">
-                      Guaranteed lowest direct rates · Fast WhatsApp confirmation
+                    <p className="mt-2 text-center text-[11px] text-[#77736D]">
+                      Direct booking rates · Front desk confirmation
                     </p>
                   </div>
                 </form>
@@ -361,4 +356,3 @@ export function QuickEnquiryModal({
     </AnimatePresence>
   );
 }
-

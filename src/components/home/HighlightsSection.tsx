@@ -55,7 +55,7 @@ const HIGHLIGHTS = [
 
 export function HighlightsSection() {
   return (
-    <section className="py-20 sm:py-24 bg-[#FAF9F6] border-b border-[#E8DEC9]/50 overflow-hidden">
+    <section className="py-20 sm:py-28 bg-[#F8F6F1] border-b border-[#E8E3DA] overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Resort Highlights"
@@ -63,7 +63,7 @@ export function HighlightsSection() {
           subtitle="Whether you are unwinding beside the pool, dining with loved ones, or hosting a grand celebration, Apexify Resort offers the perfect setting."
         />
 
-        <div className="space-y-16 sm:space-y-20">
+        <div className="space-y-20 sm:space-y-24">
           {HIGHLIGHTS.map((item, index) => {
             const isReversed = index % 2 === 1;
             const Icon = item.icon;
@@ -71,7 +71,7 @@ export function HighlightsSection() {
             return (
               <div
                 key={item.title}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center ${
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center ${
                   isReversed ? "lg:grid-flow-dense" : ""
                 }`}
               >
@@ -80,8 +80,8 @@ export function HighlightsSection() {
                   direction={isReversed ? "right" : "left"}
                   className={isReversed ? "lg:col-start-2" : ""}
                 >
-                  <div className="relative group rounded-2xl overflow-hidden shadow-xl border border-[#C5A46D]/20">
-                    <div className="relative h-[320px] sm:h-[400px] w-full overflow-hidden">
+                  <div className="relative group rounded-2xl overflow-hidden shadow-card border border-[#E8E3DA] bg-white">
+                    <div className="relative h-[340px] sm:h-[420px] w-full overflow-hidden">
                       <Image
                         src={item.image}
                         alt={item.title}
@@ -92,7 +92,7 @@ export function HighlightsSection() {
                     </div>
 
                     {/* Secondary Floating Image */}
-                    <div className="hidden sm:block absolute bottom-4 right-4 w-44 h-32 rounded-xl overflow-hidden shadow-xl border-2 border-white">
+                    <div className="hidden sm:block absolute bottom-4 right-4 w-44 h-32 rounded-xl overflow-hidden shadow-elevated border-4 border-white bg-white">
                       <Image
                         src={item.nightImage}
                         alt={`${item.title} alternate view`}
@@ -110,24 +110,24 @@ export function HighlightsSection() {
                   className={isReversed ? "lg:col-start-1" : ""}
                 >
                   <div className="space-y-4">
-                    <div className="inline-flex items-center gap-2 rounded-full bg-[#0F2C59]/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#0F2C59]">
-                      <Icon className="h-3.5 w-3.5 text-[#C5A46D]" />
+                    <div className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#252525] border border-[#E8E3DA]">
+                      <Icon className="h-3.5 w-3.5 text-[#A78355]" />
                       <span>{item.eyebrow}</span>
                     </div>
 
-                    <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2C59] tracking-tight">
+                    <h3 className="font-serif text-2xl sm:text-3xl lg:text-[38px] font-medium text-[#252525] tracking-tight leading-[1.2]">
                       {item.title}
                     </h3>
 
-                    <p className="text-base text-[#292D2A]/80 leading-relaxed">
+                    <p className="text-base text-[#77736D] leading-relaxed">
                       {item.description}
                     </p>
 
                     {/* Feature points */}
-                    <ul className="space-y-2 pt-2 text-sm text-[#292D2A]/85">
+                    <ul className="space-y-2 pt-2 text-sm text-[#252525]">
                       {item.bulletPoints.map((point, i) => (
                         <li key={i} className="flex items-start gap-2.5">
-                          <span className="h-1.5 w-1.5 rounded-full bg-[#C5A46D] mt-2 flex-shrink-0" />
+                          <span className="h-1.5 w-1.5 rounded-full bg-[#A78355] mt-2 flex-shrink-0" />
                           <span>{point}</span>
                         </li>
                       ))}
@@ -136,10 +136,10 @@ export function HighlightsSection() {
                     <div className="pt-4">
                       <Link
                         href={item.linkHref}
-                        className="inline-flex items-center gap-2 rounded-xl bg-[#0F2C59] px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#163B72] transition"
+                        className="inline-flex items-center gap-2 rounded-xl bg-[#252525] hover:bg-[#1A1A1A] px-6 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white shadow-subtle hover:shadow-card transition"
                       >
                         <span>{item.linkText}</span>
-                        <ArrowRight className="h-4 w-4 text-[#C5A46D]" />
+                        <ArrowRight className="h-4 w-4 text-[#A78355]" />
                       </Link>
                     </div>
                   </div>
@@ -152,4 +152,3 @@ export function HighlightsSection() {
     </section>
   );
 }
-

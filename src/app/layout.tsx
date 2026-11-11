@@ -27,7 +27,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: "#0F2C59",
+  themeColor: "#F8F6F1",
 };
 
 export default function RootLayout({
@@ -37,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="font-sans antialiased bg-[#FAF9F6] text-[#292D2A] selection:bg-[#C5A46D]/30 selection:text-[#0F2C59] flex flex-col min-h-screen overflow-x-hidden max-w-full">
+      <body className="font-sans antialiased bg-[#F8F6F1] text-[#252525] selection:bg-[#A78355] selection:text-white flex flex-col min-h-screen overflow-x-hidden max-w-full">
         <Header />
         <div className="flex-grow overflow-x-hidden max-w-full">{children}</div>
         <Footer />

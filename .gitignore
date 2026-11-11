@@ -12,6 +12,7 @@
 
 # Production build artifacts
 /build
+*.tsbuildinfo
 
 # Environment variables & secrets
 .env

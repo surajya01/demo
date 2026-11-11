@@ -27,16 +27,16 @@ export function SectionHeader({
     >
       {eyebrow && (
         <span
-          className={`inline-block text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase mb-3 ${
-            light ? "text-[#C5A46D]" : "text-[#C5A46D]"
+          className={`inline-block text-xs sm:text-[13px] font-semibold tracking-[0.25em] uppercase mb-3 ${
+            light ? "text-[#A78355]" : "text-[#A78355]"
           }`}
         >
           {eyebrow}
         </span>
       )}
       <h2
-        className={`font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.15] ${
-          light ? "text-[#FAF9F6]" : "text-[#0F2C59]"
+        className={`font-serif text-3xl sm:text-4xl lg:text-[42px] font-medium tracking-tight leading-[1.2] ${
+          light ? "text-white" : "text-[#252525]"
         }`}
       >
         {title}
@@ -44,7 +44,7 @@ export function SectionHeader({
       {subtitle && (
         <p
           className={`mt-4 text-base sm:text-lg leading-relaxed ${
-            light ? "text-[#F4EFE5]/80" : "text-[#292D2A]/75"
+            light ? "text-[#F8F6F1]/85" : "text-[#77736D]"
           }`}
         >
           {subtitle}

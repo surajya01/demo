@@ -126,7 +126,7 @@ export function Lightbox({
               {currentImage.title}
             </h4>
             {currentImage.caption && (
-              <p className="mt-1 text-sm text-[#F4EFE5]/80">
+              <p className="mt-1 text-sm text-[#F8F6F1]/85">
                 {currentImage.caption}
               </p>
             )}

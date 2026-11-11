@@ -14,7 +14,7 @@ export function SpecialOffersSection() {
 
   return (
     <>
-      <section className="py-20 sm:py-24 bg-[#F4EFE5]/50 border-b border-[#E8DEC9]/60">
+      <section className="py-20 sm:py-28 bg-[#F8F6F1] border-b border-[#E8E3DA]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader
             eyebrow="Special Packages & Deals"
@@ -24,26 +24,25 @@ export function SpecialOffersSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {OFFERS_DATA.map((offer, index) => (
-              <MotionWrapper key={offer.id} delay={index * 0.15}>
-                <div className="flex flex-col h-full rounded-2xl bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-[#E8DEC9]">
-                  {/* Image */}
-                  <div className="relative h-52 w-full overflow-hidden">
+              <MotionWrapper key={offer.id} delay={index * 0.12}>
+                <div className="flex flex-col h-full rounded-2xl bg-white overflow-hidden shadow-subtle hover:shadow-card transition-all duration-300 border border-[#E8E3DA]">
+                  {/* Image - NO gradient overlay */}
+                  <div className="relative h-56 w-full overflow-hidden bg-[#F8F6F1]">
                     <Image
                       src={offer.image}
                       alt={offer.title}
                       fill
-                      className="object-cover"
+                      className="object-cover transition-transform duration-700 hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                    <div className="absolute top-3 left-3">
-                      <span className="inline-flex items-center gap-1 rounded-full bg-[#C5A46D] px-3 py-1 text-[11px] font-bold text-[#0F2C59] shadow-sm">
+                    <div className="absolute top-3.5 left-3.5">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-[#A78355] px-3.5 py-1 text-[11px] font-semibold text-white shadow-xs">
                         <Tag className="h-3 w-3" />
                         {offer.badge}
                       </span>
                     </div>
-                    <div className="absolute bottom-3 left-3 right-3 text-white">
-                      <span className="text-[10px] uppercase font-semibold text-[#C5A46D] block">
+                    <div className="absolute bottom-3.5 left-3.5 right-3.5 rounded-xl bg-[#252525]/90 px-3 py-1.5 text-white">
+                      <span className="text-[10px] uppercase tracking-wider font-medium text-[#A78355] block">
                         {offer.subtitle}
                       </span>
                     </div>
@@ -51,43 +50,43 @@ export function SpecialOffersSection() {
 
                   {/* Body */}
                   <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="font-serif text-xl font-bold text-[#0F2C59]">
+                    <h3 className="font-serif text-xl font-medium text-[#252525]">
                       {offer.title}
                     </h3>
 
-                    <p className="mt-2 text-xs text-[#292D2A]/75 leading-relaxed">
+                    <p className="mt-2 text-xs sm:text-sm text-[#77736D] leading-relaxed">
                       {offer.description}
                     </p>
 
                     {/* Price banner */}
-                    <div className="my-4 rounded-xl bg-[#FAF9F6] p-3 border border-[#E8DEC9] text-xs font-semibold text-[#0F2C59]">
+                    <div className="my-4 rounded-xl bg-[#F8F6F1] p-3 border border-[#E8E3DA] text-xs font-semibold text-[#252525]">
                       {offer.priceNote}
                     </div>
 
                     {/* Inclusions */}
                     <div className="space-y-2 mb-6 flex-grow">
-                      <span className="text-[11px] font-bold uppercase tracking-wider text-[#292D2A]/70 block">
+                      <span className="text-[11px] font-medium uppercase tracking-wider text-[#77736D] block">
                         Package Inclusions:
                       </span>
                       {offer.inclusions.slice(0, 4).map((inc, i) => (
-                        <div key={i} className="flex items-start gap-2 text-xs text-[#292D2A]/80">
-                          <Check className="h-3.5 w-3.5 text-[#0F2C59] mt-0.5 flex-shrink-0" />
+                        <div key={i} className="flex items-start gap-2 text-xs text-[#252525]">
+                          <Check className="h-3.5 w-3.5 text-[#A78355] mt-0.5 flex-shrink-0" />
                           <span>{inc}</span>
                         </div>
                       ))}
                     </div>
 
                     {/* Sample disclaimer */}
-                    <div className="mb-4 text-[10px] text-[#292D2A]/60 italic border-t border-[#E8DEC9]/50 pt-2">
-                      * Sample seasonal package for Phase 2 frontend preview. Rates subject to date availability.
+                    <div className="mb-4 text-[11px] text-[#77736D] italic border-t border-[#E8E3DA] pt-3">
+                      * Sample seasonal package preview. Rates subject to date availability.
                     </div>
 
                     {/* CTA */}
                     <button
                       onClick={() => setIsModalOpen(true)}
-                      className="w-full rounded-xl bg-[#0F2C59] py-2.5 px-4 text-center text-xs font-semibold text-white shadow-sm hover:bg-[#163B72] transition flex items-center justify-center gap-2"
+                      className="w-full rounded-xl bg-[#A78355] hover:bg-[#936F43] py-2.5 px-4 text-center text-xs font-semibold uppercase tracking-wider text-white shadow-subtle hover:shadow-card transition flex items-center justify-center gap-2"
                     >
-                      <Calendar className="h-3.5 w-3.5 text-[#C5A46D]" />
+                      <Calendar className="h-3.5 w-3.5 text-white" />
                       <span>Enquire About Package</span>
                     </button>
                   </div>
@@ -96,13 +95,13 @@ export function SpecialOffersSection() {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-14 text-center">
             <Link
               href="/offers"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#0F2C59] hover:text-[#C5A46D] transition"
+              className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#252525] hover:text-[#A78355] transition"
             >
               <span>View full terms & seasonal offer details</span>
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRight className="h-4 w-4 text-[#A78355]" />
             </Link>
           </div>
         </div>
@@ -115,4 +114,3 @@ export function SpecialOffersSection() {
     </>
   );
 }
-

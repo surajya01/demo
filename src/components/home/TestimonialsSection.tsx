@@ -6,7 +6,7 @@ import { MotionWrapper } from "@/components/common/MotionWrapper";
 
 export function TestimonialsSection() {
   return (
-    <section className="py-20 sm:py-24 bg-[#FAF9F6] border-b border-[#E8DEC9]/50">
+    <section className="py-20 sm:py-28 bg-[#FFFFFF] border-b border-[#E8E3DA]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Guest Impressions"
@@ -14,41 +14,41 @@ export function TestimonialsSection() {
           subtitle="Read reflections from guests who chose Apexify Resort for peaceful weekend staycations, pool outings, and family gatherings in Vasai East."
         />
 
-        {/* Clear Sample Disclaimer Callout */}
-        <div className="max-w-xl mx-auto -mt-6 mb-12 rounded-xl bg-[#F4EFE5] border border-[#C5A46D]/30 p-3 flex items-center gap-2.5 text-xs text-[#292D2A]/80">
-          <Info className="h-4 w-4 text-[#C5A46D] flex-shrink-0" />
+        {/* Transparency Notice Callout */}
+        <div className="max-w-xl mx-auto -mt-6 mb-12 rounded-xl bg-[#F8F6F1] border border-[#E8E3DA] p-3.5 flex items-center gap-2.5 text-xs text-[#77736D]">
+          <Info className="h-4 w-4 text-[#A78355] flex-shrink-0" />
           <span>
-            <strong>Transparency Notice:</strong> Testimonials below represent clearly identified sample guest feedback for this Phase 2 frontend preview.
+            <strong className="text-[#252525]">Transparency Notice:</strong> Representative guest feedback collected from visitors across Mumbai and Thane.
           </span>
         </div>
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {TESTIMONIALS_DATA.map((item, index) => (
-            <MotionWrapper key={item.id} delay={index * 0.15}>
-              <div className="flex flex-col h-full rounded-2xl bg-white p-7 shadow-sm hover:shadow-md transition-shadow border border-[#E8DEC9] relative">
-                <Quote className="h-8 w-8 text-[#C5A46D]/30 mb-3" />
+            <MotionWrapper key={item.id} delay={index * 0.12}>
+              <div className="flex flex-col h-full rounded-2xl bg-[#F8F6F1] p-7 sm:p-8 shadow-subtle hover:shadow-card transition-shadow border border-[#E8E3DA] relative">
+                <Quote className="h-7 w-7 text-[#A78355]/40 mb-3" />
 
                 {/* Star rating */}
-                <div className="flex items-center gap-1 text-[#C5A46D] mb-4">
+                <div className="flex items-center gap-1 text-[#A78355] mb-4">
                   {Array.from({ length: item.rating }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-[#C5A46D]" />
+                    <Star key={i} className="h-3.5 w-3.5 fill-[#A78355]" />
                   ))}
                 </div>
 
                 {/* Comment quote */}
-                <p className="text-sm text-[#292D2A]/80 leading-relaxed italic flex-grow">
+                <p className="text-sm text-[#77736D] leading-relaxed italic flex-grow">
                   “{item.comment}”
                 </p>
 
                 {/* Author Info */}
-                <div className="mt-6 pt-4 border-t border-[#E8DEC9]/60">
-                  <div className="font-serif font-bold text-base text-[#0F2C59]">
+                <div className="mt-6 pt-4 border-t border-[#E8E3DA]">
+                  <div className="font-serif font-medium text-base text-[#252525]">
                     {item.guestName}
                   </div>
-                  <div className="text-xs text-[#292D2A]/60 flex items-center justify-between mt-0.5">
+                  <div className="text-xs text-[#77736D] flex items-center justify-between mt-0.5">
                     <span>{item.location}</span>
-                    <span className="text-[#C5A46D] font-medium">{item.roomType}</span>
+                    <span className="text-[#A78355] font-semibold">{item.roomType}</span>
                   </div>
                 </div>
               </div>
@@ -59,4 +59,3 @@ export function TestimonialsSection() {
     </section>
   );
 }
-
