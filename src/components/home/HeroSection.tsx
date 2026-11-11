@@ -38,25 +38,6 @@ export function HeroSection() {
           <div className="absolute inset-0 bg-black/35" />
         </motion.div>
 
-        {/* Top Header / Eyebrow Ribbon - Commented out per request */}
-        {/*
-        <div className="relative z-10 pt-8 sm:pt-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full text-center">
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.15 }}
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-black/35 px-4 sm:px-5 py-1.5 backdrop-blur-md text-white shadow-lg"
-          >
-            <span className="text-[#A78355] text-xs tracking-widest font-serif">★ ★ ★ ★ ★</span>
-            <span className="h-3 w-px bg-white/30" />
-            <MapPin className="h-3 w-3 text-[#A78355]" />
-            <span className="text-[10.5px] sm:text-xs font-medium uppercase tracking-[0.25em] text-[#F8F6F1]">
-              Waliv · Vasai East · Maharashtra
-            </span>
-          </motion.div>
-        </div>
-        */}
-
         {/* Center Content: Grand Editorial Typography & Animated CTAs */}
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 text-center text-white my-auto">
           {/* Animated Headline with Smooth Upward Drift */}
