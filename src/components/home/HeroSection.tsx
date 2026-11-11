@@ -28,14 +28,14 @@ export function HeroSection() {
         >
           <Image
             src="/images/resort/exterior_facade.jpg"
-            alt="Apexify Resort Luxury Architectural Facade and Illuminated Pool at Dusk"
+            alt="Apexify Hotel Resort Architectural Facade at Sunset with Warm Evening Lighting"
             fill
             priority
             className="object-cover object-center"
             sizes="100vw"
           />
           {/* Minimal Solid Dark Tint for Contrast (Zero Gradients) */}
-          <div className="absolute inset-0 bg-black/45" />
+          <div className="absolute inset-0 bg-black/35" />
         </motion.div>
 
         {/* Top Header / Eyebrow Ribbon */}
