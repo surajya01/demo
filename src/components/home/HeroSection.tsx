@@ -22,14 +22,14 @@ export function HeroSection() {
           <div className="absolute inset-0 z-0 overflow-hidden">
             <Image
               src="/images/resort/exterior_facade.jpg"
-              alt="Apexify Resort Exterior Facade and Swimming Pool with Warm Evening Lighting"
+              alt="Apexify Resort Luxury Facade and Swimming Pool with Warm Evening Lighting"
               fill
               priority
-              className="object-cover object-center sm:object-[center_35%] transition-transform duration-1000 ease-out"
+              className="object-cover object-center transition-transform duration-1000 ease-out"
               sizes="100vw"
             />
             {/* Minimal solid overlay only for text legibility - Strict NO gradient */}
-            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 bg-black/45" />
           </div>
 
           {/* Top Location Badge */}
